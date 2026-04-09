@@ -17,6 +17,7 @@ added manually with scene.add().
 
 from __future__ import annotations
 
+import os
 from typing import Literal
 
 from .parts import PartType, Color
@@ -75,7 +76,7 @@ class Scene:
         Returns:
             The created Box (already added to scene).
         """
-        b = Box(width=width, depth=depth, height=height, color=color, fill_part=fill_part.value, name=name)
+        b = Box(width=width, depth=depth, height=height, color=color, fill_part=fill_part, name=name)
         self._root.add(b)
         return b
 
@@ -89,7 +90,7 @@ class Scene:
         name: str = "",
     ) -> Wall:
         """Create a standalone Wall and add it to the scene."""
-        w = Wall(length=length, height=height, facing=facing, color=color, fill_part=fill_part.value, name=name)
+        w = Wall(length=length, height=height, facing=facing, color=color, fill_part=fill_part, name=name)
         self._root.add(w)
         return w
     
@@ -116,7 +117,7 @@ class Scene:
         wl = WallLayout(
             height=height,
             color=color,
-            fill_part=fill_part.value,
+            fill_part=fill_part,
             name=name,
             initial_direction=initial_direction,
         )
@@ -132,7 +133,7 @@ class Scene:
         name: str = "",
     ) -> FloorSlab:
         """Create a FloorSlab and add it to the scene."""
-        f = FloorSlab(width=width, depth=depth, color=color, fill_part=fill_part.value, name=name)
+        f = FloorSlab(width=width, depth=depth, color=color, fill_part=fill_part, name=name)
         self._root.add(f)
         return f
 
@@ -157,7 +158,7 @@ class Scene:
         style: Literal["switchback", "straight"] = "switchback",
         first_facing: Literal["north", "south", "east", "west"] = "north",
         color: int = Color.WHITE,
-        fill_part: str = PartType.BRICK_2X4.value,
+        fill_part: PartType = PartType.BRICK_2X4,
         name: str = "",
     ) -> StaircaseShaft:
         """Create a StaircaseShaft and add it to the scene."""
@@ -263,7 +264,34 @@ class Scene:
         with open(filename, "w") as f:
             f.write(content)
 
+        print(f"Model created: {filename}")
+
         return filename
+
+    def help(self) -> str:
+        """Print the py2bricks quick reference and return it as a string.
+
+        Reads QUICK_REFERENCE.md from the project root (two directories above
+        this file: src/py2bricks/ → src/ → project root).
+
+        Returns:
+            The quick reference text (also printed to stdout).
+        """
+        ref_path = os.path.join(
+            os.path.dirname(__file__), "..", "..", "QUICK_REFERENCE.md"
+        )
+        ref_path = os.path.normpath(ref_path)
+        try:
+            with open(ref_path) as f:
+                text = f.read()
+        except FileNotFoundError:
+            text = (
+                "QUICK_REFERENCE.md not found. "
+                f"Expected at: {ref_path}\n"
+                "See CLAUDE.md or the project README for API documentation."
+            )
+        print(text)
+        return text
 
     def stats(self) -> dict:
         """Return model statistics: part count, unique parts, dimensions.

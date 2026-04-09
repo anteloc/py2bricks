@@ -102,7 +102,7 @@ class GableRoof:
         depth: int,
         ridge: str = "east_west",
         color: int = Color.DARK_BLUISH_GREY,
-        fill_part: str = PartType.BRICK_2X4.value,
+        fill_part: PartType = PartType.BRICK_2X4,
         name: str = "",
     ):
         """Create a gable roof.
@@ -127,7 +127,7 @@ class GableRoof:
         self.depth = depth
         self.ridge = ridge
         self.color = color
-        self.fill_part = fill_part
+        self.fill_part = fill_part.value
 
         # The slope dimension is perpendicular to the ridge.
         # Each step insets 1 stud from each side, so the number of

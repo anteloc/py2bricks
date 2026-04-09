@@ -23,6 +23,7 @@ from .coords import PLATES_PER_BRICK, FACING_TO_ROTATION
 from .parts import PartType, Part, PARTS, FILL_BRICKS, find_part, Color
 from .core import BuilderError, BrickPlacement
 
+# TODO reevaluate this, maybe allow variable wall depth depending on the fill_part used?
 WALL_DEPTH_STUDS = 2  # all walls are 1 brick (2 studs) deep
 
 
@@ -56,7 +57,7 @@ class Wall:
         height: int,
         facing: str,
         color: int = Color.WHITE,
-        fill_part: str = PartType.BRICK_2X4.value,
+        fill_part: PartType = PartType.BRICK_2X4,
         name: str = "",
     ):
         """Create a wall. All cells start as solid (True).
@@ -85,7 +86,7 @@ class Wall:
         self.height_plates = height * PLATES_PER_BRICK
         self.facing = facing
         self.color = color
-        self.fill_part = fill_part
+        self.fill_part = fill_part.value
 
         # Boolean grid: grid[x][y] where x=stud position along face,
         # y=plate position from base. True = solid, False = opening.
@@ -97,7 +98,8 @@ class Wall:
         # Inserted parts (windows, doors) placed in openings.
         self.inserts: list[tuple[Part, int, int, int]] = []
 
-        # Ledges: (y_plate, overhang_studs, color, part_key)
+        # Ledges: (y_plate, z_offset, color, part_key)
+        # z_offset is pre-computed from overhang + side + facing at ledge() call time.
         self.ledges: list[tuple[int, int, int, str]] = []
 
     # --- Modification Methods ---
@@ -246,18 +248,41 @@ class Wall:
         overhang: int = 1,
         color: int | None = None,
         part_type: PartType = PartType.PLATE_2X4,
+        side: str = "outward",
     ) -> None:
         """Add an overhanging ledge/cornice at a given row height.
 
         Args:
             y: Row position in brick rows from wall base.
-            overhang: How many studs the ledge projects outward.
+            overhang: How many studs the ledge projects from the wall face.
             color: LDraw color. None = use wall color.
             part_type: PartType for the ledge plates.
+            side: "outward" (exterior face) or "inward" (interior face).
+
+        Raises:
+            BuilderError: If side is not "outward" or "inward".
         """
+        if side not in ("outward", "inward"):
+            raise BuilderError(
+                f"Invalid side '{side}' for ledge on wall '{self.name}'. "
+                "Must be 'outward' or 'inward'."
+            )
+
+        # z is a stud-edge coordinate; a plate at z_offset spans z_offset to
+        # z_offset+depth_studs. The plate always overlaps the wall by 1 stud,
+        # so only the sign of z_offset determines the direction.
+        #
+        # south/west: outer face at stud-edge z=0 → outward is negative z
+        # north/east: outer face at stud-edge z=WALL_DEPTH_STUDS → outward is positive z
+        outer_at_z0 = self.facing in ("south", "west")
+        if side == "outward":
+            z_offset = -overhang if outer_at_z0 else overhang
+        else:  # inward
+            z_offset = overhang if outer_at_z0 else -overhang
+
         y_plates = y * PLATES_PER_BRICK
         ledge_color = color if color is not None else self.color
-        self.ledges.append((y_plates, overhang, ledge_color, part_type.value))
+        self.ledges.append((y_plates, z_offset, ledge_color, part_type.value))
 
     # --- Brick Tiling (for export) ---
 
@@ -374,14 +399,15 @@ class Wall:
     def _ledge_placements(self, comment_prefix: str = "") -> list[BrickPlacement]:
         """Generate BrickPlacements for ledges/cornices.
 
-        Ledges are rows of plates extending outward (negative Z in local space).
+        z_offset was pre-computed in ledge() from overhang + side + facing,
+        so no direction logic is needed here.
         """
         placements = []
-        for y_plate, overhang, color, part_key in self.ledges:
+        for y_plate, z_offset, color, part_key in self.ledges:
             part = PARTS[part_key]
             brick_row = y_plate // PLATES_PER_BRICK
             bond_offset = self._bond_offset(brick_row)
-            
+
             x = -bond_offset
             while x < self.length:
                 if x < 0:
@@ -389,10 +415,10 @@ class Wall:
                     continue
 
                 comment = f"{comment_prefix}{self.name} ledge"
-                
+
                 if x + part.width_studs <= self.length:
                     placements.append(BrickPlacement(
-                        part=part, x=x, y=y_plate, z=-overhang,
+                        part=part, x=x, y=y_plate, z=z_offset,
                         rotation=0, color=color, comment=comment,
                     ))
                     x += part.width_studs

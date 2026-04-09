@@ -52,7 +52,7 @@ def make_story(width: int, depth: int, story_height_bricks: int, story_index: in
         depth=depth,
         height=story_height_bricks,
         color=Color.WHITE,
-        fill_part=PartType.BRICK_2X4.value,
+        fill_part=PartType.BRICK_2X4,
         name=f"shell_{story_index}",
     )
     add_windows_to_story(shell, story_index)
@@ -61,7 +61,7 @@ def make_story(width: int, depth: int, story_height_bricks: int, story_index: in
         width=width,
         depth=depth,
         color=Color.LIGHT_GREY,
-        fill_part=PartType.PLATE_2X4.value,
+        fill_part=PartType.PLATE_2X4,
         name=f"ceiling_{story_index}",
     )
 
@@ -92,7 +92,7 @@ def build_ten_story_building():
         style="switchback",
         first_facing="north",
         color=Color.LIGHT_GREY,
-        fill_part=PartType.BRICK_2X4.value,
+        fill_part=PartType.BRICK_2X4,
         name="stairs",
     )
 
@@ -100,7 +100,7 @@ def build_ten_story_building():
         width=building_width + 4,
         depth=building_depth + 4,
         color=Color.DARK_TAN,
-        fill_part=PartType.PLATE_2X4.value,
+        fill_part=PartType.PLATE_2X4,
         name="base",
     )
 
@@ -108,7 +108,7 @@ def build_ten_story_building():
         width=building_width,
         depth=building_depth,
         color=Color.DARK_BLUISH_GREY,
-        fill_part=PartType.PLATE_2X4.value,
+        fill_part=PartType.PLATE_2X4,
         name="roof",
     )
 

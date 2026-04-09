@@ -1,13 +1,6 @@
 from __future__ import annotations
 
-from pathlib import Path
-import sys
-import zipfile
-
 # Make the sibling py2bricks package importable when this script sits next to it.
-ROOT = Path(__file__).resolve().parent
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
 
 from py2bricks import (
     Scene,
@@ -55,8 +48,9 @@ RAILING_COLOR = Color.SAND_GREEN
 HVAC_COLOR = Color.DARK_GREY
 
 
-def add_floor_plate(group: Group, name: str, color: int) -> None:
-    group.add(
+
+def add_floor_plate(floor: Group, name: str, color: int) -> None:
+    floor.add(
         FloorSlab(
             width=BUILDING_WIDTH,
             depth=BUILDING_DEPTH,
@@ -122,16 +116,16 @@ def add_perimeter_windows(shell: Box, include_entry: bool = False) -> None:
         )
 
 
-def make_apartment_partitions(name: str) -> Group:
+def make_apartments_partitions() -> Group:
     """Create two apartments, each split into two rooms."""
-    partitions = Group(name)
+    partitions = Group("apartments_partitions")
 
     # Central party wall separating the two apartments.
     party = WallLayout(
         height=FLOOR_HEIGHT,
         color=INTERIOR_WALL_COLOR,
         fill_part=PartType.BRICK_2X4,
-        name=f"{name}_party",
+        name="party_wall",
         initial_direction="north",
     )
     party.build_wall("party_wall", INNER_DEPTH)
@@ -142,7 +136,7 @@ def make_apartment_partitions(name: str) -> Group:
         height=FLOOR_HEIGHT,
         color=INTERIOR_WALL_COLOR,
         fill_part=PartType.BRICK_2X4,
-        name=f"{name}_west_divider",
+        name="west_divider",
         initial_direction="east",
     )
     west_divider.build_wall("room_split", APARTMENT_WIDTH)
@@ -154,7 +148,7 @@ def make_apartment_partitions(name: str) -> Group:
         height=FLOOR_HEIGHT,
         color=INTERIOR_WALL_COLOR,
         fill_part=PartType.BRICK_2X4,
-        name=f"{name}_east_divider",
+        name="east_divider",
         initial_direction="east",
     )
     east_divider.build_wall("room_split", APARTMENT_WIDTH)
@@ -164,23 +158,11 @@ def make_apartment_partitions(name: str) -> Group:
     return partitions
 
 
-def add_entry_details(group: Group) -> None:
+def add_entry_details(ground_floor: Group) -> None:
     """Add visible front doors, steps, and a small canopy to the main entry."""
-    # Door leaf behind the frame.
-    group.add(
-        Column(
-            height=6,
-            color=DOOR_PANEL_COLOR,
-            part_type=PartType.BRICK_1X4,
-            name="main_door_leaf",
-        ),
-        x=12,
-        y=1,
-        z=1,
-    )
 
     # Small canopy above the entrance.
-    group.add(
+    ground_floor.add(
         FloorSlab(
             width=6,
             depth=3,
@@ -194,7 +176,7 @@ def add_entry_details(group: Group) -> None:
     )
 
     # Front stoop / sidewalk.
-    group.add(
+    ground_floor.add(
         FloorSlab(
             width=12,
             depth=4,
@@ -208,12 +190,12 @@ def add_entry_details(group: Group) -> None:
     )
 
 
-def add_balconies(group: Group) -> None:
+def add_balconies(residential_floor: Group) -> None:
     """Add two shallow balconies on the south elevation for upper floors."""
     balcony_y = 1
     balcony_z = -3
-    for idx, x in enumerate([3, 17], start=1):
-        group.add(
+    for idx, x in enumerate([1, 19], start=1):
+        residential_floor.add(
             FloorSlab(
                 width=8,
                 depth=3,
@@ -226,27 +208,27 @@ def add_balconies(group: Group) -> None:
             z=balcony_z,
         )
         # Slender support posts so the slabs read as attached balconies.
-        group.add(
+        residential_floor.add(
             Column(
-                height=FLOOR_HEIGHT,
+                height=FLOOR_HEIGHT - 1,
                 color=TRIM_COLOR,
                 part_type=PartType.BRICK_1X1,
                 name=f"balcony_support_left_{idx}",
             ),
             x=x,
             y=0,
-            z=balcony_z,
+            z=balcony_z + 2,
         )
-        group.add(
+        residential_floor.add(
             Column(
-                height=FLOOR_HEIGHT,
+                height=FLOOR_HEIGHT - 1,
                 color=TRIM_COLOR,
                 part_type=PartType.BRICK_1X1,
                 name=f"balcony_support_right_{idx}",
             ),
             x=x + 7,
             y=0,
-            z=balcony_z,
+            z=balcony_z + 2,
         )
 
 
@@ -258,14 +240,14 @@ def add_balconies(group: Group) -> None:
             initial_direction="east",
         )
         front_rail.build_wall("front", 8)
-        group.add(front_rail, x=x, y=1 + 3, z=balcony_z)
+        residential_floor.add(front_rail, x=x, y=1 + 1, z=balcony_z)
 
 
 def make_ground_floor() -> Group:
-    floor = Group("ground_floor")
-    add_floor_plate(floor, "ground_floor_plate", SITE_COLOR)
+    ground_floor = Group("ground_floor")
+    add_floor_plate(ground_floor, "ground_floor_plate", SITE_COLOR)
 
-    shell = Box(
+    ground_shell = Box(
         width=BUILDING_WIDTH,
         depth=BUILDING_DEPTH,
         height=FLOOR_HEIGHT,
@@ -273,17 +255,17 @@ def make_ground_floor() -> Group:
         fill_part=PartType.BRICK_2X4,
         name="ground_shell",
     )
-    add_perimeter_windows(shell, include_entry=True)
-    floor.add(shell, x=0, y=1, z=0)
+    add_perimeter_windows(ground_shell, include_entry=True)
+    ground_floor.add(ground_shell, x=0, y=1, z=0)
 
-    floor.add(make_apartment_partitions("ground_apartments"), x=0, y=0, z=0)
-    add_entry_details(floor)
-    return floor
+    ground_floor.add(make_apartments_partitions(), x=0, y=0, z=0)
+    add_entry_details(ground_floor)
+    return ground_floor
 
 
 def make_residential_floor() -> Group:
-    floor = Group("residential_floor")
-    add_floor_plate(floor, "residential_floor_plate", TRIM_COLOR)
+    residential_floor = Group("residential_floor")
+    add_floor_plate(residential_floor, "residential_floor_plate", TRIM_COLOR)
 
     shell = Box(
         width=BUILDING_WIDTH,
@@ -294,11 +276,11 @@ def make_residential_floor() -> Group:
         name="residential_shell",
     )
     add_perimeter_windows(shell, include_entry=False)
-    floor.add(shell, x=0, y=1, z=0)
+    residential_floor.add(shell, x=0, y=1, z=0)
 
-    floor.add(make_apartment_partitions("upper_apartments"), x=0, y=0, z=0)
-    add_balconies(floor)
-    return floor
+    residential_floor.add(make_apartments_partitions(), x=0, y=0, z=0)
+    add_balconies(residential_floor)
+    return residential_floor
 
 
 def make_roof() -> Group:
@@ -346,9 +328,9 @@ def make_roof() -> Group:
     return roof
 
 
-def make_site() -> Group:
-    site = Group("site")
-    site.add(
+def make_building_site() -> Group:
+    building_site = Group("building site")
+    building_site.add(
         FloorSlab(
             width=BUILDING_WIDTH + 8,
             depth=BUILDING_DEPTH + 8,
@@ -360,25 +342,26 @@ def make_site() -> Group:
         y=0,
         z=-4,
     )
-    return site
+    return building_site
 
 
-def build_scene() -> Scene:
-    scene = Scene("4-floor apartment building")
-    scene.add(make_site())
-
-    ground = make_ground_floor()
+def make_scene(name: str) -> Scene:
+    scene = Scene(name)
+    scene.add(make_building_site())
+    ground_floor = make_ground_floor()
     upper_stack = make_residential_floor().stack(FLOOR_COUNT - 1)
-    building = place(upper_stack, on=ground, align="origin")
+    building = place(upper_stack, on=ground_floor, align="origin")
     place(make_roof(), on=building, align="origin")
 
     scene.add(building)
     return scene
 
+scene: Scene
 
 if __name__ == "__main__":
-    scene = build_scene()
-    out_path = ROOT / "apartment_building_4floors-gpt_extra.mpd"
-    scene.export(str(out_path))
+    scene = make_scene("4-floor apartment building")
+    # output model: same name as the script but with .mpd extension, in the current directory.
+    out_path = __file__.replace(".py", ".mpd")
+    scene.export(out_path)
     print(f"Exported to: {out_path}")
     print(scene.stats())

@@ -1,0 +1,2324 @@
+0 FILE coastal_lighthouse.ldr
+0 coastal_lighthouse
+0 Name: coastal_lighthouse.ldr
+0 Author: py2bricks
+0 !LDRAW_ORG Unofficial_Model
+
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 60.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 60.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 60.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 60.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 60.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 60.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 60.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 60.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 60.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 60.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 60.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 60.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 60.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 100.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 100.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 100.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 100.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 100.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 100.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 100.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 100.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 100.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 100.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 100.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 100.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 100.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 140.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 140.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 140.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 140.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 140.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 140.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 140.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 140.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 140.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 140.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 140.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 140.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 140.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 180.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 180.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 180.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 180.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 180.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 180.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 180.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 180.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 180.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 180.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 180.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 180.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 180.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 220.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 220.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 220.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 220.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 220.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 220.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 220.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 220.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 220.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 220.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 220.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 220.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 220.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 260.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 260.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 260.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 260.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 260.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 260.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 260.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 260.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 260.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 260.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 260.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 260.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 260.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 300.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 300.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 300.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 300.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 300.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 300.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 300.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 300.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 300.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 300.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 300.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 300.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 300.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 340.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 340.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 340.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 340.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 340.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 340.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 340.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 340.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 340.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 340.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 340.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 340.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 340.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 380.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 380.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 380.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 380.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 380.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 380.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 380.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 380.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 380.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 380.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 380.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 380.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 380.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 420.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 420.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 420.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 420.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 420.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 420.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 420.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 420.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 420.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 420.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 420.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 420.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 420.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 460.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 460.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 460.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 460.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 460.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 460.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 460.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 460.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 460.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 460.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 460.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 460.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 460.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 500.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 500.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 500.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 500.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 500.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 500.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 500.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 500.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 500.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 500.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 500.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 500.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 500.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 540.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 540.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 540.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 540.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 540.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 540.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 540.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 540.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 540.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 540.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 540.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 540.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 540.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 580.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 580.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 580.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 580.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 580.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 580.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 580.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 580.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 580.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 580.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 580.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 580.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 580.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 700.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 700.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 700.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 700.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 700.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 700.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 700.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 700.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 700.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 700.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 700.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 700.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 700.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 740.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 740.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 740.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 740.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 740.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 740.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 740.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 740.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 740.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 740.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 740.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 740.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 740.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 40.0 -8.0 780.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 120.0 -8.0 780.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 200.0 -8.0 780.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 280.0 -8.0 780.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 360.0 -8.0 780.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 440.0 -8.0 780.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 520.0 -8.0 780.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 600.0 -8.0 780.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 680.0 -8.0 780.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 760.0 -8.0 780.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 840.0 -8.0 780.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 920.0 -8.0 780.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > site
+1 10 1000.0 -8.0 780.0 1 0 0 0 1 0 0 0 1 3020.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > path
+1 19 500.0 -16.0 40.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > path
+1 19 560.0 -16.0 40.0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // site+rock_plinth+path > rock_plinth+path > path
+1 19 500.0 -16.0 80.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > path
+1 19 560.0 -16.0 80.0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_south row_0
+1 72 380.0 -32.0 120.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_west row_0
+1 72 360.0 -32.0 140.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_south row_0
+1 72 460.0 -32.0 120.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_south row_0
+1 72 540.0 -32.0 120.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_south row_0
+1 72 620.0 -32.0 120.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_south row_0
+1 72 680.0 -32.0 120.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_east row_0
+1 72 680.0 -32.0 120.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_east row_0
+1 72 680.0 -32.0 180.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_west row_0
+1 72 360.0 -32.0 220.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_east row_0
+1 72 680.0 -32.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_west row_0
+1 72 360.0 -32.0 300.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_east row_0
+1 72 680.0 -32.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_west row_0
+1 72 360.0 -32.0 380.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_east row_0
+1 72 680.0 -32.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_west row_0
+1 72 360.0 -32.0 460.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_east row_0
+1 72 680.0 -32.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_west row_0
+1 72 360.0 -32.0 540.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_east row_0
+1 72 680.0 -32.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_west row_0
+1 72 360.0 -32.0 620.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_east row_0
+1 72 680.0 -32.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_west row_0
+1 72 360.0 -32.0 680.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_north row_0
+1 72 360.0 -32.0 680.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_north row_0
+1 72 420.0 -32.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_north row_0
+1 72 500.0 -32.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_north row_0
+1 72 580.0 -32.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_north row_0
+1 72 660.0 -32.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_south row_1
+1 72 360.0 -56.0 120.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_west row_1
+1 72 360.0 -56.0 120.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_south row_1
+1 72 420.0 -56.0 120.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_south row_1
+1 72 500.0 -56.0 120.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_south row_1
+1 72 580.0 -56.0 120.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_south row_1
+1 72 660.0 -56.0 120.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_east row_1
+1 72 680.0 -56.0 140.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_west row_1
+1 72 360.0 -56.0 180.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_east row_1
+1 72 680.0 -56.0 220.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_west row_1
+1 72 360.0 -56.0 260.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_east row_1
+1 72 680.0 -56.0 300.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_west row_1
+1 72 360.0 -56.0 340.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_east row_1
+1 72 680.0 -56.0 380.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_west row_1
+1 72 360.0 -56.0 420.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_east row_1
+1 72 680.0 -56.0 460.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_west row_1
+1 72 360.0 -56.0 500.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_east row_1
+1 72 680.0 -56.0 540.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_west row_1
+1 72 360.0 -56.0 580.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_east row_1
+1 72 680.0 -56.0 620.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_west row_1
+1 72 360.0 -56.0 660.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_north row_1
+1 72 380.0 -56.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_north row_1
+1 72 460.0 -56.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_north row_1
+1 72 540.0 -56.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_north row_1
+1 72 620.0 -56.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_north row_1
+1 72 680.0 -56.0 680.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > rock_plinth_layout > rock_plinth_east row_1
+1 72 680.0 -56.0 680.0 0 0 -1 0 1 0 1 0 0 3003.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > porch_post_w row_0
+1 7 470.0 -80.0 110.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > porch_post_e row_0
+1 7 570.0 -80.0 110.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_0
+1 15 380.0 -80.0 160.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_0
+1 15 360.0 -80.0 180.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_0
+1 15 450.0 -80.0 160.0 -1 0 0 0 1 0 0 0 -1 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south Door Frame 1x4x6
+1 0 520.0 -200.0 150.0 -1 0 0 0 1 0 0 0 -1 60596.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_0
+1 15 600.0 -80.0 160.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_0
+1 15 670.0 -80.0 160.0 -1 0 0 0 1 0 0 0 -1 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_0
+1 15 680.0 -80.0 180.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_0
+1 15 360.0 -80.0 260.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_0
+1 15 680.0 -80.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_0
+1 15 360.0 -80.0 340.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_0
+1 15 680.0 -80.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_0
+1 15 360.0 -80.0 360.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_0
+1 15 420.0 -80.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_0
+1 15 500.0 -80.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_0
+1 15 580.0 -80.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_0
+1 15 660.0 -80.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_0
+1 15 380.0 -80.0 400.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_0
+1 15 360.0 -80.0 420.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_0
+1 15 440.0 -80.0 400.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south Door Frame 1x4x6
+1 0 500.0 -200.0 390.0 -1 0 0 0 1 0 0 0 -1 60596.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_0
+1 15 580.0 -80.0 400.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_0
+1 15 660.0 -80.0 400.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_0
+1 15 680.0 -80.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_0
+1 15 360.0 -80.0 500.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_0
+1 15 680.0 -80.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_0
+1 15 360.0 -80.0 580.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_0
+1 15 680.0 -80.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_0
+1 15 360.0 -80.0 660.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_0
+1 15 680.0 -80.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_0
+1 15 360.0 -80.0 680.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_0
+1 15 420.0 -80.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_0
+1 15 500.0 -80.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_0
+1 15 580.0 -80.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_0
+1 15 660.0 -80.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > porch_post_w row_1
+1 7 470.0 -104.0 110.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > porch_post_e row_1
+1 7 570.0 -104.0 110.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_1
+1 15 360.0 -104.0 160.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_1
+1 15 360.0 -104.0 160.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_1
+1 15 420.0 -104.0 160.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_1
+1 15 470.0 -104.0 150.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_1
+1 15 600.0 -104.0 160.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_1
+1 15 670.0 -104.0 160.0 -1 0 0 0 1 0 0 0 -1 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_1
+1 15 680.0 -104.0 160.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_1
+1 15 360.0 -104.0 220.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_1
+1 15 680.0 -104.0 220.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_1
+1 15 360.0 -104.0 300.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_1
+1 15 680.0 -104.0 300.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_1
+1 15 360.0 -104.0 360.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_1
+1 15 380.0 -104.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_1
+1 15 460.0 -104.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_1
+1 15 540.0 -104.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_1
+1 15 620.0 -104.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_1
+1 15 680.0 -104.0 360.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_1
+1 15 680.0 -104.0 360.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_1
+1 15 360.0 -104.0 400.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_1
+1 15 360.0 -104.0 400.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_1
+1 15 420.0 -104.0 400.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_1
+1 15 580.0 -104.0 400.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_1
+1 15 660.0 -104.0 400.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_1
+1 15 680.0 -104.0 400.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_1
+1 15 360.0 -104.0 460.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_1
+1 15 680.0 -104.0 460.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_1
+1 15 360.0 -104.0 540.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_1
+1 15 680.0 -104.0 540.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_1
+1 15 360.0 -104.0 620.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_1
+1 15 680.0 -104.0 620.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_1
+1 15 360.0 -104.0 680.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_1
+1 15 380.0 -104.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_1
+1 15 460.0 -104.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_1
+1 15 540.0 -104.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_1
+1 15 620.0 -104.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_1
+1 15 680.0 -104.0 680.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_1
+1 15 680.0 -104.0 680.0 0 0 -1 0 1 0 1 0 0 3003.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > porch_post_w row_2
+1 7 470.0 -128.0 110.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > porch_post_e row_2
+1 7 570.0 -128.0 110.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_2
+1 15 360.0 -128.0 160.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_2
+1 15 360.0 -128.0 180.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south Window 1x4x3
+1 43 420.0 -176.0 150.0 -1 0 0 0 1 0 0 0 -1 60594.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_2
+1 15 470.0 -128.0 150.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_2
+1 15 570.0 -128.0 150.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south Window 1x4x3
+1 43 620.0 -176.0 150.0 -1 0 0 0 1 0 0 0 -1 60594.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_2
+1 15 680.0 -128.0 160.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_2
+1 15 680.0 -128.0 160.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_2
+1 15 680.0 -128.0 220.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west Window 1x2x3
+1 43 350.0 -176.0 240.0 0 0 1 0 1 0 -1 0 0 60593c01.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_2
+1 15 360.0 -128.0 300.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east Window 1x2x3
+1 43 670.0 -176.0 280.0 0 0 -1 0 1 0 1 0 0 60593c01.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_2
+1 15 680.0 -128.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_2
+1 15 360.0 -128.0 360.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_2
+1 15 360.0 -128.0 360.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north Window 1x4x3
+1 43 420.0 -176.0 350.0 1 0 0 0 1 0 0 0 1 60594.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_2
+1 15 480.0 -128.0 360.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_2
+1 15 540.0 -128.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north Window 1x4x3
+1 43 620.0 -176.0 350.0 1 0 0 0 1 0 0 0 1 60594.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_2
+1 15 680.0 -128.0 360.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_2
+1 15 360.0 -128.0 400.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_2
+1 15 360.0 -128.0 420.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south Window 1x2x3
+1 43 400.0 -176.0 390.0 -1 0 0 0 1 0 0 0 -1 60593c01.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_2
+1 15 440.0 -128.0 400.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_2
+1 15 560.0 -128.0 400.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south Window 1x2x3
+1 43 600.0 -176.0 390.0 -1 0 0 0 1 0 0 0 -1 60593c01.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_2
+1 15 660.0 -128.0 400.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_2
+1 15 680.0 -128.0 410.0 0 0 -1 0 1 0 1 0 0 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_2
+1 15 680.0 -128.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_2
+1 15 360.0 -128.0 490.0 0 0 1 0 1 0 -1 0 0 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west Window 1x2x3
+1 43 350.0 -176.0 540.0 0 0 1 0 1 0 -1 0 0 60593c01.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east Window 1x2x3
+1 43 670.0 -176.0 540.0 0 0 -1 0 1 0 1 0 0 60593c01.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_2
+1 15 360.0 -128.0 600.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_2
+1 15 680.0 -128.0 590.0 0 0 -1 0 1 0 1 0 0 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_2
+1 15 680.0 -128.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_2
+1 15 360.0 -128.0 670.0 0 0 1 0 1 0 -1 0 0 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_2
+1 15 350.0 -128.0 670.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_2
+1 15 400.0 -128.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_2
+1 15 480.0 -128.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north Window 1x2x3
+1 43 540.0 -176.0 670.0 1 0 0 0 1 0 0 0 1 60593c01.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_2
+1 15 590.0 -128.0 680.0 1 0 0 0 1 0 0 0 1 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_2
+1 15 660.0 -128.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > porch_post_w row_3
+1 7 470.0 -152.0 110.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > porch_post_e row_3
+1 7 570.0 -152.0 110.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_3
+1 15 360.0 -152.0 160.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_3
+1 15 360.0 -152.0 160.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_3
+1 15 470.0 -152.0 150.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_3
+1 15 570.0 -152.0 150.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_3
+1 15 680.0 -152.0 160.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_3
+1 15 680.0 -152.0 160.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_3
+1 15 360.0 -152.0 200.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_3
+1 15 680.0 -152.0 220.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_3
+1 15 360.0 -152.0 300.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_3
+1 15 680.0 -152.0 320.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_3
+1 15 360.0 -152.0 360.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_3
+1 15 360.0 -152.0 360.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_3
+1 15 480.0 -152.0 360.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_3
+1 15 540.0 -152.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_3
+1 15 680.0 -152.0 360.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_3
+1 15 680.0 -152.0 360.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_3
+1 15 360.0 -152.0 400.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_3
+1 15 360.0 -152.0 400.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_3
+1 15 440.0 -152.0 400.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_3
+1 15 560.0 -152.0 400.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_3
+1 15 660.0 -152.0 400.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_3
+1 15 680.0 -152.0 410.0 0 0 -1 0 1 0 1 0 0 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_3
+1 15 360.0 -152.0 460.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_3
+1 15 680.0 -152.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_3
+1 15 350.0 -152.0 510.0 0 0 1 0 1 0 -1 0 0 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_3
+1 15 360.0 -152.0 600.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_3
+1 15 670.0 -152.0 570.0 0 0 -1 0 1 0 1 0 0 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_3
+1 15 680.0 -152.0 620.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_3
+1 15 360.0 -152.0 670.0 0 0 1 0 1 0 -1 0 0 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_3
+1 15 350.0 -152.0 670.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_3
+1 15 400.0 -152.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_3
+1 15 480.0 -152.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_3
+1 15 570.0 -152.0 670.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_3
+1 15 620.0 -152.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_3
+1 15 680.0 -152.0 680.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_3
+1 15 680.0 -152.0 680.0 0 0 -1 0 1 0 1 0 0 3003.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > porch_canopy
+1 320 480.0 -160.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > porch_canopy
+1 320 560.0 -160.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_4
+1 15 360.0 -176.0 160.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_4
+1 15 360.0 -176.0 180.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_4
+1 15 470.0 -176.0 150.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_4
+1 15 570.0 -176.0 150.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_4
+1 15 680.0 -176.0 160.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_4
+1 15 680.0 -176.0 160.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_4
+1 15 680.0 -176.0 220.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_4
+1 15 360.0 -176.0 300.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_4
+1 15 680.0 -176.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_4
+1 15 360.0 -176.0 360.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_4
+1 15 360.0 -176.0 360.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_4
+1 15 480.0 -176.0 360.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_4
+1 15 540.0 -176.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_4
+1 15 680.0 -176.0 360.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_4
+1 15 360.0 -176.0 400.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_4
+1 15 360.0 -176.0 420.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_4
+1 15 440.0 -176.0 400.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_4
+1 15 560.0 -176.0 400.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_4
+1 15 660.0 -176.0 400.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_4
+1 15 680.0 -176.0 410.0 0 0 -1 0 1 0 1 0 0 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_4
+1 15 680.0 -176.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_4
+1 15 360.0 -176.0 490.0 0 0 1 0 1 0 -1 0 0 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_4
+1 15 360.0 -176.0 600.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_4
+1 15 680.0 -176.0 590.0 0 0 -1 0 1 0 1 0 0 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_4
+1 15 680.0 -176.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_4
+1 15 360.0 -176.0 670.0 0 0 1 0 1 0 -1 0 0 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_4
+1 15 350.0 -176.0 670.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_4
+1 15 400.0 -176.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_4
+1 15 480.0 -176.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_4
+1 15 590.0 -176.0 680.0 1 0 0 0 1 0 0 0 1 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_4
+1 15 660.0 -176.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south ledge
+1 4 380.0 -184.0 140.0 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south ledge
+1 4 460.0 -184.0 140.0 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south ledge
+1 4 540.0 -184.0 140.0 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south ledge
+1 4 620.0 -184.0 140.0 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west ledge
+1 4 340.0 -184.0 180.0 0 0 1 0 1 0 -1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_5
+1 15 360.0 -200.0 160.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_5
+1 15 360.0 -200.0 160.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_5
+1 15 420.0 -200.0 160.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_5
+1 15 470.0 -200.0 150.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_5
+1 15 600.0 -200.0 160.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_south row_5
+1 15 670.0 -200.0 160.0 -1 0 0 0 1 0 0 0 -1 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_5
+1 15 680.0 -200.0 160.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east ledge
+1 4 700.0 -184.0 180.0 0 0 -1 0 1 0 1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_5
+1 15 360.0 -200.0 220.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_5
+1 15 680.0 -200.0 220.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west ledge
+1 4 340.0 -184.0 260.0 0 0 1 0 1 0 -1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east ledge
+1 4 700.0 -184.0 260.0 0 0 -1 0 1 0 1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_5
+1 15 360.0 -200.0 300.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_5
+1 15 680.0 -200.0 300.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west ledge
+1 4 340.0 -184.0 340.0 0 0 1 0 1 0 -1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east ledge
+1 4 700.0 -184.0 340.0 0 0 -1 0 1 0 1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_west row_5
+1 15 360.0 -200.0 360.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_5
+1 15 380.0 -200.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_5
+1 15 460.0 -200.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_5
+1 15 540.0 -200.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_5
+1 15 620.0 -200.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north row_5
+1 15 680.0 -200.0 360.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_east row_5
+1 15 680.0 -200.0 360.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north ledge
+1 4 420.0 -184.0 380.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north ledge
+1 4 500.0 -184.0 380.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north ledge
+1 4 580.0 -184.0 380.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_shell_layout > house_shell_north ledge
+1 4 660.0 -184.0 380.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_5
+1 15 360.0 -200.0 400.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_5
+1 15 360.0 -200.0 400.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_5
+1 15 420.0 -200.0 400.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_5
+1 15 580.0 -200.0 400.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_5
+1 15 660.0 -200.0 400.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_5
+1 15 680.0 -200.0 400.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_5
+1 15 360.0 -200.0 460.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_5
+1 15 680.0 -200.0 460.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_5
+1 15 360.0 -200.0 540.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_5
+1 15 680.0 -200.0 540.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_5
+1 15 360.0 -200.0 620.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_5
+1 15 680.0 -200.0 620.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_5
+1 15 360.0 -200.0 680.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_5
+1 15 380.0 -200.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_5
+1 15 460.0 -200.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_5
+1 15 540.0 -200.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_5
+1 15 620.0 -200.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_5
+1 15 680.0 -200.0 680.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_5
+1 15 680.0 -200.0 680.0 0 0 -1 0 1 0 1 0 0 3003.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_0
+1 320 380.0 -224.0 160.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof west_gable step_0
+1 320 360.0 -224.0 180.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_0
+1 320 460.0 -224.0 160.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_0
+1 320 540.0 -224.0 160.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_0
+1 320 620.0 -224.0 160.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_0
+1 320 680.0 -224.0 160.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof east_gable step_0
+1 320 680.0 -224.0 180.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof west_gable step_0
+1 320 360.0 -224.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof east_gable step_0
+1 320 680.0 -224.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof west_gable step_0
+1 320 360.0 -224.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof east_gable step_0
+1 320 680.0 -224.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_0
+1 320 380.0 -224.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_0
+1 320 460.0 -224.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_0
+1 320 540.0 -224.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_0
+1 320 620.0 -224.0 360.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_0
+1 320 680.0 -224.0 360.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south ledge
+1 4 380.0 -208.0 380.0 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south ledge
+1 4 460.0 -208.0 380.0 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south ledge
+1 4 540.0 -208.0 380.0 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south ledge
+1 4 620.0 -208.0 380.0 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west ledge
+1 4 340.0 -208.0 420.0 0 0 1 0 1 0 -1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_6
+1 15 380.0 -224.0 400.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_6
+1 15 360.0 -224.0 420.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_6
+1 15 460.0 -224.0 400.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_6
+1 15 540.0 -224.0 400.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_6
+1 15 620.0 -224.0 400.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_south row_6
+1 15 680.0 -224.0 400.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_6
+1 15 680.0 -224.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east ledge
+1 4 700.0 -208.0 420.0 0 0 -1 0 1 0 1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west ledge
+1 4 340.0 -208.0 500.0 0 0 1 0 1 0 -1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_6
+1 15 360.0 -224.0 500.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_6
+1 15 680.0 -224.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east ledge
+1 4 700.0 -208.0 500.0 0 0 -1 0 1 0 1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west ledge
+1 4 340.0 -208.0 580.0 0 0 1 0 1 0 -1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_6
+1 15 360.0 -224.0 580.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_6
+1 15 680.0 -224.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east ledge
+1 4 700.0 -208.0 580.0 0 0 -1 0 1 0 1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west ledge
+1 4 340.0 -208.0 660.0 0 0 1 0 1 0 -1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_west row_6
+1 15 360.0 -224.0 660.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east row_6
+1 15 680.0 -224.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_east ledge
+1 4 700.0 -208.0 660.0 0 0 -1 0 1 0 1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_6
+1 15 360.0 -224.0 680.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_6
+1 15 420.0 -224.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_6
+1 15 500.0 -224.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_6
+1 15 580.0 -224.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north row_6
+1 15 660.0 -224.0 680.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north ledge
+1 4 420.0 -208.0 700.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north ledge
+1 4 500.0 -208.0 700.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north ledge
+1 4 580.0 -208.0 700.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_base_layout > tower_base_north ledge
+1 4 660.0 -208.0 700.0 1 0 0 0 1 0 0 0 1 3020.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_1
+1 320 380.0 -248.0 180.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof west_gable step_1
+1 320 360.0 -248.0 200.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_1
+1 320 460.0 -248.0 180.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_1
+1 320 540.0 -248.0 180.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_1
+1 320 620.0 -248.0 180.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_1
+1 320 680.0 -248.0 180.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof east_gable step_1
+1 320 680.0 -248.0 200.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof west_gable step_1
+1 320 360.0 -248.0 280.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof east_gable step_1
+1 320 680.0 -248.0 280.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_1
+1 320 380.0 -248.0 340.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof west_gable step_1
+1 320 360.0 -248.0 340.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_1
+1 320 460.0 -248.0 340.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_1
+1 320 540.0 -248.0 340.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_1
+1 320 620.0 -248.0 340.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_1
+1 320 680.0 -248.0 340.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof east_gable step_1
+1 320 680.0 -248.0 340.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_0
+1 15 400.0 -248.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_0
+1 15 380.0 -248.0 460.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_0
+1 15 480.0 -248.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_0
+1 15 560.0 -248.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_0
+1 15 640.0 -248.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_0
+1 15 660.0 -248.0 460.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_0
+1 15 380.0 -248.0 540.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_0
+1 15 660.0 -248.0 540.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_0
+1 15 380.0 -248.0 620.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_0
+1 15 660.0 -248.0 620.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_0
+1 15 400.0 -248.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_0
+1 15 480.0 -248.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_0
+1 15 560.0 -248.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_0
+1 15 640.0 -248.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_2
+1 320 380.0 -272.0 200.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof west_gable step_2
+1 320 360.0 -272.0 220.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_2
+1 320 460.0 -272.0 200.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_2
+1 320 540.0 -272.0 200.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_2
+1 320 620.0 -272.0 200.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_2
+1 320 680.0 -272.0 200.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof east_gable step_2
+1 320 680.0 -272.0 220.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof west_gable step_2
+1 320 360.0 -272.0 300.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof east_gable step_2
+1 320 680.0 -272.0 300.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_2
+1 320 380.0 -272.0 320.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_2
+1 320 460.0 -272.0 320.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_2
+1 320 540.0 -272.0 320.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_2
+1 320 620.0 -272.0 320.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_2
+1 320 680.0 -272.0 320.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_1
+1 15 380.0 -272.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_1
+1 15 380.0 -272.0 440.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_1
+1 15 440.0 -272.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_1
+1 15 520.0 -272.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_1
+1 15 600.0 -272.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_1
+1 15 660.0 -272.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_1
+1 15 660.0 -272.0 440.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_1
+1 15 380.0 -272.0 500.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_1
+1 15 660.0 -272.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_1
+1 15 380.0 -272.0 580.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_1
+1 15 660.0 -272.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_1
+1 15 380.0 -272.0 640.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_1
+1 15 380.0 -272.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_1
+1 15 440.0 -272.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_1
+1 15 520.0 -272.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_1
+1 15 600.0 -272.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_1
+1 15 660.0 -272.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_1
+1 15 660.0 -272.0 640.0 0 0 -1 0 1 0 1 0 0 3003.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_3
+1 320 380.0 -296.0 220.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof west_gable step_3
+1 320 360.0 -296.0 240.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_3
+1 320 460.0 -296.0 220.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_3
+1 320 540.0 -296.0 220.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_3
+1 320 620.0 -296.0 220.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_3
+1 320 680.0 -296.0 220.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof east_gable step_3
+1 320 680.0 -296.0 240.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_3
+1 320 380.0 -296.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof west_gable step_3
+1 320 360.0 -296.0 300.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_3
+1 320 460.0 -296.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_3
+1 320 540.0 -296.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_3
+1 320 620.0 -296.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_3
+1 320 680.0 -296.0 300.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof east_gable step_3
+1 320 680.0 -296.0 300.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_2
+1 15 400.0 -296.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_2
+1 15 380.0 -296.0 460.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_2
+1 15 480.0 -296.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_2
+1 15 560.0 -296.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_2
+1 15 640.0 -296.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_2
+1 15 660.0 -296.0 460.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_2
+1 15 380.0 -296.0 540.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_2
+1 15 660.0 -296.0 540.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_2
+1 15 380.0 -296.0 620.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_2
+1 15 660.0 -296.0 620.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_2
+1 15 400.0 -296.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_2
+1 15 480.0 -296.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_2
+1 15 560.0 -296.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_2
+1 15 640.0 -296.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_4
+1 320 380.0 -320.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof west_gable step_4
+1 320 360.0 -320.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_4
+1 320 460.0 -320.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_4
+1 320 540.0 -320.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_4
+1 320 620.0 -320.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_4
+1 320 680.0 -320.0 240.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof east_gable step_4
+1 320 680.0 -320.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_4
+1 320 380.0 -320.0 280.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_4
+1 320 460.0 -320.0 280.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_4
+1 320 540.0 -320.0 280.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_4
+1 320 620.0 -320.0 280.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_4
+1 320 680.0 -320.0 280.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_3
+1 15 380.0 -320.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_3
+1 15 380.0 -320.0 440.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_3
+1 15 440.0 -320.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_3
+1 15 520.0 -320.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_3
+1 15 600.0 -320.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_3
+1 15 660.0 -320.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_3
+1 15 660.0 -320.0 440.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_3
+1 15 380.0 -320.0 500.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_3
+1 15 660.0 -320.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_3
+1 15 380.0 -320.0 580.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_3
+1 15 660.0 -320.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_3
+1 15 380.0 -320.0 640.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_3
+1 15 380.0 -320.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_3
+1 15 440.0 -320.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_3
+1 15 520.0 -320.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_3
+1 15 600.0 -320.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_3
+1 15 660.0 -320.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_3
+1 15 660.0 -320.0 640.0 0 0 -1 0 1 0 1 0 0 3003.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_5
+1 320 380.0 -344.0 260.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_5
+1 320 380.0 -344.0 260.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof west_gable step_5
+1 320 360.0 -344.0 260.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_5
+1 320 460.0 -344.0 260.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_5
+1 320 460.0 -344.0 260.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_5
+1 320 540.0 -344.0 260.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_5
+1 320 540.0 -344.0 260.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_5
+1 320 620.0 -344.0 260.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_5
+1 320 620.0 -344.0 260.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof south_slope step_5
+1 320 680.0 -344.0 260.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof north_slope step_5
+1 320 680.0 -344.0 260.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > house_shell+house_roof > house_roof east_gable step_5
+1 320 680.0 -344.0 260.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_4
+1 15 400.0 -344.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_4
+1 15 380.0 -344.0 460.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_4
+1 15 450.0 -344.0 430.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south Window 1x2x3
+1 43 480.0 -392.0 430.0 -1 0 0 0 1 0 0 0 -1 60593c01.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_4
+1 15 540.0 -344.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_4
+1 15 620.0 -344.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_4
+1 15 660.0 -344.0 460.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_4
+1 15 670.0 -344.0 430.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_4
+1 15 380.0 -344.0 540.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_4
+1 15 660.0 -344.0 540.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_4
+1 15 380.0 -344.0 620.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_4
+1 15 660.0 -344.0 620.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_4
+1 15 400.0 -344.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_4
+1 15 480.0 -344.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_4
+1 15 560.0 -344.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_4
+1 15 640.0 -344.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_5
+1 15 380.0 -368.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_5
+1 15 380.0 -368.0 440.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_5
+1 15 430.0 -368.0 440.0 -1 0 0 0 1 0 0 0 -1 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_5
+1 15 540.0 -368.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_5
+1 15 620.0 -368.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_5
+1 15 660.0 -368.0 440.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_5
+1 15 670.0 -368.0 430.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_5
+1 15 380.0 -368.0 500.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_5
+1 15 660.0 -368.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_5
+1 15 380.0 -368.0 580.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_5
+1 15 660.0 -368.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_5
+1 15 380.0 -368.0 640.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_5
+1 15 380.0 -368.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_5
+1 15 440.0 -368.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_5
+1 15 520.0 -368.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_5
+1 15 600.0 -368.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_5
+1 15 660.0 -368.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_5
+1 15 660.0 -368.0 640.0 0 0 -1 0 1 0 1 0 0 3003.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_6
+1 15 400.0 -392.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_6
+1 15 380.0 -392.0 460.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_6
+1 15 450.0 -392.0 430.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_6
+1 15 540.0 -392.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_6
+1 15 620.0 -392.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_6
+1 15 650.0 -392.0 430.0 0 0 -1 0 1 0 1 0 0 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_6
+1 15 670.0 -392.0 430.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_6
+1 15 660.0 -392.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_6
+1 15 380.0 -392.0 540.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east Window 1x2x3
+1 43 650.0 -440.0 540.0 0 0 -1 0 1 0 1 0 0 60593c01.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_6
+1 15 650.0 -392.0 570.0 0 0 -1 0 1 0 1 0 0 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_6
+1 15 380.0 -392.0 620.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_6
+1 15 660.0 -392.0 620.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_6
+1 15 400.0 -392.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_6
+1 15 480.0 -392.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_6
+1 15 560.0 -392.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_6
+1 15 640.0 -392.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_7
+1 15 380.0 -416.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_7
+1 15 380.0 -416.0 440.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_7
+1 15 440.0 -416.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_7
+1 15 520.0 -416.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_7
+1 15 600.0 -416.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_7
+1 15 660.0 -416.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_7
+1 15 650.0 -416.0 430.0 0 0 -1 0 1 0 1 0 0 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_7
+1 15 660.0 -416.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_7
+1 15 380.0 -416.0 500.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_7
+1 15 380.0 -416.0 580.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_7
+1 15 660.0 -416.0 590.0 0 0 -1 0 1 0 1 0 0 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_7
+1 15 380.0 -416.0 640.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_7
+1 15 380.0 -416.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_7
+1 15 440.0 -416.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_7
+1 15 520.0 -416.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_7
+1 15 600.0 -416.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_7
+1 15 660.0 -416.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_7
+1 15 660.0 -416.0 640.0 0 0 -1 0 1 0 1 0 0 3003.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_8
+1 15 400.0 -440.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_8
+1 15 380.0 -440.0 460.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_8
+1 15 480.0 -440.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_8
+1 15 560.0 -440.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_8
+1 15 640.0 -440.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_8
+1 15 650.0 -440.0 430.0 0 0 -1 0 1 0 1 0 0 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_8
+1 15 660.0 -440.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_8
+1 15 380.0 -440.0 540.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_8
+1 15 650.0 -440.0 570.0 0 0 -1 0 1 0 1 0 0 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_8
+1 15 380.0 -440.0 620.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_8
+1 15 660.0 -440.0 620.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_8
+1 15 370.0 -440.0 630.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_8
+1 15 420.0 -440.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_8
+1 15 500.0 -440.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north Window 1x2x3
+1 43 560.0 -488.0 630.0 1 0 0 0 1 0 0 0 1 60593c01.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_8
+1 15 590.0 -440.0 630.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_8
+1 15 640.0 -440.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_9
+1 15 380.0 -464.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_9
+1 15 380.0 -464.0 440.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_9
+1 15 440.0 -464.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_9
+1 15 520.0 -464.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_9
+1 15 600.0 -464.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_9
+1 15 660.0 -464.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_9
+1 15 660.0 -464.0 440.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_9
+1 15 380.0 -464.0 500.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_9
+1 15 660.0 -464.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_9
+1 15 380.0 -464.0 580.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_9
+1 15 660.0 -464.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_9
+1 15 380.0 -464.0 640.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_9
+1 15 370.0 -464.0 630.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_9
+1 15 420.0 -464.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_9
+1 15 500.0 -464.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_9
+1 15 610.0 -464.0 640.0 1 0 0 0 1 0 0 0 1 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_9
+1 15 660.0 -464.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_9
+1 15 660.0 -464.0 640.0 0 0 -1 0 1 0 1 0 0 3003.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_10
+1 15 400.0 -488.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_10
+1 15 380.0 -488.0 460.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_10
+1 15 480.0 -488.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_10
+1 15 560.0 -488.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_10
+1 15 640.0 -488.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_10
+1 15 660.0 -488.0 460.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_10
+1 15 370.0 -488.0 510.0 0 0 1 0 1 0 -1 0 0 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_10
+1 15 660.0 -488.0 540.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west Window 1x2x3
+1 43 370.0 -536.0 540.0 0 0 1 0 1 0 -1 0 0 60593c01.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_10
+1 15 380.0 -488.0 600.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_10
+1 15 660.0 -488.0 620.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_10
+1 15 370.0 -488.0 630.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_10
+1 15 420.0 -488.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_10
+1 15 500.0 -488.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_10
+1 15 590.0 -488.0 630.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_10
+1 15 640.0 -488.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_10
+1 15 370.0 -488.0 650.0 0 0 1 0 1 0 -1 0 0 3005.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_11
+1 15 380.0 -512.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_11
+1 15 380.0 -512.0 440.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_11
+1 15 440.0 -512.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_11
+1 15 520.0 -512.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_11
+1 15 600.0 -512.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_11
+1 15 660.0 -512.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_11
+1 15 660.0 -512.0 440.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_11
+1 15 380.0 -512.0 490.0 0 0 1 0 1 0 -1 0 0 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_11
+1 15 660.0 -512.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_11
+1 15 660.0 -512.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_11
+1 15 380.0 -512.0 600.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_11
+1 15 380.0 -512.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_11
+1 15 440.0 -512.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_11
+1 15 520.0 -512.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_11
+1 15 600.0 -512.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_11
+1 15 660.0 -512.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_11
+1 15 660.0 -512.0 640.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_11
+1 15 370.0 -512.0 650.0 0 0 1 0 1 0 -1 0 0 3005.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_12
+1 15 400.0 -536.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_12
+1 15 380.0 -536.0 460.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_12
+1 15 450.0 -536.0 430.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south Window 1x2x3
+1 43 480.0 -584.0 430.0 -1 0 0 0 1 0 0 0 -1 60593c01.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_12
+1 15 540.0 -536.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_12
+1 15 620.0 -536.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_12
+1 15 660.0 -536.0 460.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_12
+1 15 670.0 -536.0 430.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_12
+1 15 370.0 -536.0 510.0 0 0 1 0 1 0 -1 0 0 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_12
+1 15 660.0 -536.0 540.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_12
+1 15 380.0 -536.0 600.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_12
+1 15 660.0 -536.0 620.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_12
+1 15 400.0 -536.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_12
+1 15 480.0 -536.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_12
+1 15 560.0 -536.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_12
+1 15 640.0 -536.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_12
+1 15 370.0 -536.0 650.0 0 0 1 0 1 0 -1 0 0 3005.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_13
+1 15 380.0 -560.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_13
+1 15 380.0 -560.0 440.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_13
+1 15 430.0 -560.0 440.0 -1 0 0 0 1 0 0 0 -1 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_13
+1 15 540.0 -560.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_13
+1 15 620.0 -560.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_13
+1 15 660.0 -560.0 440.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_13
+1 15 670.0 -560.0 430.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_13
+1 15 380.0 -560.0 500.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_13
+1 15 660.0 -560.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_13
+1 15 380.0 -560.0 580.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_13
+1 15 660.0 -560.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_13
+1 15 380.0 -560.0 640.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_13
+1 15 380.0 -560.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_13
+1 15 440.0 -560.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_13
+1 15 520.0 -560.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_13
+1 15 600.0 -560.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_13
+1 15 660.0 -560.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_13
+1 15 660.0 -560.0 640.0 0 0 -1 0 1 0 1 0 0 3003.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_14
+1 15 400.0 -584.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_14
+1 15 380.0 -584.0 460.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_14
+1 15 450.0 -584.0 430.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_14
+1 15 540.0 -584.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_14
+1 15 620.0 -584.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_14
+1 15 650.0 -584.0 430.0 0 0 -1 0 1 0 1 0 0 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_14
+1 15 670.0 -584.0 430.0 -1 0 0 0 1 0 0 0 -1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_14
+1 15 660.0 -584.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_14
+1 15 380.0 -584.0 540.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east Window 1x2x3
+1 43 650.0 -632.0 540.0 0 0 -1 0 1 0 1 0 0 60593c01.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_14
+1 15 650.0 -584.0 570.0 0 0 -1 0 1 0 1 0 0 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_14
+1 15 380.0 -584.0 620.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_14
+1 15 660.0 -584.0 620.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_14
+1 15 400.0 -584.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_14
+1 15 480.0 -584.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_14
+1 15 560.0 -584.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_14
+1 15 640.0 -584.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_15
+1 15 380.0 -608.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_15
+1 15 380.0 -608.0 440.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_15
+1 15 440.0 -608.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_15
+1 15 520.0 -608.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_15
+1 15 600.0 -608.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_15
+1 15 660.0 -608.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_15
+1 15 650.0 -608.0 430.0 0 0 -1 0 1 0 1 0 0 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_15
+1 15 660.0 -608.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_15
+1 15 380.0 -608.0 500.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_15
+1 15 380.0 -608.0 580.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_15
+1 15 660.0 -608.0 590.0 0 0 -1 0 1 0 1 0 0 3002.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_15
+1 15 380.0 -608.0 640.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_15
+1 15 380.0 -608.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_15
+1 15 440.0 -608.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_15
+1 15 520.0 -608.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_15
+1 15 600.0 -608.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_15
+1 15 660.0 -608.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_15
+1 15 660.0 -608.0 640.0 0 0 -1 0 1 0 1 0 0 3003.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_16
+1 15 400.0 -632.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_16
+1 15 380.0 -632.0 460.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_16
+1 15 480.0 -632.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_16
+1 15 560.0 -632.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_16
+1 15 640.0 -632.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_16
+1 15 650.0 -632.0 430.0 0 0 -1 0 1 0 1 0 0 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_16
+1 15 660.0 -632.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_16
+1 15 380.0 -632.0 540.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_16
+1 15 650.0 -632.0 570.0 0 0 -1 0 1 0 1 0 0 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_16
+1 15 380.0 -632.0 620.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_16
+1 15 660.0 -632.0 620.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_16
+1 15 400.0 -632.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_16
+1 15 480.0 -632.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_16
+1 15 560.0 -632.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_16
+1 15 640.0 -632.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_17
+1 15 380.0 -656.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_17
+1 15 380.0 -656.0 440.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_17
+1 15 440.0 -656.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_17
+1 15 520.0 -656.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_17
+1 15 600.0 -656.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_17
+1 15 660.0 -656.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_17
+1 15 660.0 -656.0 440.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_17
+1 15 380.0 -656.0 500.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_17
+1 15 660.0 -656.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_17
+1 15 380.0 -656.0 580.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_17
+1 15 660.0 -656.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_17
+1 15 380.0 -656.0 640.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_17
+1 15 380.0 -656.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_17
+1 15 440.0 -656.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_17
+1 15 520.0 -656.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_17
+1 15 600.0 -656.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_17
+1 15 660.0 -656.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_17
+1 15 660.0 -656.0 640.0 0 0 -1 0 1 0 1 0 0 3003.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_18
+1 15 400.0 -680.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_18
+1 15 380.0 -680.0 460.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_18
+1 15 480.0 -680.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_18
+1 15 560.0 -680.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_18
+1 15 640.0 -680.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_18
+1 15 660.0 -680.0 460.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_18
+1 15 380.0 -680.0 540.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_18
+1 15 660.0 -680.0 540.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_18
+1 15 380.0 -680.0 620.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_18
+1 15 660.0 -680.0 620.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_18
+1 15 400.0 -680.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_18
+1 15 480.0 -680.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_18
+1 15 560.0 -680.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_18
+1 15 640.0 -680.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south ledge
+1 4 400.0 -688.0 420.0 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south ledge
+1 4 480.0 -688.0 420.0 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south ledge
+1 4 560.0 -688.0 420.0 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south ledge
+1 4 640.0 -688.0 420.0 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west ledge
+1 4 360.0 -688.0 460.0 0 0 1 0 1 0 -1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_19
+1 15 380.0 -704.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_19
+1 15 380.0 -704.0 440.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_19
+1 15 440.0 -704.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_19
+1 15 520.0 -704.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_19
+1 15 600.0 -704.0 440.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_south row_19
+1 15 660.0 -704.0 440.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_19
+1 15 660.0 -704.0 440.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east ledge
+1 4 680.0 -688.0 460.0 0 0 -1 0 1 0 1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_19
+1 15 380.0 -704.0 500.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_19
+1 15 660.0 -704.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west ledge
+1 4 360.0 -688.0 540.0 0 0 1 0 1 0 -1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east ledge
+1 4 680.0 -688.0 540.0 0 0 -1 0 1 0 1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_19
+1 15 380.0 -704.0 580.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_19
+1 15 660.0 -704.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west ledge
+1 4 360.0 -688.0 620.0 0 0 1 0 1 0 -1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east ledge
+1 4 680.0 -688.0 620.0 0 0 -1 0 1 0 1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_west row_19
+1 15 380.0 -704.0 640.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_19
+1 15 380.0 -704.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_19
+1 15 440.0 -704.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_19
+1 15 520.0 -704.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_19
+1 15 600.0 -704.0 640.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north row_19
+1 15 660.0 -704.0 640.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_east row_19
+1 15 660.0 -704.0 640.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north ledge
+1 4 400.0 -688.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north ledge
+1 4 480.0 -688.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north ledge
+1 4 560.0 -688.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > tower_shaft_layout > tower_shaft_north ledge
+1 4 640.0 -688.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 420.0 -712.0 420.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 500.0 -712.0 420.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 580.0 -712.0 420.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 640.0 -712.0 420.0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 420.0 -712.0 460.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 500.0 -712.0 460.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 580.0 -712.0 460.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 640.0 -712.0 460.0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 420.0 -712.0 500.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 500.0 -712.0 500.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 580.0 -712.0 500.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 640.0 -712.0 500.0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 420.0 -712.0 540.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 500.0 -712.0 540.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 580.0 -712.0 540.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 640.0 -712.0 540.0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 420.0 -712.0 580.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 500.0 -712.0 580.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 580.0 -712.0 580.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 640.0 -712.0 580.0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 420.0 -712.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 500.0 -712.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 580.0 -712.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 640.0 -712.0 620.0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 420.0 -712.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 500.0 -712.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 580.0 -712.0 660.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > gallery
+1 4 640.0 -712.0 660.0 1 0 0 0 1 0 0 0 1 3022.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > rail_sw row_0
+1 7 410.0 -736.0 430.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > rail_se row_0
+1 7 630.0 -736.0 430.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_south row_0
+1 320 480.0 -736.0 480.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_west row_0
+1 320 460.0 -736.0 500.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_south row_0
+1 320 560.0 -736.0 480.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_east row_0
+1 320 580.0 -736.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_west row_0
+1 320 460.0 -736.0 580.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_east row_0
+1 320 580.0 -736.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_north row_0
+1 320 480.0 -736.0 600.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_north row_0
+1 320 560.0 -736.0 600.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > rail_nw row_0
+1 7 410.0 -736.0 650.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > rail_ne row_0
+1 7 630.0 -736.0 650.0 1 0 0 0 1 0 0 0 1 3005.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > rail_sw row_1
+1 7 410.0 -760.0 430.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > rail_se row_1
+1 7 630.0 -760.0 430.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_south row_1
+1 320 460.0 -760.0 480.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_west row_1
+1 320 460.0 -760.0 480.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_south Window 1x4x3
+1 43 520.0 -808.0 470.0 -1 0 0 0 1 0 0 0 -1 60594.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_south row_1
+1 320 580.0 -760.0 480.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_east row_1
+1 320 580.0 -760.0 480.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_west Window 1x4x3
+1 43 450.0 -808.0 540.0 0 0 1 0 1 0 -1 0 0 60594.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_east Window 1x4x3
+1 43 570.0 -808.0 540.0 0 0 -1 0 1 0 1 0 0 60594.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_west row_1
+1 320 460.0 -760.0 600.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_north row_1
+1 320 460.0 -760.0 600.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_north Window 1x4x3
+1 43 520.0 -808.0 590.0 1 0 0 0 1 0 0 0 1 60594.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_north row_1
+1 320 580.0 -760.0 600.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_east row_1
+1 320 580.0 -760.0 600.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > rail_nw row_1
+1 7 410.0 -760.0 650.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > rail_ne row_1
+1 7 630.0 -760.0 650.0 1 0 0 0 1 0 0 0 1 3005.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > rail_sw row_2
+1 7 410.0 -784.0 430.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > rail_se row_2
+1 7 630.0 -784.0 430.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_south row_2
+1 320 460.0 -784.0 480.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_west row_2
+1 320 460.0 -784.0 480.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_south row_2
+1 320 580.0 -784.0 480.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_east row_2
+1 320 580.0 -784.0 480.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_west row_2
+1 320 460.0 -784.0 600.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_north row_2
+1 320 460.0 -784.0 600.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_north row_2
+1 320 580.0 -784.0 600.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_east row_2
+1 320 580.0 -784.0 600.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > rail_nw row_2
+1 7 410.0 -784.0 650.0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > rail_ne row_2
+1 7 630.0 -784.0 650.0 1 0 0 0 1 0 0 0 1 3005.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_south row_3
+1 320 460.0 -808.0 480.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_west row_3
+1 320 460.0 -808.0 480.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_south row_3
+1 320 580.0 -808.0 480.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_east row_3
+1 320 580.0 -808.0 480.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_west row_3
+1 320 460.0 -808.0 600.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_north row_3
+1 320 460.0 -808.0 600.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_north row_3
+1 320 580.0 -808.0 600.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_east row_3
+1 320 580.0 -808.0 600.0 0 0 -1 0 1 0 1 0 0 3003.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_south ledge
+1 4 480.0 -816.0 460.0 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_south ledge
+1 4 560.0 -816.0 460.0 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_west ledge
+1 4 440.0 -816.0 500.0 0 0 1 0 1 0 -1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_south row_4
+1 320 480.0 -832.0 480.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_west row_4
+1 320 460.0 -832.0 500.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_south row_4
+1 320 560.0 -832.0 480.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_east row_4
+1 320 580.0 -832.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_east ledge
+1 4 600.0 -816.0 500.0 0 0 -1 0 1 0 1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_west ledge
+1 4 440.0 -816.0 580.0 0 0 1 0 1 0 -1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_west row_4
+1 320 460.0 -832.0 580.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_east row_4
+1 320 580.0 -832.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_east ledge
+1 4 600.0 -816.0 580.0 0 0 -1 0 1 0 1 0 0 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_north row_4
+1 320 480.0 -832.0 600.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_north row_4
+1 320 560.0 -832.0 600.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_north ledge
+1 4 480.0 -816.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_room_layout > lantern_room_north ledge
+1 4 560.0 -816.0 620.0 1 0 0 0 1 0 0 0 1 3020.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_cap
+1 320 480.0 -840.0 480.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_cap
+1 320 560.0 -840.0 480.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_cap
+1 320 480.0 -840.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_cap
+1 320 560.0 -840.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_cap
+1 320 480.0 -840.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_cap
+1 320 560.0 -840.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_cap
+1 320 480.0 -840.0 600.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > lantern_cap
+1 320 560.0 -840.0 600.0 1 0 0 0 1 0 0 0 1 3020.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > beacon_layout > beacon_south row_0
+1 4 520.0 -864.0 520.0 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > beacon_layout > beacon_west row_0
+1 4 500.0 -864.0 540.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > beacon_layout > beacon_east row_0
+1 4 540.0 -864.0 540.0 0 0 -1 0 1 0 1 0 0 3001.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > beacon_layout > beacon_north row_0
+1 4 520.0 -864.0 560.0 1 0 0 0 1 0 0 0 1 3001.dat
+
+0 // site+rock_plinth+path > rock_plinth+path > tower > beacon_layout > beacon_south row_1
+1 4 500.0 -888.0 520.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > beacon_layout > beacon_west row_1
+1 4 500.0 -888.0 520.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > beacon_layout > beacon_south row_1
+1 4 540.0 -888.0 520.0 -1 0 0 0 1 0 0 0 -1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > beacon_layout > beacon_east row_1
+1 4 540.0 -888.0 520.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > beacon_layout > beacon_west row_1
+1 4 500.0 -888.0 560.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > beacon_layout > beacon_north row_1
+1 4 500.0 -888.0 560.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > beacon_layout > beacon_north row_1
+1 4 540.0 -888.0 560.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site+rock_plinth+path > rock_plinth+path > tower > beacon_layout > beacon_east row_1
+1 4 540.0 -888.0 560.0 0 0 -1 0 1 0 1 0 0 3003.dat
+
+0 NOFILE

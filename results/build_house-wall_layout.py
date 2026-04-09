@@ -76,7 +76,7 @@ spine_layout = WallLayout(
     color=Color.WHITE,
     name="spine_layout",
     initial_direction="east",
-    fill_part=PartType.BRICK_1X4.value,  # use 1x4 bricks for interior walls
+    fill_part=PartType.BRICK_1X4,  # use 1x4 bricks for interior walls
 )
 
 spine_layout.build_wall("spine_west", length=16)
@@ -101,7 +101,7 @@ east_layout = WallLayout(
     color=Color.WHITE,
     name="east_layout",
     initial_direction="east",
-    fill_part=PartType.BRICK_1X4.value,  # use 1x4 bricks for interior walls
+    fill_part=PartType.BRICK_1X4,  # use 1x4 bricks for interior walls
 )
 
 east_layout.build_wall("spine_east", length=12)

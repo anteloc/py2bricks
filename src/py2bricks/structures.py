@@ -71,7 +71,7 @@ class WallLayout:
         self,
         height: int,
         color: int = Color.WHITE,
-        fill_part: str = PartType.BRICK_2X4.value,
+        fill_part: PartType = PartType.BRICK_2X4,
         name: str = "",
         initial_direction: Literal["north", "south", "east", "west"] = "north",
     ):
@@ -270,7 +270,7 @@ class Box:
         depth: int,
         height: int,
         color: int = Color.WHITE,
-        fill_part: str = PartType.BRICK_2X4.value,
+        fill_part: PartType = PartType.BRICK_2X4,
         name: str = "",
     ):
         """Create a box with 4 walls.
@@ -377,7 +377,7 @@ class FloorSlab:
         width: int,
         depth: int,
         color: int = Color.LIGHT_GREY,
-        fill_part: str = PartType.PLATE_2X4.value,
+        fill_part: PartType = PartType.PLATE_2X4,
         name: str = "",
     ):
         """Create a floor slab.
@@ -393,7 +393,7 @@ class FloorSlab:
         self.width = width
         self.depth = depth
         self.color = color
-        self.fill_part = fill_part
+        self.fill_part = fill_part.value
         self.height_plates = 1  # one plate tall
 
     def to_placements(self, comment_prefix: str = "") -> list[BrickPlacement]:
@@ -581,7 +581,7 @@ class Stairs:
         step_height: int = PLATES_PER_BRICK,
         facing: Literal["north", "south", "east", "west"] = "north",
         color: int = Color.WHITE,
-        fill_part: str = PartType.BRICK_2X4.value,
+        fill_part: PartType = PartType.BRICK_2X4,
         name: str = "",
     ):
         """Create a straight flight of stairs.
@@ -838,7 +838,7 @@ class StaircaseShaft:
         style: Literal["switchback", "straight"] = "switchback",
         first_facing: Literal["north", "south", "east", "west"] = "north",
         color: int = Color.WHITE,
-        fill_part: str = PartType.BRICK_2X4.value,
+        fill_part: PartType = PartType.BRICK_2X4,
         name: str = "",
     ):
         """Create a multi-floor staircase shaft.
@@ -905,7 +905,7 @@ class StaircaseShaft:
         self.style              = style
         self.first_facing       = first_facing
         self.color              = color
-        self.fill_part          = fill_part
+        self.fill_part          = fill_part.value
         self.height_plates      = floors * floor_height_plates
         self._D_flight          = D_flight
         self._landing_depth     = landing_depth

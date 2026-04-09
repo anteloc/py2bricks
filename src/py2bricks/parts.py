@@ -176,7 +176,6 @@ class Color:
     """Common LDraw color codes as named constants.
 
     Usage: Color.RED, Color.WHITE, etc.
-    The LLM can also use raw integers if needed.
     """
     BLACK = 0
     BLUE = 1

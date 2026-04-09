@@ -18,7 +18,7 @@ from .coords import PLATES_PER_BRICK
 from .parts import Color
 from .core import BuilderError, BrickPlacement
 from .wall import Wall
-from .structures import Box, FloorSlab, Column, Stairs
+from .structures import Box, FloorSlab, Column, Stairs, StaircaseShaft
 from .roof import GableRoof
 
 
@@ -197,7 +197,7 @@ class Group:
 
 
 # Update Element type to include Group
-Element = Wall | Box | FloorSlab | Column | Stairs | GableRoof | Group
+Element = Wall | Box | FloorSlab | Column | Stairs | StaircaseShaft | GableRoof | Group
 
 
 # ---------------------------------------------------------------------------
