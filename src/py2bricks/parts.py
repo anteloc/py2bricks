@@ -124,7 +124,7 @@ PARTS: dict[str, Part] = {
 
 
 # Greedy fill order for brick tiling: widest first, 1x1 as last resort.
-# Used by Wall._tile_solid_regions and GableRoof slope/gable builders.
+# Used by Wall._tile_solid_regions and GableRoof gable builders.
 FILL_BRICKS: list[Part] = [
     PARTS["brick_2x4"],  # 4 studs wide along face
     PARTS["brick_2x3"],  # 3 studs
@@ -132,6 +132,13 @@ FILL_BRICKS: list[Part] = [
     PARTS["brick_1x4"],  # 4 studs, 1 deep (gap filler)
     PARTS["brick_1x2"],  # 2 studs, 1 deep
     PARTS["brick_1x1"],  # last resort
+]
+
+# Greedy fill order for slope tiling: widest first.
+# Used by GableRoof slope builders (each part is 2 studs deep in the slope direction).
+FILL_SLOPES: list[Part] = [
+    PARTS["slope_2x4"],  # 4 studs wide along ridge
+    PARTS["slope_2x2"],  # 2 studs wide along ridge
 ]
 
 

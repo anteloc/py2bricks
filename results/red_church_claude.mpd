@@ -1256,7 +1256,7 @@
 0 // church > tower_layout > tower_north row_10
 1 4 350.0 -272.0 260.0 1 0 0 0 1 0 0 0 1 3002.dat
 0 // church > nave_roof west_slope step_0
-1 320 100.0 -272.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 90.0 -272.0 320.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof south_gable step_0
 1 320 120.0 -272.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof south_gable step_0
@@ -1267,34 +1267,34 @@
 1 320 360.0 -272.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof south_gable step_0
 1 320 440.0 -272.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // church > nave_roof east_slope step_0
-1 320 500.0 -272.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // church > nave_roof south_gable step_0
 1 320 500.0 -272.0 300.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // church > nave_roof west_slope step_0
-1 320 100.0 -272.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // church > nave_roof east_slope step_0
-1 320 500.0 -272.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 510.0 -272.0 320.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_0
-1 320 100.0 -272.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 90.0 -272.0 400.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_0
-1 320 500.0 -272.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 510.0 -272.0 400.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_0
-1 320 100.0 -272.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 90.0 -272.0 480.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_0
-1 320 500.0 -272.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 510.0 -272.0 480.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_0
-1 320 100.0 -272.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 90.0 -272.0 560.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_0
-1 320 500.0 -272.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 510.0 -272.0 560.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_0
-1 320 100.0 -272.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 90.0 -272.0 640.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_0
-1 320 500.0 -272.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 510.0 -272.0 640.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_0
-1 320 100.0 -272.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 90.0 -272.0 720.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_0
-1 320 500.0 -272.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 510.0 -272.0 720.0 0 0 -1 0 1 0 1 0 0 3037.dat
+0 // church > nave_roof west_slope step_0
+1 320 90.0 -272.0 800.0 0 0 1 0 1 0 -1 0 0 3037.dat
+0 // church > nave_roof east_slope step_0
+1 320 510.0 -272.0 800.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof north_gable step_0
 1 320 120.0 -272.0 820.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof north_gable step_0
@@ -1333,7 +1333,7 @@
 0 // church > tower_layout > tower_east row_11
 1 4 360.0 -296.0 260.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // church > nave_roof west_slope step_1
-1 320 120.0 -296.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 110.0 -296.0 320.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof south_gable step_1
 1 320 140.0 -296.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof south_gable step_1
@@ -1345,31 +1345,31 @@
 0 // church > nave_roof south_gable step_1
 1 320 460.0 -296.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof east_slope step_1
-1 320 480.0 -296.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 490.0 -296.0 320.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_1
-1 320 120.0 -296.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 110.0 -296.0 400.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_1
-1 320 480.0 -296.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 490.0 -296.0 400.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_1
-1 320 120.0 -296.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 110.0 -296.0 480.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_1
-1 320 480.0 -296.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 490.0 -296.0 480.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_1
-1 320 120.0 -296.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 110.0 -296.0 560.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_1
-1 320 480.0 -296.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 490.0 -296.0 560.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_1
-1 320 120.0 -296.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 110.0 -296.0 640.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_1
-1 320 480.0 -296.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 490.0 -296.0 640.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_1
-1 320 120.0 -296.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 110.0 -296.0 720.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_1
-1 320 480.0 -296.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 490.0 -296.0 720.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_1
-1 320 120.0 -296.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 110.0 -296.0 800.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_1
-1 320 480.0 -296.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 490.0 -296.0 800.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof north_gable step_1
 1 320 140.0 -296.0 820.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof north_gable step_1
@@ -1402,7 +1402,7 @@
 0 // church > tower_layout > tower_north row_12
 1 4 340.0 -320.0 260.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof west_slope step_2
-1 320 140.0 -320.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 130.0 -320.0 320.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof south_gable step_2
 1 320 160.0 -320.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof south_gable step_2
@@ -1411,34 +1411,34 @@
 1 320 320.0 -320.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof south_gable step_2
 1 320 400.0 -320.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // church > nave_roof east_slope step_2
-1 320 460.0 -320.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // church > nave_roof south_gable step_2
 1 320 460.0 -320.0 300.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // church > nave_roof west_slope step_2
-1 320 140.0 -320.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // church > nave_roof east_slope step_2
-1 320 460.0 -320.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 470.0 -320.0 320.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_2
-1 320 140.0 -320.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 130.0 -320.0 400.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_2
-1 320 460.0 -320.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 470.0 -320.0 400.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_2
-1 320 140.0 -320.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 130.0 -320.0 480.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_2
-1 320 460.0 -320.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 470.0 -320.0 480.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_2
-1 320 140.0 -320.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 130.0 -320.0 560.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_2
-1 320 460.0 -320.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 470.0 -320.0 560.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_2
-1 320 140.0 -320.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 130.0 -320.0 640.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_2
-1 320 460.0 -320.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 470.0 -320.0 640.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_2
-1 320 140.0 -320.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 130.0 -320.0 720.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_2
-1 320 460.0 -320.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 470.0 -320.0 720.0 0 0 -1 0 1 0 1 0 0 3037.dat
+0 // church > nave_roof west_slope step_2
+1 320 130.0 -320.0 800.0 0 0 1 0 1 0 -1 0 0 3037.dat
+0 // church > nave_roof east_slope step_2
+1 320 470.0 -320.0 800.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof north_gable step_2
 1 320 160.0 -320.0 820.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof north_gable step_2
@@ -1491,7 +1491,7 @@
 0 // church > tower_layout > tower_north ledge
 1 320 340.0 -328.0 280.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // church > nave_roof west_slope step_3
-1 320 160.0 -344.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 150.0 -344.0 320.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof south_gable step_3
 1 320 180.0 -344.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof south_gable step_3
@@ -1501,31 +1501,31 @@
 0 // church > nave_roof south_gable step_3
 1 320 420.0 -344.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof east_slope step_3
-1 320 440.0 -344.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 450.0 -344.0 320.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_3
-1 320 160.0 -344.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 150.0 -344.0 400.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_3
-1 320 440.0 -344.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 450.0 -344.0 400.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_3
-1 320 160.0 -344.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 150.0 -344.0 480.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_3
-1 320 440.0 -344.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 450.0 -344.0 480.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_3
-1 320 160.0 -344.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 150.0 -344.0 560.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_3
-1 320 440.0 -344.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 450.0 -344.0 560.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_3
-1 320 160.0 -344.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 150.0 -344.0 640.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_3
-1 320 440.0 -344.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 450.0 -344.0 640.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_3
-1 320 160.0 -344.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 150.0 -344.0 720.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_3
-1 320 440.0 -344.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 450.0 -344.0 720.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_3
-1 320 160.0 -344.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 150.0 -344.0 800.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_3
-1 320 440.0 -344.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 450.0 -344.0 800.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof north_gable step_3
 1 320 180.0 -344.0 820.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof north_gable step_3
@@ -1535,62 +1535,62 @@
 0 // church > nave_roof north_gable step_3
 1 320 420.0 -344.0 820.0 1 0 0 0 1 0 0 0 1 3001.dat
 
-0 // church > tower_roof south_slope step_0
-1 320 260.0 -368.0 100.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // church > tower_roof north_slope step_0
+1 320 260.0 -368.0 90.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // church > tower_roof north_slope step_0
+1 320 340.0 -368.0 90.0 1 0 0 0 1 0 0 0 1 3037.dat
 0 // church > tower_roof west_gable step_0
 1 320 240.0 -368.0 120.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // church > tower_roof south_slope step_0
-1 320 340.0 -368.0 100.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > tower_roof east_gable step_0
 1 320 360.0 -368.0 120.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // church > tower_roof west_gable step_0
 1 320 240.0 -368.0 200.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // church > tower_roof east_gable step_0
 1 320 360.0 -368.0 200.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // church > tower_roof north_slope step_0
-1 320 260.0 -368.0 260.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > tower_roof west_gable step_0
 1 320 240.0 -368.0 260.0 0 0 -1 0 1 0 1 0 0 3003.dat
-0 // church > tower_roof north_slope step_0
-1 320 340.0 -368.0 260.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > tower_roof east_gable step_0
 1 320 360.0 -368.0 260.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // church > tower_roof south_slope step_0
+1 320 260.0 -368.0 270.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // church > tower_roof south_slope step_0
+1 320 340.0 -368.0 270.0 -1 0 0 0 1 0 0 0 -1 3037.dat
 0 // church > nave_roof west_slope step_4
-1 320 180.0 -368.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 170.0 -368.0 320.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof south_gable step_4
 1 320 200.0 -368.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof south_gable step_4
 1 320 280.0 -368.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof south_gable step_4
 1 320 360.0 -368.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // church > nave_roof east_slope step_4
-1 320 420.0 -368.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // church > nave_roof south_gable step_4
 1 320 420.0 -368.0 300.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // church > nave_roof west_slope step_4
-1 320 180.0 -368.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // church > nave_roof east_slope step_4
-1 320 420.0 -368.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 430.0 -368.0 320.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_4
-1 320 180.0 -368.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 170.0 -368.0 400.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_4
-1 320 420.0 -368.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 430.0 -368.0 400.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_4
-1 320 180.0 -368.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 170.0 -368.0 480.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_4
-1 320 420.0 -368.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 430.0 -368.0 480.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_4
-1 320 180.0 -368.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 170.0 -368.0 560.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_4
-1 320 420.0 -368.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 430.0 -368.0 560.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_4
-1 320 180.0 -368.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 170.0 -368.0 640.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_4
-1 320 420.0 -368.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 430.0 -368.0 640.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_4
-1 320 180.0 -368.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 170.0 -368.0 720.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_4
-1 320 420.0 -368.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 430.0 -368.0 720.0 0 0 -1 0 1 0 1 0 0 3037.dat
+0 // church > nave_roof west_slope step_4
+1 320 170.0 -368.0 800.0 0 0 1 0 1 0 -1 0 0 3037.dat
+0 // church > nave_roof east_slope step_4
+1 320 430.0 -368.0 800.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof north_gable step_4
 1 320 200.0 -368.0 820.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof north_gable step_4
@@ -1600,24 +1600,24 @@
 0 // church > nave_roof north_gable step_4
 1 320 420.0 -368.0 820.0 1 0 0 0 1 0 0 0 1 3003.dat
 
-0 // church > tower_roof south_slope step_1
-1 320 260.0 -392.0 120.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // church > tower_roof north_slope step_1
+1 320 260.0 -392.0 110.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // church > tower_roof north_slope step_1
+1 320 340.0 -392.0 110.0 1 0 0 0 1 0 0 0 1 3037.dat
 0 // church > tower_roof west_gable step_1
 1 320 240.0 -392.0 140.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // church > tower_roof south_slope step_1
-1 320 340.0 -392.0 120.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > tower_roof east_gable step_1
 1 320 360.0 -392.0 140.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // church > tower_roof west_gable step_1
 1 320 240.0 -392.0 220.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // church > tower_roof east_gable step_1
 1 320 360.0 -392.0 220.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // church > tower_roof north_slope step_1
-1 320 260.0 -392.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // church > tower_roof north_slope step_1
-1 320 340.0 -392.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // church > tower_roof south_slope step_1
+1 320 260.0 -392.0 250.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // church > tower_roof south_slope step_1
+1 320 340.0 -392.0 250.0 -1 0 0 0 1 0 0 0 -1 3037.dat
 0 // church > nave_roof west_slope step_5
-1 320 200.0 -392.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 190.0 -392.0 320.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof south_gable step_5
 1 320 220.0 -392.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof south_gable step_5
@@ -1625,31 +1625,31 @@
 0 // church > nave_roof south_gable step_5
 1 320 380.0 -392.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof east_slope step_5
-1 320 400.0 -392.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 410.0 -392.0 320.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_5
-1 320 200.0 -392.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 190.0 -392.0 400.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_5
-1 320 400.0 -392.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 410.0 -392.0 400.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_5
-1 320 200.0 -392.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 190.0 -392.0 480.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_5
-1 320 400.0 -392.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 410.0 -392.0 480.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_5
-1 320 200.0 -392.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 190.0 -392.0 560.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_5
-1 320 400.0 -392.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 410.0 -392.0 560.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_5
-1 320 200.0 -392.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 190.0 -392.0 640.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_5
-1 320 400.0 -392.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 410.0 -392.0 640.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_5
-1 320 200.0 -392.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 190.0 -392.0 720.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_5
-1 320 400.0 -392.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 410.0 -392.0 720.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_5
-1 320 200.0 -392.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 190.0 -392.0 800.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_5
-1 320 400.0 -392.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 410.0 -392.0 800.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof north_gable step_5
 1 320 220.0 -392.0 820.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof north_gable step_5
@@ -1657,56 +1657,56 @@
 0 // church > nave_roof north_gable step_5
 1 320 380.0 -392.0 820.0 1 0 0 0 1 0 0 0 1 3001.dat
 
-0 // church > tower_roof south_slope step_2
-1 320 260.0 -416.0 140.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // church > tower_roof north_slope step_2
+1 320 260.0 -416.0 130.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // church > tower_roof north_slope step_2
+1 320 340.0 -416.0 130.0 1 0 0 0 1 0 0 0 1 3037.dat
 0 // church > tower_roof west_gable step_2
 1 320 240.0 -416.0 160.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // church > tower_roof south_slope step_2
-1 320 340.0 -416.0 140.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > tower_roof east_gable step_2
 1 320 360.0 -416.0 160.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // church > tower_roof north_slope step_2
-1 320 260.0 -416.0 220.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > tower_roof west_gable step_2
 1 320 240.0 -416.0 220.0 0 0 -1 0 1 0 1 0 0 3003.dat
-0 // church > tower_roof north_slope step_2
-1 320 340.0 -416.0 220.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > tower_roof east_gable step_2
 1 320 360.0 -416.0 220.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // church > tower_roof south_slope step_2
+1 320 260.0 -416.0 230.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // church > tower_roof south_slope step_2
+1 320 340.0 -416.0 230.0 -1 0 0 0 1 0 0 0 -1 3037.dat
 0 // church > nave_roof west_slope step_6
-1 320 220.0 -416.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 210.0 -416.0 320.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof south_gable step_6
 1 320 240.0 -416.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof south_gable step_6
 1 320 320.0 -416.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // church > nave_roof east_slope step_6
-1 320 380.0 -416.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // church > nave_roof south_gable step_6
 1 320 380.0 -416.0 300.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // church > nave_roof west_slope step_6
-1 320 220.0 -416.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // church > nave_roof east_slope step_6
-1 320 380.0 -416.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 390.0 -416.0 320.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_6
-1 320 220.0 -416.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 210.0 -416.0 400.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_6
-1 320 380.0 -416.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 390.0 -416.0 400.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_6
-1 320 220.0 -416.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 210.0 -416.0 480.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_6
-1 320 380.0 -416.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 390.0 -416.0 480.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_6
-1 320 220.0 -416.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 210.0 -416.0 560.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_6
-1 320 380.0 -416.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 390.0 -416.0 560.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_6
-1 320 220.0 -416.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 210.0 -416.0 640.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_6
-1 320 380.0 -416.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 390.0 -416.0 640.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_6
-1 320 220.0 -416.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 210.0 -416.0 720.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_6
-1 320 380.0 -416.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 390.0 -416.0 720.0 0 0 -1 0 1 0 1 0 0 3037.dat
+0 // church > nave_roof west_slope step_6
+1 320 210.0 -416.0 800.0 0 0 1 0 1 0 -1 0 0 3037.dat
+0 // church > nave_roof east_slope step_6
+1 320 390.0 -416.0 800.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof north_gable step_6
 1 320 240.0 -416.0 820.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof north_gable step_6
@@ -1714,134 +1714,134 @@
 0 // church > nave_roof north_gable step_6
 1 320 380.0 -416.0 820.0 1 0 0 0 1 0 0 0 1 3003.dat
 
-0 // church > tower_roof south_slope step_3
-1 320 260.0 -440.0 160.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // church > tower_roof north_slope step_3
+1 320 260.0 -440.0 150.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // church > tower_roof north_slope step_3
+1 320 340.0 -440.0 150.0 1 0 0 0 1 0 0 0 1 3037.dat
 0 // church > tower_roof west_gable step_3
 1 320 240.0 -440.0 180.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // church > tower_roof south_slope step_3
-1 320 340.0 -440.0 160.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > tower_roof east_gable step_3
 1 320 360.0 -440.0 180.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // church > tower_roof north_slope step_3
-1 320 260.0 -440.0 200.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // church > tower_roof north_slope step_3
-1 320 340.0 -440.0 200.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // church > tower_roof south_slope step_3
+1 320 260.0 -440.0 210.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // church > tower_roof south_slope step_3
+1 320 340.0 -440.0 210.0 -1 0 0 0 1 0 0 0 -1 3037.dat
 0 // church > nave_roof west_slope step_7
-1 320 240.0 -440.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 230.0 -440.0 320.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof south_gable step_7
 1 320 260.0 -440.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof south_gable step_7
 1 320 340.0 -440.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof east_slope step_7
-1 320 360.0 -440.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 370.0 -440.0 320.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_7
-1 320 240.0 -440.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 230.0 -440.0 400.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_7
-1 320 360.0 -440.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 370.0 -440.0 400.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_7
-1 320 240.0 -440.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 230.0 -440.0 480.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_7
-1 320 360.0 -440.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 370.0 -440.0 480.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_7
-1 320 240.0 -440.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 230.0 -440.0 560.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_7
-1 320 360.0 -440.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 370.0 -440.0 560.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_7
-1 320 240.0 -440.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 230.0 -440.0 640.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_7
-1 320 360.0 -440.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 370.0 -440.0 640.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_7
-1 320 240.0 -440.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 230.0 -440.0 720.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_7
-1 320 360.0 -440.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 370.0 -440.0 720.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_7
-1 320 240.0 -440.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 230.0 -440.0 800.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_7
-1 320 360.0 -440.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 370.0 -440.0 800.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof north_gable step_7
 1 320 260.0 -440.0 820.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof north_gable step_7
 1 320 340.0 -440.0 820.0 1 0 0 0 1 0 0 0 1 3001.dat
 
-0 // church > tower_roof south_slope step_4
-1 320 260.0 -464.0 180.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > tower_roof north_slope step_4
-1 320 260.0 -464.0 180.0 1 0 0 0 1 0 0 0 1 3001.dat
+1 320 260.0 -464.0 170.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // church > tower_roof north_slope step_4
+1 320 340.0 -464.0 170.0 1 0 0 0 1 0 0 0 1 3037.dat
 0 // church > tower_roof west_gable step_4
 1 320 240.0 -464.0 180.0 0 0 -1 0 1 0 1 0 0 3003.dat
-0 // church > tower_roof south_slope step_4
-1 320 340.0 -464.0 180.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // church > tower_roof north_slope step_4
-1 320 340.0 -464.0 180.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > tower_roof east_gable step_4
 1 320 360.0 -464.0 180.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // church > tower_roof south_slope step_4
+1 320 260.0 -464.0 190.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // church > tower_roof south_slope step_4
+1 320 340.0 -464.0 190.0 -1 0 0 0 1 0 0 0 -1 3037.dat
 0 // church > nave_roof west_slope step_8
-1 320 260.0 -464.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 250.0 -464.0 320.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof south_gable step_8
 1 320 280.0 -464.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // church > nave_roof east_slope step_8
-1 320 340.0 -464.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // church > nave_roof south_gable step_8
 1 320 340.0 -464.0 300.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // church > nave_roof west_slope step_8
-1 320 260.0 -464.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // church > nave_roof east_slope step_8
-1 320 340.0 -464.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 350.0 -464.0 320.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_8
-1 320 260.0 -464.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 250.0 -464.0 400.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_8
-1 320 340.0 -464.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 350.0 -464.0 400.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_8
-1 320 260.0 -464.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 250.0 -464.0 480.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_8
-1 320 340.0 -464.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 350.0 -464.0 480.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_8
-1 320 260.0 -464.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 250.0 -464.0 560.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_8
-1 320 340.0 -464.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 350.0 -464.0 560.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_8
-1 320 260.0 -464.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 250.0 -464.0 640.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_8
-1 320 340.0 -464.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 350.0 -464.0 640.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_8
-1 320 260.0 -464.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 250.0 -464.0 720.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_8
-1 320 340.0 -464.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 350.0 -464.0 720.0 0 0 -1 0 1 0 1 0 0 3037.dat
+0 // church > nave_roof west_slope step_8
+1 320 250.0 -464.0 800.0 0 0 1 0 1 0 -1 0 0 3037.dat
+0 // church > nave_roof east_slope step_8
+1 320 350.0 -464.0 800.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof north_gable step_8
 1 320 280.0 -464.0 820.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof north_gable step_8
 1 320 340.0 -464.0 820.0 1 0 0 0 1 0 0 0 1 3003.dat
 
 0 // church > nave_roof west_slope step_9
-1 320 280.0 -488.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 270.0 -488.0 320.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof south_gable step_9
 1 320 300.0 -488.0 300.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // church > nave_roof east_slope step_9
-1 320 320.0 -488.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 330.0 -488.0 320.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_9
-1 320 280.0 -488.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 270.0 -488.0 400.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_9
-1 320 320.0 -488.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 330.0 -488.0 400.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_9
-1 320 280.0 -488.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 270.0 -488.0 480.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_9
-1 320 320.0 -488.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 330.0 -488.0 480.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_9
-1 320 280.0 -488.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 270.0 -488.0 560.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_9
-1 320 320.0 -488.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 330.0 -488.0 560.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_9
-1 320 280.0 -488.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 270.0 -488.0 640.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_9
-1 320 320.0 -488.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 330.0 -488.0 640.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_9
-1 320 280.0 -488.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 270.0 -488.0 720.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_9
-1 320 320.0 -488.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 330.0 -488.0 720.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_9
-1 320 280.0 -488.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 270.0 -488.0 800.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_9
-1 320 320.0 -488.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 330.0 -488.0 800.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof north_gable step_9
 1 320 300.0 -488.0 820.0 1 0 0 0 1 0 0 0 1 3001.dat
 
@@ -1849,35 +1849,35 @@
 1 14 290.0 -496.0 170.0 1 0 0 0 1 0 0 0 1 3005.dat
 
 0 // church > nave_roof west_slope step_10
-1 320 300.0 -512.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // church > nave_roof east_slope step_10
-1 320 300.0 -512.0 320.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 290.0 -512.0 320.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof south_gable step_10
 1 320 300.0 -512.0 300.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // church > nave_roof west_slope step_10
-1 320 300.0 -512.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // church > nave_roof east_slope step_10
-1 320 300.0 -512.0 400.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 310.0 -512.0 320.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_10
-1 320 300.0 -512.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 290.0 -512.0 400.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_10
-1 320 300.0 -512.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 310.0 -512.0 400.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_10
-1 320 300.0 -512.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 290.0 -512.0 480.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_10
-1 320 300.0 -512.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 310.0 -512.0 480.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_10
-1 320 300.0 -512.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 290.0 -512.0 560.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_10
-1 320 300.0 -512.0 640.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 310.0 -512.0 560.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_10
-1 320 300.0 -512.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 290.0 -512.0 640.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_10
-1 320 300.0 -512.0 720.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 310.0 -512.0 640.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof west_slope step_10
-1 320 300.0 -512.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 290.0 -512.0 720.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // church > nave_roof east_slope step_10
-1 320 300.0 -512.0 800.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 310.0 -512.0 720.0 0 0 -1 0 1 0 1 0 0 3037.dat
+0 // church > nave_roof west_slope step_10
+1 320 290.0 -512.0 800.0 0 0 1 0 1 0 -1 0 0 3037.dat
+0 // church > nave_roof east_slope step_10
+1 320 310.0 -512.0 800.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // church > nave_roof north_gable step_10
 1 320 300.0 -512.0 820.0 1 0 0 0 1 0 0 0 1 3003.dat
 

@@ -285,12 +285,5 @@ def main() -> None:
     print(scene.stats())
     print(output)
 
-    bundle_path = ROOT / "big_ben_bundle.zip"
-    with zipfile.ZipFile(bundle_path, "w", compression=zipfile.ZIP_DEFLATED) as zf:
-        zf.write(ROOT / "big_ben.py", arcname="big_ben.py")
-        zf.write(out_path, arcname="big_ben.mpd")
-    print(bundle_path)
-
-
 if __name__ == "__main__":
     main()

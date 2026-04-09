@@ -2716,26 +2716,26 @@
 1 72 640.0 -184.0 1020.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_shell_layout > choir_shell_north ledge
 1 72 720.0 -184.0 1020.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_0
-1 320 520.0 -200.0 1040.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_0
+1 320 520.0 -200.0 1030.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_0
+1 320 600.0 -200.0 1030.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_0
+1 320 680.0 -200.0 1030.0 1 0 0 0 1 0 0 0 1 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof west_gable step_0
 1 320 500.0 -200.0 1060.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_0
-1 320 600.0 -200.0 1040.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_0
-1 320 680.0 -200.0 1040.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof east_gable step_0
 1 320 700.0 -200.0 1060.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof west_gable step_0
 1 320 500.0 -200.0 1140.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof east_gable step_0
 1 320 700.0 -200.0 1140.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_0
-1 320 520.0 -200.0 1160.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_0
-1 320 600.0 -200.0 1160.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_0
-1 320 680.0 -200.0 1160.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_0
+1 320 520.0 -200.0 1170.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_0
+1 320 600.0 -200.0 1170.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_0
+1 320 680.0 -200.0 1170.0 -1 0 0 0 1 0 0 0 -1 3037.dat
 
 0 // site > cathedral > westwork > west_tower_shell+west_tower_cap > west_tower_shell_layout > west_tower_shell_south row_8
 1 7 440.0 -224.0 80.0 -1 0 0 0 1 0 0 0 -1 3001.dat
@@ -2789,26 +2789,26 @@
 1 7 780.0 -224.0 380.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_shell_layout > nave_shell_west row_8
 1 7 420.0 -224.0 420.0 0 0 1 0 1 0 -1 0 0 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_0
-1 320 240.0 -224.0 440.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_0
+1 320 240.0 -224.0 430.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_0
+1 320 320.0 -224.0 430.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_0
+1 320 380.0 -224.0 430.0 1 0 0 0 1 0 0 0 1 3039.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_0
+1 320 840.0 -224.0 430.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_0
+1 320 920.0 -224.0 430.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_0
+1 320 980.0 -224.0 430.0 1 0 0 0 1 0 0 0 1 3039.dat
 0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof west_gable step_0
 1 320 220.0 -224.0 460.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_0
-1 320 320.0 -224.0 440.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_0
-1 320 380.0 -224.0 440.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof east_gable step_0
 1 320 380.0 -224.0 460.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_shell_layout > nave_shell_east row_8
 1 7 780.0 -224.0 460.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_0
-1 320 840.0 -224.0 440.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof west_gable step_0
 1 320 820.0 -224.0 460.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_0
-1 320 920.0 -224.0 440.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_0
-1 320 980.0 -224.0 440.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof east_gable step_0
 1 320 980.0 -224.0 460.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_shell_layout > nave_shell_west row_8
@@ -2825,28 +2825,28 @@
 1 320 980.0 -224.0 540.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_shell_layout > nave_shell_west row_8
 1 7 420.0 -224.0 580.0 0 0 1 0 1 0 -1 0 0 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_0
-1 320 240.0 -224.0 600.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof west_gable step_0
 1 320 220.0 -224.0 600.0 0 0 -1 0 1 0 1 0 0 3003.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_0
-1 320 320.0 -224.0 600.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_0
-1 320 380.0 -224.0 600.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof east_gable step_0
 1 320 380.0 -224.0 600.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_shell_layout > nave_shell_east row_8
 1 7 780.0 -224.0 620.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_0
-1 320 840.0 -224.0 600.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof west_gable step_0
 1 320 820.0 -224.0 600.0 0 0 -1 0 1 0 1 0 0 3003.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_0
-1 320 920.0 -224.0 600.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_0
-1 320 980.0 -224.0 600.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof east_gable step_0
 1 320 980.0 -224.0 600.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_0
+1 320 240.0 -224.0 610.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_0
+1 320 320.0 -224.0 610.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_0
+1 320 380.0 -224.0 610.0 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_0
+1 320 840.0 -224.0 610.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_0
+1 320 920.0 -224.0 610.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_0
+1 320 980.0 -224.0 610.0 -1 0 0 0 1 0 0 0 -1 3039.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_shell_layout > nave_shell_west row_8
 1 7 420.0 -224.0 660.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_shell_layout > nave_shell_east row_8
@@ -2866,7 +2866,7 @@
 0 // site > cathedral > nave_shell+nave_roof > nave_shell_layout > nave_shell_north row_8
 1 7 760.0 -224.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_0
-1 320 460.0 -224.0 860.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 450.0 -224.0 860.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_0
 1 320 480.0 -224.0 840.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_0
@@ -2876,13 +2876,13 @@
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_0
 1 320 720.0 -224.0 840.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_0
-1 320 740.0 -224.0 860.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 750.0 -224.0 860.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_0
-1 320 460.0 -224.0 940.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 450.0 -224.0 940.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_0
-1 320 740.0 -224.0 940.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 750.0 -224.0 940.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_0
-1 320 460.0 -224.0 1000.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 450.0 -224.0 1000.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_0
 1 320 480.0 -224.0 1000.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_0
@@ -2892,27 +2892,27 @@
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_0
 1 320 720.0 -224.0 1000.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_0
-1 320 740.0 -224.0 1000.0 0 0 -1 0 1 0 1 0 0 3003.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_1
-1 320 520.0 -224.0 1060.0 1 0 0 0 1 0 0 0 1 3001.dat
+1 320 750.0 -224.0 1000.0 0 0 -1 0 1 0 1 0 0 3039.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_1
+1 320 520.0 -224.0 1050.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_1
+1 320 600.0 -224.0 1050.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_1
+1 320 680.0 -224.0 1050.0 1 0 0 0 1 0 0 0 1 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof west_gable step_1
 1 320 500.0 -224.0 1080.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_1
-1 320 600.0 -224.0 1060.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_1
-1 320 680.0 -224.0 1060.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof east_gable step_1
 1 320 700.0 -224.0 1080.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_1
-1 320 520.0 -224.0 1140.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof west_gable step_1
 1 320 500.0 -224.0 1140.0 0 0 -1 0 1 0 1 0 0 3003.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_1
-1 320 600.0 -224.0 1140.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_1
-1 320 680.0 -224.0 1140.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof east_gable step_1
 1 320 700.0 -224.0 1140.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_1
+1 320 520.0 -224.0 1150.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_1
+1 320 600.0 -224.0 1150.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_1
+1 320 680.0 -224.0 1150.0 -1 0 0 0 1 0 0 0 -1 3037.dat
 
 0 // site > cathedral > westwork > west_tower_shell+west_tower_cap > west_tower_shell_layout > west_tower_shell_south row_9
 1 7 420.0 -248.0 80.0 -1 0 0 0 1 0 0 0 -1 3003.dat
@@ -3010,24 +3010,24 @@
 1 7 420.0 -248.0 460.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_shell_layout > nave_shell_east ledge
 1 72 800.0 -232.0 460.0 0 0 -1 0 1 0 1 0 0 3020.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_1
-1 320 240.0 -248.0 460.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_1
+1 320 240.0 -248.0 450.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_1
+1 320 320.0 -248.0 450.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_1
+1 320 380.0 -248.0 450.0 1 0 0 0 1 0 0 0 1 3039.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_1
+1 320 840.0 -248.0 450.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_1
+1 320 920.0 -248.0 450.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_1
+1 320 980.0 -248.0 450.0 1 0 0 0 1 0 0 0 1 3039.dat
 0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof west_gable step_1
 1 320 220.0 -248.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_1
-1 320 320.0 -248.0 460.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_1
-1 320 380.0 -248.0 460.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof east_gable step_1
 1 320 380.0 -248.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_1
-1 320 840.0 -248.0 460.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof west_gable step_1
 1 320 820.0 -248.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_1
-1 320 920.0 -248.0 460.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_1
-1 320 980.0 -248.0 460.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof east_gable step_1
 1 320 980.0 -248.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_shell_layout > nave_shell_west ledge
@@ -3050,18 +3050,18 @@
 1 72 400.0 -232.0 580.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_shell_layout > nave_shell_east row_9
 1 7 780.0 -248.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_1
-1 320 240.0 -248.0 580.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_1
-1 320 320.0 -248.0 580.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_1
-1 320 380.0 -248.0 580.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_1
-1 320 840.0 -248.0 580.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_1
-1 320 920.0 -248.0 580.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_1
-1 320 980.0 -248.0 580.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_1
+1 320 240.0 -248.0 590.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_1
+1 320 320.0 -248.0 590.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_1
+1 320 380.0 -248.0 590.0 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_1
+1 320 840.0 -248.0 590.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_1
+1 320 920.0 -248.0 590.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_1
+1 320 980.0 -248.0 590.0 -1 0 0 0 1 0 0 0 -1 3039.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_shell_layout > nave_shell_west row_9
 1 7 420.0 -248.0 620.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_shell_layout > nave_shell_east ledge
@@ -3107,49 +3107,49 @@
 0 // site > cathedral > nave_shell+nave_roof > nave_shell_layout > nave_shell_north ledge
 1 72 760.0 -232.0 820.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_1
-1 320 480.0 -248.0 860.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 470.0 -248.0 860.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_1
 1 320 500.0 -248.0 840.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_1
 1 320 580.0 -248.0 840.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_1
 1 320 660.0 -248.0 840.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_1
-1 320 720.0 -248.0 860.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_1
 1 320 720.0 -248.0 840.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_1
-1 320 480.0 -248.0 940.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_1
-1 320 720.0 -248.0 940.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 730.0 -248.0 860.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_1
-1 320 480.0 -248.0 1000.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 470.0 -248.0 940.0 0 0 1 0 1 0 -1 0 0 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_1
+1 320 730.0 -248.0 940.0 0 0 -1 0 1 0 1 0 0 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_1
+1 320 470.0 -248.0 1000.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_1
 1 320 500.0 -248.0 1000.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_1
 1 320 580.0 -248.0 1000.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_1
 1 320 660.0 -248.0 1000.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_1
-1 320 720.0 -248.0 1000.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_1
 1 320 720.0 -248.0 1000.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_2
-1 320 520.0 -248.0 1080.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_1
+1 320 730.0 -248.0 1000.0 0 0 -1 0 1 0 1 0 0 3039.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_2
+1 320 520.0 -248.0 1070.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_2
+1 320 600.0 -248.0 1070.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_2
+1 320 680.0 -248.0 1070.0 1 0 0 0 1 0 0 0 1 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof west_gable step_2
 1 320 500.0 -248.0 1100.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_2
-1 320 600.0 -248.0 1080.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_2
-1 320 680.0 -248.0 1080.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof east_gable step_2
 1 320 700.0 -248.0 1100.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_2
-1 320 520.0 -248.0 1120.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_2
-1 320 600.0 -248.0 1120.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_2
-1 320 680.0 -248.0 1120.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_2
+1 320 520.0 -248.0 1130.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_2
+1 320 600.0 -248.0 1130.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_2
+1 320 680.0 -248.0 1130.0 -1 0 0 0 1 0 0 0 -1 3037.dat
 
 0 // site > cathedral > westwork > west_tower_shell+west_tower_cap > west_tower_shell_layout > west_tower_shell_south row_10
 1 7 420.0 -272.0 80.0 -1 0 0 0 1 0 0 0 -1 3003.dat
@@ -3200,7 +3200,7 @@
 0 // site > cathedral > westwork > east_tower_shell+east_tower_cap > east_tower_shell_layout > east_tower_shell_east row_10
 1 7 780.0 -272.0 200.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_0
-1 320 420.0 -272.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 410.0 -272.0 260.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_0
 1 320 440.0 -272.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_0
@@ -3212,73 +3212,73 @@
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_0
 1 320 760.0 -272.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_0
-1 320 780.0 -272.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 790.0 -272.0 260.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_0
-1 320 420.0 -272.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 410.0 -272.0 340.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_0
-1 320 780.0 -272.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 790.0 -272.0 340.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_0
-1 320 420.0 -272.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 410.0 -272.0 420.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_0
-1 320 780.0 -272.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_2
-1 320 240.0 -272.0 480.0 1 0 0 0 1 0 0 0 1 3001.dat
+1 320 790.0 -272.0 420.0 0 0 -1 0 1 0 1 0 0 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_2
+1 320 240.0 -272.0 470.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_2
+1 320 320.0 -272.0 470.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_2
+1 320 380.0 -272.0 470.0 1 0 0 0 1 0 0 0 1 3039.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_2
+1 320 840.0 -272.0 470.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_2
+1 320 920.0 -272.0 470.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_2
+1 320 980.0 -272.0 470.0 1 0 0 0 1 0 0 0 1 3039.dat
 0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof west_gable step_2
 1 320 220.0 -272.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_2
-1 320 320.0 -272.0 480.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_2
-1 320 380.0 -272.0 480.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof east_gable step_2
 1 320 380.0 -272.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_0
-1 320 420.0 -272.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 410.0 -272.0 500.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_0
-1 320 780.0 -272.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_2
-1 320 840.0 -272.0 480.0 1 0 0 0 1 0 0 0 1 3001.dat
+1 320 790.0 -272.0 500.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof west_gable step_2
 1 320 820.0 -272.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_2
-1 320 920.0 -272.0 480.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_2
-1 320 980.0 -272.0 480.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof east_gable step_2
 1 320 980.0 -272.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_2
-1 320 240.0 -272.0 560.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof west_gable step_2
 1 320 220.0 -272.0 560.0 0 0 -1 0 1 0 1 0 0 3003.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_2
-1 320 320.0 -272.0 560.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_2
-1 320 380.0 -272.0 560.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof east_gable step_2
 1 320 380.0 -272.0 560.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_0
-1 320 420.0 -272.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 410.0 -272.0 580.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_0
-1 320 780.0 -272.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_2
-1 320 840.0 -272.0 560.0 1 0 0 0 1 0 0 0 1 3001.dat
+1 320 790.0 -272.0 580.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof west_gable step_2
 1 320 820.0 -272.0 560.0 0 0 -1 0 1 0 1 0 0 3003.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_2
-1 320 920.0 -272.0 560.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_2
-1 320 980.0 -272.0 560.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof east_gable step_2
 1 320 980.0 -272.0 560.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_2
+1 320 240.0 -272.0 570.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_2
+1 320 320.0 -272.0 570.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_2
+1 320 380.0 -272.0 570.0 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_2
+1 320 840.0 -272.0 570.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_2
+1 320 920.0 -272.0 570.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_2
+1 320 980.0 -272.0 570.0 -1 0 0 0 1 0 0 0 -1 3039.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_0
-1 320 420.0 -272.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 410.0 -272.0 660.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_0
-1 320 780.0 -272.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 790.0 -272.0 660.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_0
-1 320 420.0 -272.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 410.0 -272.0 740.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_0
-1 320 780.0 -272.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 790.0 -272.0 740.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_0
-1 320 420.0 -272.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 410.0 -272.0 800.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_0
 1 320 440.0 -272.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_0
@@ -3290,9 +3290,9 @@
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_0
 1 320 760.0 -272.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_0
-1 320 780.0 -272.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 790.0 -272.0 800.0 0 0 -1 0 1 0 1 0 0 3039.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_2
-1 320 500.0 -272.0 860.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 490.0 -272.0 860.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_2
 1 320 520.0 -272.0 840.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_2
@@ -3300,13 +3300,13 @@
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_2
 1 320 680.0 -272.0 840.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_2
-1 320 700.0 -272.0 860.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 710.0 -272.0 860.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_2
-1 320 500.0 -272.0 940.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 490.0 -272.0 940.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_2
-1 320 700.0 -272.0 940.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 710.0 -272.0 940.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_2
-1 320 500.0 -272.0 1000.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 490.0 -272.0 1000.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_2
 1 320 520.0 -272.0 1000.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_2
@@ -3314,23 +3314,23 @@
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_2
 1 320 680.0 -272.0 1000.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_2
-1 320 700.0 -272.0 1000.0 0 0 -1 0 1 0 1 0 0 3003.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_3
-1 320 520.0 -272.0 1100.0 1 0 0 0 1 0 0 0 1 3001.dat
+1 320 710.0 -272.0 1000.0 0 0 -1 0 1 0 1 0 0 3039.dat
 0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_3
-1 320 520.0 -272.0 1100.0 1 0 0 0 1 0 0 0 1 3001.dat
+1 320 520.0 -272.0 1090.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_3
+1 320 600.0 -272.0 1090.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_3
+1 320 680.0 -272.0 1090.0 1 0 0 0 1 0 0 0 1 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof west_gable step_3
 1 320 500.0 -272.0 1100.0 0 0 -1 0 1 0 1 0 0 3003.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_3
-1 320 600.0 -272.0 1100.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_3
-1 320 600.0 -272.0 1100.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_3
-1 320 680.0 -272.0 1100.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof north_slope step_3
-1 320 680.0 -272.0 1100.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof east_gable step_3
 1 320 700.0 -272.0 1100.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_3
+1 320 520.0 -272.0 1110.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_3
+1 320 600.0 -272.0 1110.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > apse_shell+apse_roof > apse_roof south_slope step_3
+1 320 680.0 -272.0 1110.0 -1 0 0 0 1 0 0 0 -1 3037.dat
 
 0 // site > cathedral > westwork > west_tower_shell+west_tower_cap > west_tower_shell_layout > west_tower_shell_south row_11
 1 7 420.0 -296.0 80.0 -1 0 0 0 1 0 0 0 -1 3003.dat
@@ -3365,7 +3365,7 @@
 0 // site > cathedral > westwork > east_tower_shell+east_tower_cap > east_tower_shell_layout > east_tower_shell_east row_11
 1 7 780.0 -296.0 200.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_1
-1 320 440.0 -296.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 430.0 -296.0 260.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_1
 1 320 460.0 -296.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_1
@@ -3374,68 +3374,68 @@
 1 320 620.0 -296.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_1
 1 320 700.0 -296.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_1
-1 320 760.0 -296.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_1
 1 320 760.0 -296.0 240.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_1
-1 320 440.0 -296.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_1
-1 320 760.0 -296.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 770.0 -296.0 260.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_1
-1 320 440.0 -296.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 430.0 -296.0 340.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_1
-1 320 760.0 -296.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 770.0 -296.0 340.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_1
-1 320 440.0 -296.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 430.0 -296.0 420.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_1
-1 320 760.0 -296.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_3
-1 320 240.0 -296.0 500.0 1 0 0 0 1 0 0 0 1 3001.dat
+1 320 770.0 -296.0 420.0 0 0 -1 0 1 0 1 0 0 3037.dat
+0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_1
+1 320 430.0 -296.0 500.0 0 0 1 0 1 0 -1 0 0 3037.dat
+0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_1
+1 320 770.0 -296.0 500.0 0 0 -1 0 1 0 1 0 0 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_3
+1 320 240.0 -296.0 490.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_3
+1 320 320.0 -296.0 490.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_3
+1 320 380.0 -296.0 490.0 1 0 0 0 1 0 0 0 1 3039.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_3
+1 320 840.0 -296.0 490.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_3
+1 320 920.0 -296.0 490.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_3
+1 320 980.0 -296.0 490.0 1 0 0 0 1 0 0 0 1 3039.dat
 0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof west_gable step_3
 1 320 220.0 -296.0 520.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_3
-1 320 320.0 -296.0 500.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_3
-1 320 380.0 -296.0 500.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof east_gable step_3
 1 320 380.0 -296.0 520.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_3
-1 320 840.0 -296.0 500.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof west_gable step_3
 1 320 820.0 -296.0 520.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_3
-1 320 920.0 -296.0 500.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_3
-1 320 980.0 -296.0 500.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof east_gable step_3
 1 320 980.0 -296.0 520.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_3
-1 320 240.0 -296.0 540.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_3
-1 320 320.0 -296.0 540.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_3
-1 320 380.0 -296.0 540.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_3
-1 320 840.0 -296.0 540.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_3
-1 320 920.0 -296.0 540.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_3
-1 320 980.0 -296.0 540.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_3
+1 320 240.0 -296.0 550.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_3
+1 320 320.0 -296.0 550.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_3
+1 320 380.0 -296.0 550.0 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_3
+1 320 840.0 -296.0 550.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_3
+1 320 920.0 -296.0 550.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_3
+1 320 980.0 -296.0 550.0 -1 0 0 0 1 0 0 0 -1 3039.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_1
-1 320 440.0 -296.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 430.0 -296.0 580.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_1
-1 320 760.0 -296.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 770.0 -296.0 580.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_1
-1 320 440.0 -296.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 430.0 -296.0 660.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_1
-1 320 760.0 -296.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 770.0 -296.0 660.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_1
-1 320 440.0 -296.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 430.0 -296.0 740.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_1
-1 320 760.0 -296.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 770.0 -296.0 740.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_1
-1 320 440.0 -296.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 430.0 -296.0 800.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_1
 1 320 460.0 -296.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_1
@@ -3444,34 +3444,34 @@
 1 320 620.0 -296.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_1
 1 320 700.0 -296.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_1
-1 320 760.0 -296.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_1
 1 320 760.0 -296.0 800.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_1
+1 320 770.0 -296.0 800.0 0 0 -1 0 1 0 1 0 0 3039.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_3
-1 320 520.0 -296.0 860.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 510.0 -296.0 860.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_3
 1 320 540.0 -296.0 840.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_3
 1 320 620.0 -296.0 840.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_3
-1 320 680.0 -296.0 860.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_3
 1 320 680.0 -296.0 840.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_3
-1 320 520.0 -296.0 940.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_3
-1 320 680.0 -296.0 940.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 690.0 -296.0 860.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_3
-1 320 520.0 -296.0 1000.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 510.0 -296.0 940.0 0 0 1 0 1 0 -1 0 0 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_3
+1 320 690.0 -296.0 940.0 0 0 -1 0 1 0 1 0 0 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_3
+1 320 510.0 -296.0 1000.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_3
 1 320 540.0 -296.0 1000.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_3
 1 320 620.0 -296.0 1000.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_3
-1 320 680.0 -296.0 1000.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_3
 1 320 680.0 -296.0 1000.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_3
+1 320 690.0 -296.0 1000.0 0 0 -1 0 1 0 1 0 0 3039.dat
 
 0 // site > cathedral > westwork > west_tower_shell+west_tower_cap > west_tower_shell_layout > west_tower_shell_south row_12
 1 7 420.0 -320.0 80.0 -1 0 0 0 1 0 0 0 -1 3003.dat
@@ -3506,7 +3506,7 @@
 0 // site > cathedral > westwork > east_tower_shell+east_tower_cap > east_tower_shell_layout > east_tower_shell_east row_12
 1 7 780.0 -320.0 200.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_2
-1 320 460.0 -320.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 450.0 -320.0 260.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_2
 1 320 480.0 -320.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_2
@@ -3516,65 +3516,65 @@
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_2
 1 320 720.0 -320.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_2
-1 320 740.0 -320.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 750.0 -320.0 260.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_2
-1 320 460.0 -320.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 450.0 -320.0 340.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_2
-1 320 740.0 -320.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 750.0 -320.0 340.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_2
-1 320 460.0 -320.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 450.0 -320.0 420.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_2
-1 320 740.0 -320.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 750.0 -320.0 420.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_2
-1 320 460.0 -320.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 450.0 -320.0 500.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_2
-1 320 740.0 -320.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_4
-1 320 240.0 -320.0 520.0 1 0 0 0 1 0 0 0 1 3001.dat
+1 320 750.0 -320.0 500.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_4
-1 320 240.0 -320.0 520.0 1 0 0 0 1 0 0 0 1 3001.dat
+1 320 240.0 -320.0 510.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_4
+1 320 320.0 -320.0 510.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_4
+1 320 380.0 -320.0 510.0 1 0 0 0 1 0 0 0 1 3039.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_4
+1 320 840.0 -320.0 510.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_4
+1 320 920.0 -320.0 510.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_4
+1 320 980.0 -320.0 510.0 1 0 0 0 1 0 0 0 1 3039.dat
 0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof west_gable step_4
 1 320 220.0 -320.0 520.0 0 0 -1 0 1 0 1 0 0 3003.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_4
-1 320 320.0 -320.0 520.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_4
-1 320 320.0 -320.0 520.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_4
-1 320 380.0 -320.0 520.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof north_slope step_4
-1 320 380.0 -320.0 520.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof east_gable step_4
 1 320 380.0 -320.0 520.0 0 0 -1 0 1 0 1 0 0 3003.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_4
-1 320 840.0 -320.0 520.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_4
-1 320 840.0 -320.0 520.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof west_gable step_4
 1 320 820.0 -320.0 520.0 0 0 -1 0 1 0 1 0 0 3003.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_4
-1 320 920.0 -320.0 520.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_4
-1 320 920.0 -320.0 520.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_4
-1 320 980.0 -320.0 520.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof north_slope step_4
-1 320 980.0 -320.0 520.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof east_gable step_4
 1 320 980.0 -320.0 520.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_4
+1 320 240.0 -320.0 530.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_4
+1 320 320.0 -320.0 530.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > west_transept_shell+west_transept_roof > west_transept_roof south_slope step_4
+1 320 380.0 -320.0 530.0 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_4
+1 320 840.0 -320.0 530.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_4
+1 320 920.0 -320.0 530.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > transepts > east_transept_shell+east_transept_roof > east_transept_roof south_slope step_4
+1 320 980.0 -320.0 530.0 -1 0 0 0 1 0 0 0 -1 3039.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_2
-1 320 460.0 -320.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 450.0 -320.0 580.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_2
-1 320 740.0 -320.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 750.0 -320.0 580.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_2
-1 320 460.0 -320.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 450.0 -320.0 660.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_2
-1 320 740.0 -320.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 750.0 -320.0 660.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_2
-1 320 460.0 -320.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 450.0 -320.0 740.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_2
-1 320 740.0 -320.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 750.0 -320.0 740.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_2
-1 320 460.0 -320.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 450.0 -320.0 800.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_2
 1 320 480.0 -320.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_2
@@ -3584,27 +3584,27 @@
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_2
 1 320 720.0 -320.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_2
-1 320 740.0 -320.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 750.0 -320.0 800.0 0 0 -1 0 1 0 1 0 0 3039.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_4
-1 320 540.0 -320.0 860.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 530.0 -320.0 860.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_4
 1 320 560.0 -320.0 840.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_4
 1 320 640.0 -320.0 840.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_4
-1 320 660.0 -320.0 860.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 670.0 -320.0 860.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_4
-1 320 540.0 -320.0 940.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 530.0 -320.0 940.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_4
-1 320 660.0 -320.0 940.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 670.0 -320.0 940.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_4
-1 320 540.0 -320.0 1000.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 530.0 -320.0 1000.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_4
 1 320 560.0 -320.0 1000.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_4
 1 320 640.0 -320.0 1000.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_4
-1 320 660.0 -320.0 1000.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 670.0 -320.0 1000.0 0 0 -1 0 1 0 1 0 0 3039.dat
 
 0 // site > cathedral > westwork > west_tower_shell+west_tower_cap > west_tower_shell_layout > west_tower_shell_south ledge
 1 28 440.0 -328.0 60.0 -1 0 0 0 1 0 0 0 -1 3020.dat
@@ -3679,73 +3679,73 @@
 0 // site > cathedral > westwork > east_tower_shell+east_tower_cap > east_tower_shell_layout > east_tower_shell_north ledge
 1 28 760.0 -328.0 220.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_3
-1 320 480.0 -344.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 470.0 -344.0 260.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_3
 1 320 500.0 -344.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_3
 1 320 580.0 -344.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_3
 1 320 660.0 -344.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_3
-1 320 720.0 -344.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_3
 1 320 720.0 -344.0 240.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_3
-1 320 480.0 -344.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_3
-1 320 720.0 -344.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 730.0 -344.0 260.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_3
-1 320 480.0 -344.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 470.0 -344.0 340.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_3
-1 320 720.0 -344.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 730.0 -344.0 340.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_3
-1 320 480.0 -344.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 470.0 -344.0 420.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_3
-1 320 720.0 -344.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 730.0 -344.0 420.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_3
-1 320 480.0 -344.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 470.0 -344.0 500.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_3
-1 320 720.0 -344.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 730.0 -344.0 500.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_3
-1 320 480.0 -344.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 470.0 -344.0 580.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_3
-1 320 720.0 -344.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 730.0 -344.0 580.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_3
-1 320 480.0 -344.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 470.0 -344.0 660.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_3
-1 320 720.0 -344.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 730.0 -344.0 660.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_3
-1 320 480.0 -344.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 470.0 -344.0 740.0 0 0 1 0 1 0 -1 0 0 3037.dat
+0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_3
+1 320 730.0 -344.0 740.0 0 0 -1 0 1 0 1 0 0 3037.dat
+0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_3
+1 320 470.0 -344.0 800.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_3
 1 320 500.0 -344.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_3
 1 320 580.0 -344.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_3
 1 320 660.0 -344.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_3
-1 320 720.0 -344.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_3
 1 320 720.0 -344.0 800.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_3
+1 320 730.0 -344.0 800.0 0 0 -1 0 1 0 1 0 0 3039.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_5
-1 320 560.0 -344.0 860.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 550.0 -344.0 860.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_5
 1 320 580.0 -344.0 840.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_5
-1 320 640.0 -344.0 860.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_5
 1 320 640.0 -344.0 840.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_5
-1 320 560.0 -344.0 940.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_5
-1 320 640.0 -344.0 940.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 650.0 -344.0 860.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_5
-1 320 560.0 -344.0 1000.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 550.0 -344.0 940.0 0 0 1 0 1 0 -1 0 0 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_5
+1 320 650.0 -344.0 940.0 0 0 -1 0 1 0 1 0 0 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_5
+1 320 550.0 -344.0 1000.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_5
 1 320 580.0 -344.0 1000.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_5
-1 320 640.0 -344.0 1000.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_5
 1 320 640.0 -344.0 1000.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_5
+1 320 650.0 -344.0 1000.0 0 0 -1 0 1 0 1 0 0 3039.dat
 
 0 // site > cathedral > westwork > west_tower_shell+west_tower_cap > west_tower_shell_layout > west_tower_shell_south row_14
 1 7 440.0 -368.0 80.0 -1 0 0 0 1 0 0 0 -1 3001.dat
@@ -3780,7 +3780,7 @@
 0 // site > cathedral > westwork > east_tower_shell+east_tower_cap > east_tower_shell_layout > east_tower_shell_north row_14
 1 7 760.0 -368.0 200.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_4
-1 320 500.0 -368.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 490.0 -368.0 260.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_4
 1 320 520.0 -368.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_4
@@ -3788,33 +3788,33 @@
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_4
 1 320 680.0 -368.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_4
-1 320 700.0 -368.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 710.0 -368.0 260.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_4
-1 320 500.0 -368.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 490.0 -368.0 340.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_4
-1 320 700.0 -368.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 710.0 -368.0 340.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_4
-1 320 500.0 -368.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 490.0 -368.0 420.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_4
-1 320 700.0 -368.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 710.0 -368.0 420.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_4
-1 320 500.0 -368.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 490.0 -368.0 500.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_4
-1 320 700.0 -368.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 710.0 -368.0 500.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_4
-1 320 500.0 -368.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 490.0 -368.0 580.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_4
-1 320 700.0 -368.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 710.0 -368.0 580.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_4
-1 320 500.0 -368.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 490.0 -368.0 660.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_4
-1 320 700.0 -368.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 710.0 -368.0 660.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_4
-1 320 500.0 -368.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 490.0 -368.0 740.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_4
-1 320 700.0 -368.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 710.0 -368.0 740.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_4
-1 320 500.0 -368.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 490.0 -368.0 800.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_4
 1 320 520.0 -368.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_4
@@ -3822,23 +3822,23 @@
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_4
 1 320 680.0 -368.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_4
-1 320 700.0 -368.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 710.0 -368.0 800.0 0 0 -1 0 1 0 1 0 0 3039.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_6
-1 320 580.0 -368.0 860.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 570.0 -368.0 860.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_6
 1 320 600.0 -368.0 840.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_6
-1 320 620.0 -368.0 860.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 630.0 -368.0 860.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_6
-1 320 580.0 -368.0 940.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 570.0 -368.0 940.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_6
-1 320 620.0 -368.0 940.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 630.0 -368.0 940.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_6
-1 320 580.0 -368.0 1000.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 570.0 -368.0 1000.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_6
 1 320 600.0 -368.0 1000.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_6
-1 320 620.0 -368.0 1000.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 630.0 -368.0 1000.0 0 0 -1 0 1 0 1 0 0 3039.dat
 
 0 // site > cathedral > westwork > west_tower_shell+west_tower_cap > west_tower_cap
 1 72 440.0 -376.0 80.0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -3873,65 +3873,65 @@
 0 // site > cathedral > westwork > east_tower_shell+east_tower_cap > east_tower_cap
 1 72 770.0 -376.0 200.0 1 0 0 0 1 0 0 0 1 3021.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_5
-1 320 520.0 -392.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 510.0 -392.0 260.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_5
 1 320 540.0 -392.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_5
 1 320 620.0 -392.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_5
-1 320 680.0 -392.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_5
 1 320 680.0 -392.0 240.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_5
-1 320 520.0 -392.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_5
-1 320 680.0 -392.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 690.0 -392.0 260.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_5
-1 320 520.0 -392.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 510.0 -392.0 340.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_5
-1 320 680.0 -392.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 690.0 -392.0 340.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_5
-1 320 520.0 -392.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 510.0 -392.0 420.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_5
-1 320 680.0 -392.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 690.0 -392.0 420.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_5
-1 320 520.0 -392.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 510.0 -392.0 500.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_5
-1 320 680.0 -392.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 690.0 -392.0 500.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_5
-1 320 520.0 -392.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 510.0 -392.0 580.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_5
-1 320 680.0 -392.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 690.0 -392.0 580.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_5
-1 320 520.0 -392.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 510.0 -392.0 660.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_5
-1 320 680.0 -392.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 690.0 -392.0 660.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_5
-1 320 520.0 -392.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 510.0 -392.0 740.0 0 0 1 0 1 0 -1 0 0 3037.dat
+0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_5
+1 320 690.0 -392.0 740.0 0 0 -1 0 1 0 1 0 0 3037.dat
+0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_5
+1 320 510.0 -392.0 800.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_5
 1 320 540.0 -392.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_5
 1 320 620.0 -392.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_5
-1 320 680.0 -392.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_5
 1 320 680.0 -392.0 800.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_5
+1 320 690.0 -392.0 800.0 0 0 -1 0 1 0 1 0 0 3039.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_7
-1 320 600.0 -392.0 860.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_7
-1 320 600.0 -392.0 860.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 590.0 -392.0 860.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof south_gable step_7
 1 320 600.0 -392.0 840.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_7
-1 320 600.0 -392.0 940.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_7
-1 320 600.0 -392.0 940.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 610.0 -392.0 860.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_7
-1 320 600.0 -392.0 1000.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 590.0 -392.0 940.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_7
-1 320 600.0 -392.0 1000.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 610.0 -392.0 940.0 0 0 -1 0 1 0 1 0 0 3037.dat
+0 // site > cathedral > choir_shell+choir_roof > choir_roof west_slope step_7
+1 320 590.0 -392.0 1000.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > choir_shell+choir_roof > choir_roof north_gable step_7
 1 320 600.0 -392.0 1000.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site > cathedral > choir_shell+choir_roof > choir_roof east_slope step_7
+1 320 610.0 -392.0 1000.0 0 0 -1 0 1 0 1 0 0 3039.dat
 
 0 // site > cathedral > westwork > west_tower_shell+west_tower_cap > west_sw_pinnacle row_0
 1 72 410.0 -400.0 70.0 1 0 0 0 1 0 0 0 1 3005.dat
@@ -3967,45 +3967,45 @@
 1 72 790.0 -400.0 210.0 1 0 0 0 1 0 0 0 1 3005.dat
 
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_6
-1 320 540.0 -416.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 530.0 -416.0 260.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_6
 1 320 560.0 -416.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_6
 1 320 640.0 -416.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_6
-1 320 660.0 -416.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 670.0 -416.0 260.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_6
-1 320 540.0 -416.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 530.0 -416.0 340.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_6
-1 320 660.0 -416.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 670.0 -416.0 340.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_6
-1 320 540.0 -416.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 530.0 -416.0 420.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_6
-1 320 660.0 -416.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 670.0 -416.0 420.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_6
-1 320 540.0 -416.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 530.0 -416.0 500.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_6
-1 320 660.0 -416.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 670.0 -416.0 500.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_6
-1 320 540.0 -416.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 530.0 -416.0 580.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_6
-1 320 660.0 -416.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 670.0 -416.0 580.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_6
-1 320 540.0 -416.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 530.0 -416.0 660.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_6
-1 320 660.0 -416.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 670.0 -416.0 660.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_6
-1 320 540.0 -416.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 530.0 -416.0 740.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_6
-1 320 660.0 -416.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 670.0 -416.0 740.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_6
-1 320 540.0 -416.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 530.0 -416.0 800.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_6
 1 320 560.0 -416.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_6
 1 320 640.0 -416.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_6
-1 320 660.0 -416.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 670.0 -416.0 800.0 0 0 -1 0 1 0 1 0 0 3039.dat
 
 0 // site > cathedral > westwork > west_tower_shell+west_tower_cap > west_sw_pinnacle row_1
 1 72 410.0 -424.0 70.0 1 0 0 0 1 0 0 0 1 3005.dat
@@ -4057,119 +4057,119 @@
 1 72 790.0 -424.0 210.0 1 0 0 0 1 0 0 0 1 3005.dat
 
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_7
-1 320 560.0 -440.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 550.0 -440.0 260.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_7
 1 320 580.0 -440.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_7
-1 320 640.0 -440.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_7
 1 320 640.0 -440.0 240.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_7
-1 320 560.0 -440.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_7
-1 320 640.0 -440.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 650.0 -440.0 260.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_7
-1 320 560.0 -440.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 550.0 -440.0 340.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_7
-1 320 640.0 -440.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 650.0 -440.0 340.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_7
-1 320 560.0 -440.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 550.0 -440.0 420.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_7
-1 320 640.0 -440.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 650.0 -440.0 420.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_7
-1 320 560.0 -440.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 550.0 -440.0 500.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_7
-1 320 640.0 -440.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 650.0 -440.0 500.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_7
-1 320 560.0 -440.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 550.0 -440.0 580.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_7
-1 320 640.0 -440.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 650.0 -440.0 580.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_7
-1 320 560.0 -440.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 550.0 -440.0 660.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_7
-1 320 640.0 -440.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 650.0 -440.0 660.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_7
-1 320 560.0 -440.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 550.0 -440.0 740.0 0 0 1 0 1 0 -1 0 0 3037.dat
+0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_7
+1 320 650.0 -440.0 740.0 0 0 -1 0 1 0 1 0 0 3037.dat
+0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_7
+1 320 550.0 -440.0 800.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_7
 1 320 580.0 -440.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_7
-1 320 640.0 -440.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_7
 1 320 640.0 -440.0 800.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_7
+1 320 650.0 -440.0 800.0 0 0 -1 0 1 0 1 0 0 3039.dat
 
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_8
-1 320 580.0 -464.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 570.0 -464.0 260.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_8
 1 320 600.0 -464.0 240.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_8
-1 320 620.0 -464.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 630.0 -464.0 260.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_8
-1 320 580.0 -464.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 570.0 -464.0 340.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_8
-1 320 620.0 -464.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 630.0 -464.0 340.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_8
-1 320 580.0 -464.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 570.0 -464.0 420.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_8
-1 320 620.0 -464.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 630.0 -464.0 420.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_8
-1 320 580.0 -464.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 570.0 -464.0 500.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_8
-1 320 620.0 -464.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 630.0 -464.0 500.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_8
-1 320 580.0 -464.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 570.0 -464.0 580.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_8
-1 320 620.0 -464.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 630.0 -464.0 580.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_8
-1 320 580.0 -464.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 570.0 -464.0 660.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_8
-1 320 620.0 -464.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 630.0 -464.0 660.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_8
-1 320 580.0 -464.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 570.0 -464.0 740.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_8
-1 320 620.0 -464.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 630.0 -464.0 740.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_8
-1 320 580.0 -464.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 570.0 -464.0 800.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_8
 1 320 600.0 -464.0 800.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_8
-1 320 620.0 -464.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 630.0 -464.0 800.0 0 0 -1 0 1 0 1 0 0 3039.dat
 
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_9
-1 320 600.0 -488.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_9
-1 320 600.0 -488.0 260.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 590.0 -488.0 260.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof south_gable step_9
 1 320 600.0 -488.0 240.0 1 0 0 0 1 0 0 0 1 3003.dat
-0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_9
-1 320 600.0 -488.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_9
-1 320 600.0 -488.0 340.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 610.0 -488.0 260.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_9
-1 320 600.0 -488.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 590.0 -488.0 340.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_9
-1 320 600.0 -488.0 420.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 610.0 -488.0 340.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_9
-1 320 600.0 -488.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 590.0 -488.0 420.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_9
-1 320 600.0 -488.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 610.0 -488.0 420.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_9
-1 320 600.0 -488.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 590.0 -488.0 500.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_9
-1 320 600.0 -488.0 580.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 610.0 -488.0 500.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_9
-1 320 600.0 -488.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 590.0 -488.0 580.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_9
-1 320 600.0 -488.0 660.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 610.0 -488.0 580.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_9
-1 320 600.0 -488.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 590.0 -488.0 660.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_9
-1 320 600.0 -488.0 740.0 0 0 -1 0 1 0 1 0 0 3001.dat
+1 320 610.0 -488.0 660.0 0 0 -1 0 1 0 1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_9
-1 320 600.0 -488.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 590.0 -488.0 740.0 0 0 1 0 1 0 -1 0 0 3037.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_9
-1 320 600.0 -488.0 800.0 0 0 -1 0 1 0 1 0 0 3003.dat
+1 320 610.0 -488.0 740.0 0 0 -1 0 1 0 1 0 0 3037.dat
+0 // site > cathedral > nave_shell+nave_roof > nave_roof west_slope step_9
+1 320 590.0 -488.0 800.0 0 0 1 0 1 0 -1 0 0 3039.dat
 0 // site > cathedral > nave_shell+nave_roof > nave_roof north_gable step_9
 1 320 600.0 -488.0 800.0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // site > cathedral > nave_shell+nave_roof > nave_roof east_slope step_9
+1 320 610.0 -488.0 800.0 0 0 -1 0 1 0 1 0 0 3039.dat
 
 0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_shell_layout > crossing_tower_shell_south row_0
 1 7 560.0 -512.0 460.0 -1 0 0 0 1 0 0 0 -1 3001.dat
@@ -4296,64 +4296,64 @@
 0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_shell_layout > crossing_tower_shell_north ledge
 1 28 640.0 -592.0 600.0 1 0 0 0 1 0 0 0 1 3020.dat
 
-0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof south_slope step_0
-1 320 560.0 -632.0 460.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof north_slope step_0
+1 320 560.0 -632.0 450.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof north_slope step_0
+1 320 640.0 -632.0 450.0 1 0 0 0 1 0 0 0 1 3037.dat
 0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof west_gable step_0
 1 320 540.0 -632.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof south_slope step_0
-1 320 640.0 -632.0 460.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof east_gable step_0
 1 320 660.0 -632.0 480.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof west_gable step_0
 1 320 540.0 -632.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof east_gable step_0
 1 320 660.0 -632.0 560.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof north_slope step_0
-1 320 560.0 -632.0 580.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof north_slope step_0
-1 320 640.0 -632.0 580.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof south_slope step_0
+1 320 560.0 -632.0 590.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof south_slope step_0
+1 320 640.0 -632.0 590.0 -1 0 0 0 1 0 0 0 -1 3037.dat
 
-0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof south_slope step_1
-1 320 560.0 -656.0 480.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof north_slope step_1
+1 320 560.0 -656.0 470.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof north_slope step_1
+1 320 640.0 -656.0 470.0 1 0 0 0 1 0 0 0 1 3037.dat
 0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof west_gable step_1
 1 320 540.0 -656.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof south_slope step_1
-1 320 640.0 -656.0 480.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof east_gable step_1
 1 320 660.0 -656.0 500.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof north_slope step_1
-1 320 560.0 -656.0 560.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof west_gable step_1
 1 320 540.0 -656.0 560.0 0 0 -1 0 1 0 1 0 0 3003.dat
-0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof north_slope step_1
-1 320 640.0 -656.0 560.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof east_gable step_1
 1 320 660.0 -656.0 560.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof south_slope step_1
+1 320 560.0 -656.0 570.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof south_slope step_1
+1 320 640.0 -656.0 570.0 -1 0 0 0 1 0 0 0 -1 3037.dat
 
-0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof south_slope step_2
-1 320 560.0 -680.0 500.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof north_slope step_2
+1 320 560.0 -680.0 490.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof north_slope step_2
+1 320 640.0 -680.0 490.0 1 0 0 0 1 0 0 0 1 3037.dat
 0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof west_gable step_2
 1 320 540.0 -680.0 520.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof south_slope step_2
-1 320 640.0 -680.0 500.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof east_gable step_2
 1 320 660.0 -680.0 520.0 0 0 -1 0 1 0 1 0 0 3001.dat
-0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof north_slope step_2
-1 320 560.0 -680.0 540.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof north_slope step_2
-1 320 640.0 -680.0 540.0 1 0 0 0 1 0 0 0 1 3001.dat
+0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof south_slope step_2
+1 320 560.0 -680.0 550.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof south_slope step_2
+1 320 640.0 -680.0 550.0 -1 0 0 0 1 0 0 0 -1 3037.dat
 
-0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof south_slope step_3
-1 320 560.0 -704.0 520.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof north_slope step_3
-1 320 560.0 -704.0 520.0 1 0 0 0 1 0 0 0 1 3001.dat
+1 320 560.0 -704.0 510.0 1 0 0 0 1 0 0 0 1 3037.dat
+0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof north_slope step_3
+1 320 640.0 -704.0 510.0 1 0 0 0 1 0 0 0 1 3037.dat
 0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof west_gable step_3
 1 320 540.0 -704.0 520.0 0 0 -1 0 1 0 1 0 0 3003.dat
-0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof south_slope step_3
-1 320 640.0 -704.0 520.0 1 0 0 0 1 0 0 0 1 3001.dat
-0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof north_slope step_3
-1 320 640.0 -704.0 520.0 1 0 0 0 1 0 0 0 1 3001.dat
 0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof east_gable step_3
 1 320 660.0 -704.0 520.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof south_slope step_3
+1 320 560.0 -704.0 530.0 -1 0 0 0 1 0 0 0 -1 3037.dat
+0 // site > cathedral > crossing_tower_shell+crossing_tower_roof > crossing_tower_roof south_slope step_3
+1 320 640.0 -704.0 530.0 -1 0 0 0 1 0 0 0 -1 3037.dat
 
 0 NOFILE
