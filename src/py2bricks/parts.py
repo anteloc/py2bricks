@@ -57,9 +57,16 @@ class PartType(Enum):
     # --- Doors ---
     DOOR_1X4X6 = "door_1x4x6"
 
-    # --- Slopes (45°, for future roof use) ---
+    # --- Slopes (45°, for roof use) ---
     SLOPE_2X2 = "slope_2x2"
     SLOPE_2X4 = "slope_2x4"
+
+    # --- Double slopes (ridge cap: two 45° slopes back-to-back) ---
+    DOUBLE_SLOPE_2X4 = "double_slope_2x4"
+    DOUBLE_SLOPE_2X3 = "double_slope_2x3"
+    DOUBLE_SLOPE_2X2 = "double_slope_2x2"
+    DOUBLE_SLOPE_2X1 = "double_slope_2x1"
+
 
 
 @dataclass(frozen=True)
@@ -115,11 +122,18 @@ PARTS: dict[str, Part] = {
     # 60596: Door frame 1x4x6. 80x148x20 LDU → 4w x ~6h(bricks) x 1d
     "door_1x4x6": Part("60596.dat", "Door Frame 1x4x6", width_studs=4, depth_studs=1, height_plates=18),
 
-    # Slopes (45°, for future roof use)
+    # Slopes (45°, for roof use)
     # 3039: Slope 45° 2x2. 40x28x40 LDU
-    "slope_2x2": Part("3039.dat",  "Slope 45 2x2",  width_studs=2, depth_studs=2, height_plates=3),
+    "slope_2x2": Part("3039.dat",   "Slope 45 2x2",         width_studs=2, depth_studs=2, height_plates=3),
     # 3037: Slope 45° 2x4. 80x28x40 LDU
-    "slope_2x4": Part("3037.dat",  "Slope 45 2x4",  width_studs=4, depth_studs=2, height_plates=3),
+    "slope_2x4": Part("3037.dat",   "Slope 45 2x4",         width_studs=4, depth_studs=2, height_plates=3),
+
+    # Double slopes (ridge cap: symmetric 45° peak, 2 studs deep total — 1 per side).
+    # Greedy tiling order: widest first (4→3→2→1).
+    "double_slope_2x4": Part("3041.dat",  "Double Slope 45 2x4", width_studs=4, depth_studs=2, height_plates=3),
+    "double_slope_2x3": Part("3042.dat",  "Double Slope 45 2x3", width_studs=3, depth_studs=2, height_plates=3),
+    "double_slope_2x2": Part("3043.dat",  "Double Slope 45 2x2", width_studs=2, depth_studs=2, height_plates=3),
+    "double_slope_2x1": Part("3044b.dat", "Double Slope 45 2x1", width_studs=1, depth_studs=2, height_plates=3),
 }
 
 
@@ -144,10 +158,19 @@ FILL_BRICKS_1X: list[Part] = [
 ]
 
 # Greedy fill order for slope tiling: widest first.
-# Used by GableRoof slope builders (each part is 2 studs deep in the slope direction).
+# Used by GableRoof._build_slopes for the regular (single-slope) rows.
 FILL_SLOPES: list[Part] = [
     PARTS["slope_2x4"],  # 4 studs wide along ridge
     PARTS["slope_2x2"],  # 2 studs wide along ridge
+]
+
+# Greedy fill order for the ridge cap row (double-slope pieces): widest first.
+# Used by GableRoof._build_slopes when even step_span leaves a 2-stud flat at the peak.
+FILL_RIDGE: list[Part] = [
+    PARTS["double_slope_2x4"],  # 4 studs wide along ridge
+    PARTS["double_slope_2x3"],  # 3 studs
+    PARTS["double_slope_2x2"],  # 2 studs
+    PARTS["double_slope_2x1"],  # 1 stud (fallback)
 ]
 
 # Greedy fill order for plate tiling (largest first).

@@ -40,7 +40,7 @@ The roof itself starts at y=0 with slope bricks directly.
 from __future__ import annotations
 
 from .coords import PLATES_PER_BRICK
-from .parts import Part, FILL_BRICKS, FILL_SLOPES, Color
+from .parts import Part, FILL_BRICKS, FILL_SLOPES, FILL_RIDGE, Color
 from .core import BuilderError, BrickPlacement
 from .wall import WALL_DEPTH_STUDS
 
@@ -154,7 +154,7 @@ class GableRoof:
         # slope_span: dimension perpendicular to the ridge.
         # num_steps: one slope row per 2-stud slope brick depth.
         slope_span = depth if ridge == "east_west" else width
-        self.num_steps = slope_span // 2
+        self.num_steps = slope_span // 2 
 
     @property
     def height_plates(self) -> int:
@@ -216,6 +216,27 @@ class GableRoof:
                     comment=f"{prefix} {side} step_{step}",
                     fill=FILL_SLOPES,
                 ))
+
+        # Ridge cap: even step_span → the two innermost slopes overlap by 1 stud,
+        # leaving a visible 2-stud flat top (1 top-stud from each side).
+        # A row of double-slope pieces caps this into a true peak.
+        # Odd step_span → slopes meet exactly at a point; no flat, no cap needed.
+        if step_span % 2 == 0:
+            y   = self.num_steps * PLATES_PER_BRICK
+            # Center the 2-stud-deep cap over the flat: starts 1 stud before midpoint.
+            mid = self.num_steps - 1   # == step_span // 2 - 1
+            x0  = 0   if along_x else mid
+            z0  = mid if along_x else 0
+            # Rotation keeps the cap's long axis (4 studs) aligned with the ridge.
+            rot = 0 if ew else 90
+            placements.extend(_tile_row(
+                span=row_span, y_plate=y,
+                x0=x0, z0=z0, along_x=along_x, rotation=rot,
+                color=self.color,
+                comment=f"{prefix} ridge_cap",
+                fill=FILL_RIDGE,
+            ))
+
         return placements
 
     def _build_gables(self, prefix: str) -> list[BrickPlacement]:
