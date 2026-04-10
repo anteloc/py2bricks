@@ -1,3 +1,43 @@
+"""
+Build plan — 4-floor residential apartment building
+
+1) Site
+   - Create a ground slab slightly larger than the building footprint to act as a site pad.
+
+2) Ground floor
+   - Lay a site-coloured floor plate matching the building footprint.
+   - Build a solid exterior shell (28 × 20 studs, 8 bricks tall) in a warm base colour.
+   - South elevation: four apartment windows flanking a wider, taller centred entry door.
+   - North elevation: four apartment windows at the same rhythm.
+   - East and west elevations: three evenly-spaced narrow windows each.
+   - Add an accent-coloured trim ledge along the top of every exterior wall.
+   - Inside the shell add two apartment units separated by a longitudinal party wall.
+   - Each apartment is further split into two rooms by a transverse room-divider wall
+     with a doorway opening.
+   - Add a small canopy slab above the main entry door and a wider stoop slab in front.
+
+3) Residential floors (× 3)
+   - Lay a light-coloured floor plate on each level.
+   - Build the same exterior shell shape and window rhythm as the ground floor, but
+     without the entry door (all four sides get plain window rows).
+   - Replicate the same interior apartment partitions on every upper floor.
+   - Add two shallow balcony slabs on the south elevation, each supported by a pair of
+     slender corner posts and fronted by a low railing wall.
+
+4) Roof
+   - Lay a dark-coloured roof plate across the full footprint.
+   - Build a low parapet (2 bricks tall) around the perimeter with a white trim ledge.
+   - Place a small rooftop bulkhead box at the centre (stair-tower access and mechanical).
+   - Add a thin HVAC vent column near the rear corner of the roof.
+
+5) Composition / connections
+   - The site pad is the global base for the whole scene.
+   - The ground floor sits directly on the site pad.
+   - The three residential floors are produced by stacking one template floor three times,
+     then placed on top of the ground floor aligned to the same origin.
+   - The roof is placed on top of the full residential stack, also origin-aligned.
+"""
+
 from __future__ import annotations
 
 # Make the sibling py2bricks package importable when this script sits next to it.
