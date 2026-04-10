@@ -1,18 +1,27 @@
 """
 Scene: top-level container and LDraw exporter.
 
-The Scene is the top-level container. It holds all elements and
-exports the final LDraw .mpd file.
+The Scene is the top-level container. It holds all elements and groups, 
+and exports the final LDraw .mpd file.
 
 Usage:
-  scene = Scene("my_building")
-  box = scene.box(24, 16, 10)
+  scene = Scene("building")
+  tower = Box(
+            width=8,
+            depth=6,
+            height=4,
+            color=TOWER_COLOR,
+            fill_part=PartType.BRICK_2X4,
+            name="tower",
+        ),
+        x=10,
+        y=1,
+        z=7,
+    )
+  scene.add(tower)
   ...
-  scene.export("output.mpd")
+  scene.export("tower_building.mpd")
 
-The Scene provides factory methods (scene.box(), scene.wall(), etc.)
-so all elements are automatically tracked. Elements can also be
-added manually with scene.add().
 """
 
 from __future__ import annotations
@@ -29,14 +38,10 @@ from .roof import GableRoof
 from .structures import Column
 from .assembly import Group
 
-# TODO remove factory methods, it's easier to work directly with constructors, 
-# given that factory methods affect state and make it harder to keep in context 
-# which elements have already been added to the scene.
 class Scene:
     """Top-level container and LDraw exporter.
 
-    Provides factory methods for creating elements and tracks them
-    automatically. Handles final coordinate resolution and LDraw output.
+    Handles final coordinate resolution and LDraw output.
 
     Internally, all top-level elements are held in an anonymous root Group
     so placement collection reuses Group.to_placements() with no duplication.
@@ -54,150 +59,6 @@ class Scene:
         self.name = name
         # Root group with empty name so it adds no prefix to LDraw comments.
         self._root = Group(name="")
-
-    # --- Factory Methods ---
-    # These create elements and add them to the scene at the origin.
-    # The LLM uses these instead of constructing objects directly.
-
-    def box(
-        self,
-        width: int,
-        depth: int,
-        height: int,
-        color: int = Color.WHITE,
-        fill_part: PartType = PartType.BRICK_2X4,
-        name: str = "",
-    ) -> Box:
-        """Create a Box and add it to the scene.
-
-        Args:
-            width: East-west dimension in studs.
-            depth: North-south dimension in studs.
-            height: Wall height in brick rows.
-            color: LDraw color code.
-            name: Identifier for LDraw comments.
-
-        Returns:
-            The created Box (already added to scene).
-        """
-        b = Box(width=width, depth=depth, height=height, color=color, fill_part=fill_part, name=name)
-        self._root.add(b)
-        return b
-
-    def wall(
-        self,
-        length: int,
-        height: int,
-        facing: str,
-        color: int = Color.WHITE,
-        fill_part: PartType = PartType.BRICK_2X4,
-        name: str = "",
-    ) -> Wall:
-        """Create a standalone Wall and add it to the scene."""
-        w = Wall(length=length, height=height, facing=facing, color=color, fill_part=fill_part, name=name)
-        self._root.add(w)
-        return w
-    
-    def wall_layout(
-        self,
-        height: int,
-        color: int = Color.WHITE,
-        fill_part: PartType = PartType.BRICK_2X4,
-        name: str = "",
-        initial_direction: Literal["north", "south", "east", "west"] = "east",
-    ) -> WallLayout:
-        """Create an arbitrary layout of N walls with named accessors.
-        Args:
-            name: Identifier for LDraw comments.
-            height: Walls uniform height in brick rows.
-            color: Default LDraw color for all walls.
-            fill_part: PartType used to fill the walls (e.g. BRICK_2X4).
-            initial_direction: Initial direction for the first wall.
-        Returns:
-            The created WallLayout (already added to scene), walls can be added and concatenated along a continuous path
-            by calling wall_layout.turn(direction) and wall_layout.build_wall(wall_name, length_in_studs), successively.            
-        """
-
-        wl = WallLayout(
-            height=height,
-            color=color,
-            fill_part=fill_part,
-            name=name,
-            initial_direction=initial_direction,
-        )
-        self._root.add(wl)
-        return wl
-
-    def floor_slab(
-        self,
-        width: int,
-        depth: int,
-        color: int = Color.LIGHT_GREY,
-        fill_part: PartType = PartType.PLATE_2X4,
-        name: str = "",
-    ) -> FloorSlab:
-        """Create a FloorSlab and add it to the scene."""
-        f = FloorSlab(width=width, depth=depth, color=color, fill_part=fill_part, name=name)
-        self._root.add(f)
-        return f
-
-    def column(
-        self,
-        height: int,
-        color: int = Color.WHITE,
-        part_type: PartType = PartType.BRICK_1X1,
-        name: str = "",
-    ) -> Column:
-        """Create a Column and add it to the scene."""
-        c = Column(height=height, color=color, part_type=part_type, name=name)
-        self._root.add(c)
-        return c
-    
-    def staircase_shaft(
-        self,
-        floors: int,
-        floor_height_bricks: int,
-        stair_width: int,
-        tread_depth: int = 2,
-        style: Literal["switchback", "straight"] = "switchback",
-        first_facing: Literal["north", "south", "east", "west"] = "north",
-        color: int = Color.WHITE,
-        fill_part: PartType = PartType.BRICK_2X4,
-        name: str = "",
-    ) -> StaircaseShaft:
-        """Create a StaircaseShaft and add it to the scene."""
-        ss = StaircaseShaft(
-            floors=floors,
-            floor_height_bricks=floor_height_bricks,
-            stair_width=stair_width,
-            tread_depth=tread_depth,
-            style=style,
-            first_facing=first_facing,
-            color=color,
-            fill_part=fill_part,
-            name=name,
-        )
-        self._root.add(ss)
-        return ss
-
-    def gable_roof(
-        self,
-        width: int,
-        depth: int,
-        ridge: str = "east_west",
-        color: int = Color.DARK_BLUISH_GREY,
-        name: str = "",
-    ) -> GableRoof:
-        """Create a GableRoof and add it to the scene."""
-        r = GableRoof(width=width, depth=depth, ridge=ridge, color=color, name=name)
-        self._root.add(r)
-        return r
-
-    def group(self, name: str, elements: list | None = None) -> Group:
-        """Create a Group and add it to the scene."""
-        g = Group(name=name, elements=elements)
-        self._root.add(g)
-        return g
 
     def add(self, element, x: float = 0, y: float = 0, z: float = 0):
         """Add an existing element to the scene at a specific position."""

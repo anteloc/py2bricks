@@ -50,7 +50,9 @@ done
 
 - **Always start with a `Scene`.** 
 - Instantiate `Group`, `Box`, `Wall`, `FloorSlab`, etc. to create new elements. 
-- Add elements to the scene with `scene.add()` 
+- Add elements to the scene with `scene.add()`
+- Export the resulting model via `scene.export(out_path)`
+- Inspect the stats output for potential defects via `print(scene.stats())`
 
 ## Coordinate System
 
@@ -91,7 +93,8 @@ WALL_DEPTH_STUDS = 2 # every Wall is exactly 2 studs deep (1 brick)
 | `assembly.py` | `Group`, `place()`, `attach()`, `Element` type |
 | `scene.py` | `Scene` class (**only entry point** for model building) |
 
-**GOLDEN RULE: Combine elements and smaller structures into larger ones by using place() and attach() as much as possible**
+**GOLDEN RULE:** 
+**Combine elements and smaller structures into larger ones by using place() and attach() as much as possible, and add them to the scene once assembled**
 
 ## Key Constraints and Invariants
 

@@ -26,10 +26,10 @@ Square spiral segment lengths (studs), starting from the centre:
         └──────────────────┘       ← last wall is open (spiral end)
 """
 
-import sys, os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "py2bricks"))
+import sys
+from typing import Literal
 
-from py2bricks import Scene, Color
+from py2bricks import WallLayout, Scene, Color
 
 # ─── Configuration ────────────────────────────────────────────────────────────
 
@@ -44,7 +44,7 @@ WALL_COLOR  = Color.RED
 def build_spiral(output_path="square_spiral.mpd"):
     scene = Scene("square_spiral")
 
-    wl = scene.wall_layout(
+    wl = WallLayout(
         height=WALL_HEIGHT,
         color=WALL_COLOR,
         name="spiral",
@@ -52,7 +52,7 @@ def build_spiral(output_path="square_spiral.mpd"):
     )
 
     # Direction cycle for a square spiral
-    CYCLE = ["east", "north", "west", "south"]
+    CYCLE: list[Literal["east", "north", "west", "south"]] = ["east", "north", "west", "south"]
 
     total_segments = NUM_TURNS * 4
 
