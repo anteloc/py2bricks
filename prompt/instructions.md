@@ -23,6 +23,7 @@ Create a build plan for the building to be created, as a professional LEGO build
 - Structure the build plan according to he elements to be built, like e.g. "ground floor" or "entrance".
 - Split the building plan into steps.
 - Make explicit the connections between elements: how they are attached to each other, placed on top of another, etc.
+- Choose colors for giving the building a really nice look.
 - Build plan should be just enough to create the building.
 - **DON'T overthink the design: _KISS_ is better that _overengineering_!**
 
