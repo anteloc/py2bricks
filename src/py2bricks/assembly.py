@@ -14,11 +14,11 @@ from __future__ import annotations
 
 from typing import Any
 
-from .coords import PLATES_PER_BRICK
-from .parts import Color
 from .core import BuilderError, BrickPlacement
-from .wall import Wall
-from .structures import Box, FloorSlab, Column, Stairs, StaircaseShaft
+from .wall import Wall, Box
+from .floor import FloorSlab
+from .stairs import Stairs, StaircaseShaft
+from .structures import Column
 from .roof import GableRoof
 
 
@@ -45,20 +45,14 @@ def _get_height(element) -> int:
 
 def _get_width(element) -> int:
     """Get an element's width in studs (X dimension)."""
-    if hasattr(element, "width"):
-        return element.width
-    if hasattr(element, "length"):
-        return element.length
-    return 0
+    w = getattr(element, "width", None)
+    return w if w is not None else getattr(element, "length", 0)
 
 
 def _get_depth(element) -> int:
     """Get an element's depth in studs (Z dimension)."""
-    if hasattr(element, "depth"):
-        return element.depth
-    if hasattr(element, "length"):
-        return element.length
-    return 0
+    d = getattr(element, "depth", None)
+    return d if d is not None else getattr(element, "length", 0)
 
 
 # ---------------------------------------------------------------------------
@@ -102,11 +96,9 @@ class Group:
         """
         self.name = name
         # Children: (element, x_off, y_off, z_off)
-        self.children: list[tuple[Any, float, float, float]] = []
-
-        if elements:
-            for elem in elements:
-                self.children.append((elem, 0, 0, 0))
+        self.children: list[tuple[Any, float, float, float]] = [
+            (elem, 0.0, 0.0, 0.0) for elem in (elements or [])
+        ]
 
     def add(self, element, x: float = 0, y: float = 0, z: float = 0):
         """Add an element at a specific offset within this group.
@@ -187,13 +179,11 @@ class Group:
         # Anonymous (empty-named) groups pass the prefix through unchanged —
         # used by Scene's root group so it doesn't add a spurious "scene > " prefix.
         prefix = f"{comment_prefix}{self.name} > " if self.name else comment_prefix
-        result = []
-
-        for elem, x_off, y_off, z_off in self.children:
-            for p in elem.to_placements(prefix):
-                result.append(p.offset_by(x_off, y_off, z_off))
-
-        return result
+        return [
+            p.offset_by(x_off, y_off, z_off)
+            for elem, x_off, y_off, z_off in self.children
+            for p in elem.to_placements(prefix)
+        ]
 
 
 # Update Element type to include Group
@@ -253,24 +243,17 @@ def place(
     if on is not None and align != "origin":
         target_w = _get_width(on)
         target_d = _get_depth(on)
-        elem_w = _get_width(element)
-        elem_d = _get_depth(element)
-
-        if align == "center":
-            x_off = (target_w - elem_w) / 2
-            z_off = (target_d - elem_d) / 2
-        elif align == "flush_south":
-            x_off = (target_w - elem_w) / 2
-            z_off = 0
-        elif align == "flush_north":
-            x_off = (target_w - elem_w) / 2
-            z_off = target_d - elem_d
-        elif align == "flush_west":
-            x_off = 0
-            z_off = (target_d - elem_d) / 2
-        elif align == "flush_east":
-            x_off = target_w - elem_w
-            z_off = (target_d - elem_d) / 2
+        elem_w   = _get_width(element)
+        elem_d   = _get_depth(element)
+        cx = (target_w - elem_w) / 2
+        cz = (target_d - elem_d) / 2
+        x_off, z_off = {
+            "center":      (cx,              cz),
+            "flush_south": (cx,              0.0),
+            "flush_north": (cx,              target_d - elem_d),
+            "flush_west":  (0.0,             cz),
+            "flush_east":  (target_w - elem_w, cz),
+        }.get(align, (0.0, 0.0))
 
     # Apply additional manual offset
     x_off += offset[0]
@@ -328,60 +311,22 @@ def attach(
 
     target_w = _get_width(to)
     target_d = _get_depth(to)
-    elem_w = _get_width(element)
-    elem_d = _get_depth(element)
+    elem_w   = _get_width(element)
+    elem_d   = _get_depth(element)
+    cx = (target_w - elem_w) / 2
+    cz = (target_d - elem_d) / 2
 
-    # Calculate position based on face
-    x_off, z_off, y_off = 0.0, 0.0, 0.0
-
-    if face == "east":
-        # Element goes to the right of target (positive X)
-        x_off = target_w
-        # Align along Z axis
-        if align == "center":
-            z_off = (target_d - elem_d) / 2
-        elif align == "flush_south":
-            z_off = 0
-        elif align == "flush_north":
-            z_off = target_d - elem_d
-        z_off += offset[0]
-        y_off = offset[1]
-
-    elif face == "west":
-        # Element goes to the left of target (negative X)
-        x_off = -elem_w
-        if align == "center":
-            z_off = (target_d - elem_d) / 2
-        elif align == "flush_south":
-            z_off = 0
-        elif align == "flush_north":
-            z_off = target_d - elem_d
-        z_off += offset[0]
-        y_off = offset[1]
-
-    elif face == "north":
-        # Element goes behind target (positive Z)
-        z_off = target_d
-        if align == "center":
-            x_off = (target_w - elem_w) / 2
-        elif align == "flush_west":
-            x_off = 0
-        elif align == "flush_east":
-            x_off = target_w - elem_w
-        x_off += offset[0]
-        y_off = offset[1]
-
-    elif face == "south":
-        # Element goes in front of target (negative Z)
-        z_off = -elem_d
-        if align == "center":
-            x_off = (target_w - elem_w) / 2
-        elif align == "flush_west":
-            x_off = 0
-        elif align == "flush_east":
-            x_off = target_w - elem_w
-        x_off += offset[0]
-        y_off = offset[1]
+    # east/west: x is fixed by face, element aligns along Z, offset[0] shifts Z.
+    # north/south: z is fixed by face, element aligns along X, offset[0] shifts X.
+    y_off = float(offset[1])
+    if face in ("east", "west"):
+        x_off = target_w if face == "east" else -elem_w
+        z_off = {"center": cz, "flush_south": 0.0,
+                 "flush_north": target_d - elem_d}.get(align, 0.0) + offset[0]
+    else:  # north, south
+        z_off = target_d if face == "north" else -elem_d
+        x_off = {"center": cx, "flush_west": 0.0,
+                 "flush_east": target_w - elem_w}.get(align, 0.0) + offset[0]
 
     # If `to` is already a Group, add element to it
     if isinstance(to, Group):

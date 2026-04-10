@@ -1286,10 +1286,10 @@
 1 378 520.0 -280.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
 0 // podium > podium_shell > south_outer ledge
 1 378 600.0 -280.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
-0 // podium > podium_shell > west_outer ledge
-1 378 -40.0 -280.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > podium_shell > west_outer row_11
 1 28 -20.0 -296.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > podium_shell > west_outer ledge
+1 378 0.0 -280.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > podium_shell > south_outer row_11
 1 28 20.0 -296.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // podium > podium_shell > south_outer row_11
@@ -1317,17 +1317,9 @@
 0 // podium > podium_shell > east_outer row_11
 1 28 660.0 -296.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > podium_shell > west_outer ledge
-1 378 -40.0 -280.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -280.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > podium_shell > east_outer ledge
 1 378 640.0 -280.0 120.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > podium_shell > courtyard_south ledge
-1 378 200.0 -280.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > podium_shell > courtyard_south ledge
-1 378 280.0 -280.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > podium_shell > courtyard_south ledge
-1 378 360.0 -280.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > podium_shell > courtyard_south ledge
-1 378 440.0 -280.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > podium_shell > west_outer row_11
 1 28 -20.0 -296.0 160.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // podium > podium_shell > courtyard_south row_11
@@ -1342,16 +1334,24 @@
 1 28 460.0 -296.0 140.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > podium_shell > east_outer row_11
 1 28 660.0 -296.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // podium > podium_shell > courtyard_south ledge
+1 378 200.0 -280.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > podium_shell > courtyard_south ledge
+1 378 280.0 -280.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > podium_shell > courtyard_south ledge
+1 378 360.0 -280.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > podium_shell > courtyard_south ledge
+1 378 440.0 -280.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > podium_shell > west_outer ledge
-1 378 -40.0 -280.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -280.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > podium_shell > west_inner ledge
 1 378 160.0 -280.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > podium_shell > west_inner row_11
 1 28 180.0 -296.0 180.0 0 0 1 0 1 0 -1 0 0 3003.dat
-0 // podium > podium_shell > east_inner ledge
-1 378 440.0 -280.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > podium_shell > east_inner row_11
 1 28 460.0 -296.0 180.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > podium_shell > east_inner ledge
+1 378 480.0 -280.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > podium_shell > east_outer ledge
 1 378 640.0 -280.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > podium_shell > west_outer row_11
@@ -1363,11 +1363,11 @@
 0 // podium > podium_shell > east_outer row_11
 1 28 660.0 -296.0 240.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > podium_shell > west_outer ledge
-1 378 -40.0 -280.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -280.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > podium_shell > west_inner ledge
 1 378 160.0 -280.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > podium_shell > east_inner ledge
-1 378 440.0 -280.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -280.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > podium_shell > east_outer ledge
 1 378 640.0 -280.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > podium_shell > west_outer row_11
@@ -1379,11 +1379,11 @@
 0 // podium > podium_shell > east_outer row_11
 1 28 660.0 -296.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > podium_shell > west_outer ledge
-1 378 -40.0 -280.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -280.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > podium_shell > west_inner ledge
 1 378 160.0 -280.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > podium_shell > east_inner ledge
-1 378 440.0 -280.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -280.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > podium_shell > east_outer ledge
 1 378 640.0 -280.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > podium_shell > west_outer row_11
@@ -1395,11 +1395,11 @@
 0 // podium > podium_shell > east_outer row_11
 1 28 660.0 -296.0 400.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > podium_shell > west_outer ledge
-1 378 -40.0 -280.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -280.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > podium_shell > west_inner ledge
 1 378 160.0 -280.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > podium_shell > east_inner ledge
-1 378 440.0 -280.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -280.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > podium_shell > east_outer ledge
 1 378 640.0 -280.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > podium_shell > west_outer row_11
@@ -1411,21 +1411,13 @@
 0 // podium > podium_shell > east_outer row_11
 1 28 660.0 -296.0 480.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > podium_shell > west_outer ledge
-1 378 -40.0 -280.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -280.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > podium_shell > west_inner ledge
 1 378 160.0 -280.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > podium_shell > east_inner ledge
-1 378 440.0 -280.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -280.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > podium_shell > east_outer ledge
 1 378 640.0 -280.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > podium_shell > west_cap ledge
-1 378 40.0 -280.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > podium_shell > west_cap ledge
-1 378 120.0 -280.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > podium_shell > east_cap ledge
-1 378 520.0 -280.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > podium_shell > east_cap ledge
-1 378 600.0 -280.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > podium_shell > west_outer row_11
 1 28 -20.0 -296.0 540.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // podium > podium_shell > west_cap row_11
@@ -1446,6 +1438,14 @@
 1 28 620.0 -296.0 540.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > podium_shell > east_outer row_11
 1 28 660.0 -296.0 540.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // podium > podium_shell > west_cap ledge
+1 378 40.0 -280.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > podium_shell > west_cap ledge
+1 378 120.0 -280.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > podium_shell > east_cap ledge
+1 378 520.0 -280.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > podium_shell > east_cap ledge
+1 378 600.0 -280.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // podium > office_floor_stacked > office_floor > office_floor_south_bar
 1 71 40.0 -304.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -2299,10 +2299,10 @@
 1 378 520.0 -480.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer ledge
 1 378 600.0 -480.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -480.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -496.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
+1 378 0.0 -480.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
 1 15 20.0 -496.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
@@ -2330,17 +2330,9 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -496.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -480.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -480.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -480.0 120.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 200.0 -480.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 280.0 -480.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 360.0 -480.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 440.0 -480.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -496.0 160.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south row_7
@@ -2355,16 +2347,24 @@
 1 15 460.0 -496.0 140.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -496.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 200.0 -480.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 280.0 -480.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 360.0 -480.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 440.0 -480.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -480.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -480.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -480.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner row_7
 1 15 180.0 -496.0 180.0 0 0 1 0 1 0 -1 0 0 3003.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -480.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner row_7
 1 15 460.0 -496.0 180.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
+1 378 480.0 -480.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -480.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -2376,11 +2376,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -496.0 240.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -480.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -480.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -480.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -480.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -480.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -480.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -2392,11 +2392,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -496.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -480.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -480.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -480.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -480.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -480.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -480.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -2408,11 +2408,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -496.0 400.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -480.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -480.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -480.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -480.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -480.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -480.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -2424,21 +2424,13 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -496.0 480.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -480.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -480.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -480.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -480.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -480.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -480.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 40.0 -480.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 120.0 -480.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 520.0 -480.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 600.0 -480.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -496.0 540.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_cap row_7
@@ -2459,6 +2451,14 @@
 1 15 620.0 -496.0 540.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -496.0 540.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 40.0 -480.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 120.0 -480.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 520.0 -480.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 600.0 -480.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // podium > office_floor_stacked > office_floor > office_floor_south_bar
 1 71 40.0 -504.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -3312,10 +3312,10 @@
 1 378 520.0 -680.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer ledge
 1 378 600.0 -680.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -680.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -696.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
+1 378 0.0 -680.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
 1 15 20.0 -696.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
@@ -3343,17 +3343,9 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -696.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -680.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -680.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -680.0 120.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 200.0 -680.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 280.0 -680.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 360.0 -680.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 440.0 -680.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -696.0 160.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south row_7
@@ -3368,16 +3360,24 @@
 1 15 460.0 -696.0 140.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -696.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 200.0 -680.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 280.0 -680.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 360.0 -680.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 440.0 -680.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -680.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -680.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -680.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner row_7
 1 15 180.0 -696.0 180.0 0 0 1 0 1 0 -1 0 0 3003.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -680.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner row_7
 1 15 460.0 -696.0 180.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
+1 378 480.0 -680.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -680.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -3389,11 +3389,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -696.0 240.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -680.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -680.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -680.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -680.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -680.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -680.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -3405,11 +3405,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -696.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -680.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -680.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -680.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -680.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -680.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -680.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -3421,11 +3421,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -696.0 400.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -680.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -680.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -680.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -680.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -680.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -680.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -3437,21 +3437,13 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -696.0 480.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -680.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -680.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -680.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -680.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -680.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -680.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 40.0 -680.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 120.0 -680.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 520.0 -680.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 600.0 -680.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -696.0 540.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_cap row_7
@@ -3472,6 +3464,14 @@
 1 15 620.0 -696.0 540.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -696.0 540.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 40.0 -680.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 120.0 -680.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 520.0 -680.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 600.0 -680.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // podium > office_floor_stacked > office_floor > office_floor_south_bar
 1 71 40.0 -704.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -4325,10 +4325,10 @@
 1 378 520.0 -880.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer ledge
 1 378 600.0 -880.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -880.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -896.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
+1 378 0.0 -880.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
 1 15 20.0 -896.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
@@ -4356,17 +4356,9 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -896.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -880.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -880.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -880.0 120.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 200.0 -880.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 280.0 -880.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 360.0 -880.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 440.0 -880.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -896.0 160.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south row_7
@@ -4381,16 +4373,24 @@
 1 15 460.0 -896.0 140.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -896.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 200.0 -880.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 280.0 -880.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 360.0 -880.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 440.0 -880.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -880.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -880.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -880.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner row_7
 1 15 180.0 -896.0 180.0 0 0 1 0 1 0 -1 0 0 3003.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -880.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner row_7
 1 15 460.0 -896.0 180.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
+1 378 480.0 -880.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -880.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -4402,11 +4402,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -896.0 240.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -880.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -880.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -880.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -880.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -880.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -880.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -4418,11 +4418,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -896.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -880.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -880.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -880.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -880.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -880.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -880.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -4434,11 +4434,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -896.0 400.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -880.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -880.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -880.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -880.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -880.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -880.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -4450,21 +4450,13 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -896.0 480.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -880.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -880.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -880.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -880.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -880.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -880.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 40.0 -880.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 120.0 -880.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 520.0 -880.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 600.0 -880.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -896.0 540.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_cap row_7
@@ -4485,6 +4477,14 @@
 1 15 620.0 -896.0 540.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -896.0 540.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 40.0 -880.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 120.0 -880.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 520.0 -880.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 600.0 -880.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // podium > office_floor_stacked > office_floor > office_floor_south_bar
 1 71 40.0 -904.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -5338,10 +5338,10 @@
 1 378 520.0 -1080.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer ledge
 1 378 600.0 -1080.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1080.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -1096.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
+1 378 0.0 -1080.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
 1 15 20.0 -1096.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
@@ -5369,17 +5369,9 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1096.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1080.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1080.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1080.0 120.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 200.0 -1080.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 280.0 -1080.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 360.0 -1080.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 440.0 -1080.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -1096.0 160.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south row_7
@@ -5394,16 +5386,24 @@
 1 15 460.0 -1096.0 140.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1096.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 200.0 -1080.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 280.0 -1080.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 360.0 -1080.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 440.0 -1080.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1080.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1080.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1080.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner row_7
 1 15 180.0 -1096.0 180.0 0 0 1 0 1 0 -1 0 0 3003.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1080.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner row_7
 1 15 460.0 -1096.0 180.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
+1 378 480.0 -1080.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1080.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -5415,11 +5415,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1096.0 240.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1080.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1080.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1080.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1080.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1080.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1080.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -5431,11 +5431,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1096.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1080.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1080.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1080.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1080.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1080.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1080.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -5447,11 +5447,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1096.0 400.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1080.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1080.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1080.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1080.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1080.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1080.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -5463,21 +5463,13 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1096.0 480.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1080.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1080.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1080.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1080.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1080.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1080.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 40.0 -1080.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 120.0 -1080.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 520.0 -1080.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 600.0 -1080.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -1096.0 540.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_cap row_7
@@ -5498,6 +5490,14 @@
 1 15 620.0 -1096.0 540.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1096.0 540.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 40.0 -1080.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 120.0 -1080.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 520.0 -1080.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 600.0 -1080.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // podium > office_floor_stacked > office_floor > office_floor_south_bar
 1 71 40.0 -1104.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -6351,10 +6351,10 @@
 1 378 520.0 -1280.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer ledge
 1 378 600.0 -1280.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1280.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -1296.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
+1 378 0.0 -1280.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
 1 15 20.0 -1296.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
@@ -6382,17 +6382,9 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1296.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1280.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1280.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1280.0 120.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 200.0 -1280.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 280.0 -1280.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 360.0 -1280.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 440.0 -1280.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -1296.0 160.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south row_7
@@ -6407,16 +6399,24 @@
 1 15 460.0 -1296.0 140.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1296.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 200.0 -1280.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 280.0 -1280.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 360.0 -1280.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 440.0 -1280.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1280.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1280.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1280.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner row_7
 1 15 180.0 -1296.0 180.0 0 0 1 0 1 0 -1 0 0 3003.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1280.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner row_7
 1 15 460.0 -1296.0 180.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
+1 378 480.0 -1280.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1280.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -6428,11 +6428,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1296.0 240.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1280.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1280.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1280.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1280.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1280.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1280.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -6444,11 +6444,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1296.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1280.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1280.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1280.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1280.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1280.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1280.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -6460,11 +6460,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1296.0 400.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1280.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1280.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1280.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1280.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1280.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1280.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -6476,21 +6476,13 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1296.0 480.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1280.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1280.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1280.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1280.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1280.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1280.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 40.0 -1280.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 120.0 -1280.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 520.0 -1280.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 600.0 -1280.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -1296.0 540.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_cap row_7
@@ -6511,6 +6503,14 @@
 1 15 620.0 -1296.0 540.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1296.0 540.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 40.0 -1280.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 120.0 -1280.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 520.0 -1280.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 600.0 -1280.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // podium > office_floor_stacked > office_floor > office_floor_south_bar
 1 71 40.0 -1304.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -7364,10 +7364,10 @@
 1 378 520.0 -1480.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer ledge
 1 378 600.0 -1480.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1480.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -1496.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
+1 378 0.0 -1480.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
 1 15 20.0 -1496.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
@@ -7395,17 +7395,9 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1496.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1480.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1480.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1480.0 120.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 200.0 -1480.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 280.0 -1480.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 360.0 -1480.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 440.0 -1480.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -1496.0 160.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south row_7
@@ -7420,16 +7412,24 @@
 1 15 460.0 -1496.0 140.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1496.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 200.0 -1480.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 280.0 -1480.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 360.0 -1480.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 440.0 -1480.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1480.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1480.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1480.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner row_7
 1 15 180.0 -1496.0 180.0 0 0 1 0 1 0 -1 0 0 3003.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1480.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner row_7
 1 15 460.0 -1496.0 180.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
+1 378 480.0 -1480.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1480.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -7441,11 +7441,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1496.0 240.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1480.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1480.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1480.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1480.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1480.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1480.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -7457,11 +7457,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1496.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1480.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1480.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1480.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1480.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1480.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1480.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -7473,11 +7473,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1496.0 400.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1480.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1480.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1480.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1480.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1480.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1480.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -7489,21 +7489,13 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1496.0 480.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1480.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1480.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1480.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1480.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1480.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1480.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 40.0 -1480.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 120.0 -1480.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 520.0 -1480.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 600.0 -1480.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -1496.0 540.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_cap row_7
@@ -7524,6 +7516,14 @@
 1 15 620.0 -1496.0 540.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1496.0 540.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 40.0 -1480.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 120.0 -1480.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 520.0 -1480.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 600.0 -1480.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // podium > office_floor_stacked > office_floor > office_floor_south_bar
 1 71 40.0 -1504.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -8377,10 +8377,10 @@
 1 378 520.0 -1680.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer ledge
 1 378 600.0 -1680.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1680.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -1696.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
+1 378 0.0 -1680.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
 1 15 20.0 -1696.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
@@ -8408,17 +8408,9 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1696.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1680.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1680.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1680.0 120.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 200.0 -1680.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 280.0 -1680.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 360.0 -1680.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 440.0 -1680.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -1696.0 160.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south row_7
@@ -8433,16 +8425,24 @@
 1 15 460.0 -1696.0 140.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1696.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 200.0 -1680.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 280.0 -1680.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 360.0 -1680.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 440.0 -1680.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1680.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1680.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1680.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner row_7
 1 15 180.0 -1696.0 180.0 0 0 1 0 1 0 -1 0 0 3003.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1680.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner row_7
 1 15 460.0 -1696.0 180.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
+1 378 480.0 -1680.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1680.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -8454,11 +8454,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1696.0 240.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1680.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1680.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1680.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1680.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1680.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1680.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -8470,11 +8470,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1696.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1680.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1680.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1680.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1680.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1680.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1680.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -8486,11 +8486,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1696.0 400.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1680.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1680.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1680.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1680.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1680.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1680.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -8502,21 +8502,13 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1696.0 480.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1680.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1680.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1680.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1680.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1680.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1680.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 40.0 -1680.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 120.0 -1680.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 520.0 -1680.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 600.0 -1680.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -1696.0 540.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_cap row_7
@@ -8537,6 +8529,14 @@
 1 15 620.0 -1696.0 540.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1696.0 540.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 40.0 -1680.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 120.0 -1680.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 520.0 -1680.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 600.0 -1680.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // podium > office_floor_stacked > office_floor > office_floor_south_bar
 1 71 40.0 -1704.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -9390,10 +9390,10 @@
 1 378 520.0 -1880.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer ledge
 1 378 600.0 -1880.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1880.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -1896.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
+1 378 0.0 -1880.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
 1 15 20.0 -1896.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
@@ -9421,17 +9421,9 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1896.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1880.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1880.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1880.0 120.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 200.0 -1880.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 280.0 -1880.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 360.0 -1880.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 440.0 -1880.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -1896.0 160.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south row_7
@@ -9446,16 +9438,24 @@
 1 15 460.0 -1896.0 140.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1896.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 200.0 -1880.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 280.0 -1880.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 360.0 -1880.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 440.0 -1880.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1880.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1880.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1880.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner row_7
 1 15 180.0 -1896.0 180.0 0 0 1 0 1 0 -1 0 0 3003.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1880.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner row_7
 1 15 460.0 -1896.0 180.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
+1 378 480.0 -1880.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1880.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -9467,11 +9467,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1896.0 240.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1880.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1880.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1880.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1880.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1880.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1880.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -9483,11 +9483,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1896.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1880.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1880.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1880.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1880.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1880.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1880.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -9499,11 +9499,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1896.0 400.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1880.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1880.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1880.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1880.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1880.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1880.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -9515,21 +9515,13 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1896.0 480.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -1880.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -1880.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -1880.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -1880.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -1880.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -1880.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 40.0 -1880.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 120.0 -1880.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 520.0 -1880.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 600.0 -1880.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -1896.0 540.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_cap row_7
@@ -9550,6 +9542,14 @@
 1 15 620.0 -1896.0 540.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -1896.0 540.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 40.0 -1880.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 120.0 -1880.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 520.0 -1880.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 600.0 -1880.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // podium > office_floor_stacked > office_floor > office_floor_south_bar
 1 71 40.0 -1904.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -10403,10 +10403,10 @@
 1 378 520.0 -2080.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer ledge
 1 378 600.0 -2080.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2080.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -2096.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
+1 378 0.0 -2080.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
 1 15 20.0 -2096.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
@@ -10434,17 +10434,9 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2096.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2080.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2080.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2080.0 120.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 200.0 -2080.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 280.0 -2080.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 360.0 -2080.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 440.0 -2080.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -2096.0 160.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south row_7
@@ -10459,16 +10451,24 @@
 1 15 460.0 -2096.0 140.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2096.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 200.0 -2080.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 280.0 -2080.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 360.0 -2080.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 440.0 -2080.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2080.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2080.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2080.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner row_7
 1 15 180.0 -2096.0 180.0 0 0 1 0 1 0 -1 0 0 3003.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2080.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner row_7
 1 15 460.0 -2096.0 180.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
+1 378 480.0 -2080.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2080.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -10480,11 +10480,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2096.0 240.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2080.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2080.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2080.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2080.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2080.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2080.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -10496,11 +10496,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2096.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2080.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2080.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2080.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2080.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2080.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2080.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -10512,11 +10512,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2096.0 400.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2080.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2080.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2080.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2080.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2080.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2080.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -10528,21 +10528,13 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2096.0 480.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2080.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2080.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2080.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2080.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2080.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2080.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 40.0 -2080.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 120.0 -2080.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 520.0 -2080.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 600.0 -2080.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -2096.0 540.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_cap row_7
@@ -10563,6 +10555,14 @@
 1 15 620.0 -2096.0 540.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2096.0 540.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 40.0 -2080.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 120.0 -2080.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 520.0 -2080.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 600.0 -2080.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // podium > office_floor_stacked > office_floor > office_floor_south_bar
 1 71 40.0 -2104.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -11416,10 +11416,10 @@
 1 378 520.0 -2280.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer ledge
 1 378 600.0 -2280.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2280.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -2296.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
+1 378 0.0 -2280.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
 1 15 20.0 -2296.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
@@ -11447,17 +11447,9 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2296.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2280.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2280.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2280.0 120.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 200.0 -2280.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 280.0 -2280.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 360.0 -2280.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 440.0 -2280.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -2296.0 160.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south row_7
@@ -11472,16 +11464,24 @@
 1 15 460.0 -2296.0 140.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2296.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 200.0 -2280.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 280.0 -2280.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 360.0 -2280.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 440.0 -2280.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2280.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2280.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2280.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner row_7
 1 15 180.0 -2296.0 180.0 0 0 1 0 1 0 -1 0 0 3003.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2280.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner row_7
 1 15 460.0 -2296.0 180.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
+1 378 480.0 -2280.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2280.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -11493,11 +11493,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2296.0 240.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2280.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2280.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2280.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2280.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2280.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2280.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -11509,11 +11509,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2296.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2280.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2280.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2280.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2280.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2280.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2280.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -11525,11 +11525,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2296.0 400.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2280.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2280.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2280.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2280.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2280.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2280.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -11541,21 +11541,13 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2296.0 480.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2280.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2280.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2280.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2280.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2280.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2280.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 40.0 -2280.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 120.0 -2280.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 520.0 -2280.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 600.0 -2280.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -2296.0 540.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_cap row_7
@@ -11576,6 +11568,14 @@
 1 15 620.0 -2296.0 540.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2296.0 540.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 40.0 -2280.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 120.0 -2280.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 520.0 -2280.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 600.0 -2280.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // podium > office_floor_stacked > office_floor > office_floor_south_bar
 1 71 40.0 -2304.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -12429,10 +12429,10 @@
 1 378 520.0 -2480.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer ledge
 1 378 600.0 -2480.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2480.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -2496.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
+1 378 0.0 -2480.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
 1 15 20.0 -2496.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
@@ -12460,17 +12460,9 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2496.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2480.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2480.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2480.0 120.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 200.0 -2480.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 280.0 -2480.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 360.0 -2480.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 440.0 -2480.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -2496.0 160.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south row_7
@@ -12485,16 +12477,24 @@
 1 15 460.0 -2496.0 140.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2496.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 200.0 -2480.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 280.0 -2480.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 360.0 -2480.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 440.0 -2480.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2480.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2480.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2480.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner row_7
 1 15 180.0 -2496.0 180.0 0 0 1 0 1 0 -1 0 0 3003.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2480.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner row_7
 1 15 460.0 -2496.0 180.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
+1 378 480.0 -2480.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2480.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -12506,11 +12506,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2496.0 240.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2480.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2480.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2480.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2480.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2480.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2480.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -12522,11 +12522,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2496.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2480.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2480.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2480.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2480.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2480.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2480.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -12538,11 +12538,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2496.0 400.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2480.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2480.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2480.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2480.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2480.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2480.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -12554,21 +12554,13 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2496.0 480.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2480.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2480.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2480.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2480.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2480.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2480.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 40.0 -2480.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 120.0 -2480.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 520.0 -2480.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 600.0 -2480.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -2496.0 540.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_cap row_7
@@ -12589,6 +12581,14 @@
 1 15 620.0 -2496.0 540.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2496.0 540.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 40.0 -2480.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 120.0 -2480.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 520.0 -2480.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 600.0 -2480.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // podium > office_floor_stacked > office_floor > office_floor_south_bar
 1 71 40.0 -2504.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -13442,10 +13442,10 @@
 1 378 520.0 -2680.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer ledge
 1 378 600.0 -2680.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2680.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -2696.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
+1 378 0.0 -2680.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
 1 15 20.0 -2696.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
@@ -13473,17 +13473,9 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2696.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2680.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2680.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2680.0 120.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 200.0 -2680.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 280.0 -2680.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 360.0 -2680.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 440.0 -2680.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -2696.0 160.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south row_7
@@ -13498,16 +13490,24 @@
 1 15 460.0 -2696.0 140.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2696.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 200.0 -2680.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 280.0 -2680.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 360.0 -2680.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 440.0 -2680.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2680.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2680.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2680.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner row_7
 1 15 180.0 -2696.0 180.0 0 0 1 0 1 0 -1 0 0 3003.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2680.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner row_7
 1 15 460.0 -2696.0 180.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
+1 378 480.0 -2680.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2680.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -13519,11 +13519,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2696.0 240.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2680.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2680.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2680.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2680.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2680.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2680.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -13535,11 +13535,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2696.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2680.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2680.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2680.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2680.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2680.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2680.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -13551,11 +13551,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2696.0 400.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2680.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2680.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2680.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2680.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2680.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2680.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -13567,21 +13567,13 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2696.0 480.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2680.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2680.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2680.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2680.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2680.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2680.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 40.0 -2680.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 120.0 -2680.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 520.0 -2680.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 600.0 -2680.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -2696.0 540.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_cap row_7
@@ -13602,6 +13594,14 @@
 1 15 620.0 -2696.0 540.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2696.0 540.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 40.0 -2680.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 120.0 -2680.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 520.0 -2680.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 600.0 -2680.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // podium > office_floor_stacked > office_floor > office_floor_south_bar
 1 71 40.0 -2704.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -14455,10 +14455,10 @@
 1 378 520.0 -2880.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer ledge
 1 378 600.0 -2880.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2880.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -2896.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
+1 378 0.0 -2880.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
 1 15 20.0 -2896.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
@@ -14486,17 +14486,9 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2896.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2880.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2880.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2880.0 120.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 200.0 -2880.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 280.0 -2880.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 360.0 -2880.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 440.0 -2880.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -2896.0 160.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south row_7
@@ -14511,16 +14503,24 @@
 1 15 460.0 -2896.0 140.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2896.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 200.0 -2880.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 280.0 -2880.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 360.0 -2880.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 440.0 -2880.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2880.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2880.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2880.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner row_7
 1 15 180.0 -2896.0 180.0 0 0 1 0 1 0 -1 0 0 3003.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2880.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner row_7
 1 15 460.0 -2896.0 180.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
+1 378 480.0 -2880.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2880.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -14532,11 +14532,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2896.0 240.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2880.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2880.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2880.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2880.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2880.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2880.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -14548,11 +14548,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2896.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2880.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2880.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2880.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2880.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2880.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2880.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -14564,11 +14564,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2896.0 400.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2880.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2880.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2880.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2880.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2880.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2880.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -14580,21 +14580,13 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2896.0 480.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -2880.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -2880.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -2880.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -2880.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -2880.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -2880.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 40.0 -2880.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 120.0 -2880.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 520.0 -2880.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 600.0 -2880.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -2896.0 540.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_cap row_7
@@ -14615,6 +14607,14 @@
 1 15 620.0 -2896.0 540.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -2896.0 540.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 40.0 -2880.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 120.0 -2880.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 520.0 -2880.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 600.0 -2880.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // podium > office_floor_stacked > office_floor > office_floor_south_bar
 1 71 40.0 -2904.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -15468,10 +15468,10 @@
 1 378 520.0 -3080.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer ledge
 1 378 600.0 -3080.0 0.0 -1 0 0 0 1 0 0 0 -1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -3080.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -3096.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
+1 378 0.0 -3080.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
 1 15 20.0 -3096.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > south_outer row_7
@@ -15499,17 +15499,9 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -3096.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -3080.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -3080.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -3080.0 120.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 200.0 -3080.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 280.0 -3080.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 360.0 -3080.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
-1 378 440.0 -3080.0 120.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -3096.0 160.0 0 0 -1 0 1 0 1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south row_7
@@ -15524,16 +15516,24 @@
 1 15 460.0 -3096.0 140.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -3096.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 200.0 -3080.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 280.0 -3080.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 360.0 -3080.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > courtyard_south ledge
+1 378 440.0 -3080.0 160.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -3080.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -3080.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -3080.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner row_7
 1 15 180.0 -3096.0 180.0 0 0 1 0 1 0 -1 0 0 3003.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -3080.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner row_7
 1 15 460.0 -3096.0 180.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
+1 378 480.0 -3080.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -3080.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -15545,11 +15545,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -3096.0 240.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -3080.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -3080.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -3080.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -3080.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -3080.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -3080.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -15561,11 +15561,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -3096.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -3080.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -3080.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -3080.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -3080.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -3080.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -3080.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -15577,11 +15577,11 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -3096.0 400.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -3080.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -3080.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -3080.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -3080.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -3080.0 440.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -3080.0 440.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
@@ -15593,21 +15593,13 @@
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -3096.0 480.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer ledge
-1 378 -40.0 -3080.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 0.0 -3080.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_inner ledge
 1 378 160.0 -3080.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_inner ledge
-1 378 440.0 -3080.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 480.0 -3080.0 520.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer ledge
 1 378 640.0 -3080.0 520.0 0 0 1 0 1 0 -1 0 0 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 40.0 -3080.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
-1 378 120.0 -3080.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 520.0 -3080.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
-1 378 600.0 -3080.0 520.0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_outer row_7
 1 15 -20.0 -3096.0 540.0 0 0 -1 0 1 0 1 0 0 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > west_cap row_7
@@ -15628,6 +15620,14 @@
 1 15 620.0 -3096.0 540.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // podium > office_floor_stacked > office_floor > office_shell > east_outer row_7
 1 15 660.0 -3096.0 540.0 0 0 1 0 1 0 -1 0 0 3003.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 40.0 -3080.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > west_cap ledge
+1 378 120.0 -3080.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 520.0 -3080.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // podium > office_floor_stacked > office_floor > office_shell > east_cap ledge
+1 378 600.0 -3080.0 560.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // podium > roof > roof_south_bar
 1 72 40.0 -3104.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat

@@ -22,12 +22,16 @@ from typing import Literal
 
 from .parts import PartType, Color
 from .core import BrickPlacement
-from .wall import Wall
-from .structures import Box, FloorSlab, Column, StaircaseShaft, WallLayout
+from .wall import Wall, Box, WallLayout
+from .floor import FloorSlab
+from .stairs import StaircaseShaft
 from .roof import GableRoof
+from .structures import Column
 from .assembly import Group
 
-
+# TODO remove factory methods, it's easier to work directly with constructors, 
+# given that factory methods affect state and make it harder to keep in context 
+# which elements have already been added to the scene.
 class Scene:
     """Top-level container and LDraw exporter.
 

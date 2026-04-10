@@ -1,17 +1,9 @@
 import os
-import sys
-import zipfile
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ZIP_PATH = os.path.join(SCRIPT_DIR, 'py2bricks.zip')
 EXTRACT_DIR = os.path.join(SCRIPT_DIR, '_py2bricks_runtime')
 
-if not os.path.isdir(os.path.join(EXTRACT_DIR, 'py2bricks')):
-    with zipfile.ZipFile(ZIP_PATH, 'r') as zf:
-        zf.extractall(EXTRACT_DIR)
-
-if EXTRACT_DIR not in sys.path:
-    sys.path.insert(0, EXTRACT_DIR)
 
 from py2bricks import Scene, Color, PartType
 

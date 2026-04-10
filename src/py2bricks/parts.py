@@ -141,6 +141,17 @@ FILL_SLOPES: list[Part] = [
     PARTS["slope_2x2"],  # 2 studs wide along ridge
 ]
 
+# Greedy fill order for plate tiling (largest first).
+# Shared by FloorSlab and Stairs tread layers — same algorithm, same parts.
+FILL_PLATES: list[Part] = [
+    PARTS["plate_2x4"],  # 4w × 2d
+    PARTS["plate_2x3"],  # 3w × 2d
+    PARTS["plate_2x2"],  # 2w × 2d
+    PARTS["plate_1x4"],  # 4w × 1d
+    PARTS["plate_1x2"],  # 2w × 1d
+    PARTS["plate_1x1"],  # fallback
+]
+
 
 def find_part(
     part_type: PartType,

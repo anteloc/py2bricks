@@ -53,16 +53,24 @@ from .core import (
 from .wall import (
     WALL_DEPTH_STUDS,
     Wall,
+    WallLayout,
+    Box,
+)
+
+# Floor
+from .floor import (
+    FloorSlab,
+)
+
+# Stairs
+from .stairs import (
+    StaircaseShaft,
+    Stairs,
 )
 
 # Structures
 from .structures import (
-    WallLayout,
-    Box,
-    FloorSlab,
     Column,
-    StaircaseShaft,
-    Stairs,
 )
 
 # Roof

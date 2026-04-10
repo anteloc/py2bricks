@@ -22,6 +22,7 @@ Stacking:
 """
 
 from __future__ import annotations
+from typing_extensions import Literal
 
 
 # ---------------------------------------------------------------------------
@@ -85,3 +86,7 @@ FACING_TO_ROTATION: dict[str, int] = {
     "south": 180,
     "west":  270,
 }
+
+# Shorthand for the cardinal-direction Literal used in several classes.
+_Facing = Literal["north", "south", "east", "west"]
+

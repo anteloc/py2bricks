@@ -972,12 +972,12 @@
 1 28 400.0 -200.0 20.0 -1 0 0 0 1 0 0 0 -1 3001.dat
 0 // ground_floor > ground_shell_layout > ground_shell_south row_7
 1 28 480.0 -200.0 20.0 -1 0 0 0 1 0 0 0 -1 3001.dat
-0 // ground_floor > ground_shell_layout > ground_shell_east ledge
-1 378 520.0 -184.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > ground_shell_layout > ground_shell_south row_7
 1 28 540.0 -200.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // ground_floor > ground_shell_layout > ground_shell_east row_7
 1 28 540.0 -200.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // ground_floor > ground_shell_layout > ground_shell_east ledge
+1 378 560.0 -184.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > ground_shell_layout > ground_shell_west row_7
 1 28 20.0 -200.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > ground_apartments > ground_apartments_party > party_wall row_7
@@ -989,7 +989,7 @@
 0 // ground_floor > ground_apartments > ground_apartments_party > party_wall row_7
 1 15 280.0 -200.0 120.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > ground_shell_layout > ground_shell_east ledge
-1 378 520.0 -184.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 560.0 -184.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > ground_shell_layout > ground_shell_west row_7
 1 28 20.0 -200.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > ground_shell_layout > ground_shell_east row_7
@@ -999,7 +999,7 @@
 0 // ground_floor > ground_apartments > ground_apartments_party > party_wall row_7
 1 15 280.0 -200.0 200.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > ground_shell_layout > ground_shell_east ledge
-1 378 520.0 -184.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 560.0 -184.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > ground_apartments > ground_apartments_west_divider > room_split row_7
 1 15 60.0 -200.0 200.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // ground_floor > ground_apartments > ground_apartments_west_divider > room_split row_7
@@ -1025,7 +1025,7 @@
 0 // ground_floor > ground_apartments > ground_apartments_party > party_wall row_7
 1 15 280.0 -200.0 280.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > ground_shell_layout > ground_shell_east ledge
-1 378 520.0 -184.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 560.0 -184.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > ground_shell_layout > ground_shell_west row_7
 1 28 20.0 -200.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > ground_shell_layout > ground_shell_east row_7
@@ -1035,21 +1035,7 @@
 0 // ground_floor > ground_apartments > ground_apartments_party > party_wall row_7
 1 15 280.0 -200.0 340.0 0 0 1 0 1 0 -1 0 0 3003.dat
 0 // ground_floor > ground_shell_layout > ground_shell_east ledge
-1 378 520.0 -184.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
-0 // ground_floor > ground_shell_layout > ground_shell_north ledge
-1 378 40.0 -184.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > ground_shell_layout > ground_shell_north ledge
-1 378 120.0 -184.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > ground_shell_layout > ground_shell_north ledge
-1 378 200.0 -184.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > ground_shell_layout > ground_shell_north ledge
-1 378 280.0 -184.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > ground_shell_layout > ground_shell_north ledge
-1 378 360.0 -184.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > ground_shell_layout > ground_shell_north ledge
-1 378 440.0 -184.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > ground_shell_layout > ground_shell_north ledge
-1 378 520.0 -184.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
+1 378 560.0 -184.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > ground_shell_layout > ground_shell_west row_7
 1 28 20.0 -200.0 380.0 0 0 1 0 1 0 -1 0 0 3003.dat
 0 // ground_floor > ground_shell_layout > ground_shell_north row_7
@@ -1070,6 +1056,20 @@
 1 28 540.0 -200.0 380.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // ground_floor > ground_shell_layout > ground_shell_east row_7
 1 28 540.0 -200.0 380.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // ground_floor > ground_shell_layout > ground_shell_north ledge
+1 378 40.0 -184.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > ground_shell_layout > ground_shell_north ledge
+1 378 120.0 -184.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > ground_shell_layout > ground_shell_north ledge
+1 378 200.0 -184.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > ground_shell_layout > ground_shell_north ledge
+1 378 280.0 -184.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > ground_shell_layout > ground_shell_north ledge
+1 378 360.0 -184.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > ground_shell_layout > ground_shell_north ledge
+1 378 440.0 -184.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > ground_shell_layout > ground_shell_north ledge
+1 378 520.0 -184.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // ground_floor > residential_floor_stacked > residential_floor > balcony_support_left_1 row_0
 1 15 70.0 -224.0 -50.0 1 0 0 0 1 0 0 0 1 3005.dat
@@ -1862,12 +1862,12 @@
 1 19 400.0 -400.0 20.0 -1 0 0 0 1 0 0 0 -1 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_south row_7
 1 19 480.0 -400.0 20.0 -1 0 0 0 1 0 0 0 -1 3001.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
-1 378 520.0 -384.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_south row_7
 1 19 540.0 -400.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east row_7
 1 19 540.0 -400.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
+1 378 560.0 -384.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_west row_7
 1 19 20.0 -400.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_party > party_wall row_7
@@ -1879,7 +1879,7 @@
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_party > party_wall row_7
 1 15 280.0 -400.0 120.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
-1 378 520.0 -384.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 560.0 -384.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_west row_7
 1 19 20.0 -400.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east row_7
@@ -1889,7 +1889,7 @@
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_party > party_wall row_7
 1 15 280.0 -400.0 200.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
-1 378 520.0 -384.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 560.0 -384.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_west_divider > room_split row_7
 1 15 60.0 -400.0 200.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_west_divider > room_split row_7
@@ -1915,7 +1915,7 @@
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_party > party_wall row_7
 1 15 280.0 -400.0 280.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
-1 378 520.0 -384.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 560.0 -384.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_west row_7
 1 19 20.0 -400.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east row_7
@@ -1925,21 +1925,7 @@
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_party > party_wall row_7
 1 15 280.0 -400.0 340.0 0 0 1 0 1 0 -1 0 0 3003.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
-1 378 520.0 -384.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 40.0 -384.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 120.0 -384.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 200.0 -384.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 280.0 -384.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 360.0 -384.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 440.0 -384.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 520.0 -384.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
+1 378 560.0 -384.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_west row_7
 1 19 20.0 -400.0 380.0 0 0 1 0 1 0 -1 0 0 3003.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north row_7
@@ -1960,6 +1946,20 @@
 1 19 540.0 -400.0 380.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east row_7
 1 19 540.0 -400.0 380.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 40.0 -384.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 120.0 -384.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 200.0 -384.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 280.0 -384.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 360.0 -384.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 440.0 -384.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 520.0 -384.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // ground_floor > residential_floor_stacked > residential_floor > balcony_support_left_1 row_0
 1 15 70.0 -424.0 -50.0 1 0 0 0 1 0 0 0 1 3005.dat
@@ -2752,12 +2752,12 @@
 1 19 400.0 -600.0 20.0 -1 0 0 0 1 0 0 0 -1 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_south row_7
 1 19 480.0 -600.0 20.0 -1 0 0 0 1 0 0 0 -1 3001.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
-1 378 520.0 -584.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_south row_7
 1 19 540.0 -600.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east row_7
 1 19 540.0 -600.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
+1 378 560.0 -584.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_west row_7
 1 19 20.0 -600.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_party > party_wall row_7
@@ -2769,7 +2769,7 @@
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_party > party_wall row_7
 1 15 280.0 -600.0 120.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
-1 378 520.0 -584.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 560.0 -584.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_west row_7
 1 19 20.0 -600.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east row_7
@@ -2779,7 +2779,7 @@
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_party > party_wall row_7
 1 15 280.0 -600.0 200.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
-1 378 520.0 -584.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 560.0 -584.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_west_divider > room_split row_7
 1 15 60.0 -600.0 200.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_west_divider > room_split row_7
@@ -2805,7 +2805,7 @@
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_party > party_wall row_7
 1 15 280.0 -600.0 280.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
-1 378 520.0 -584.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 560.0 -584.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_west row_7
 1 19 20.0 -600.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east row_7
@@ -2815,21 +2815,7 @@
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_party > party_wall row_7
 1 15 280.0 -600.0 340.0 0 0 1 0 1 0 -1 0 0 3003.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
-1 378 520.0 -584.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 40.0 -584.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 120.0 -584.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 200.0 -584.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 280.0 -584.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 360.0 -584.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 440.0 -584.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 520.0 -584.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
+1 378 560.0 -584.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_west row_7
 1 19 20.0 -600.0 380.0 0 0 1 0 1 0 -1 0 0 3003.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north row_7
@@ -2850,6 +2836,20 @@
 1 19 540.0 -600.0 380.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east row_7
 1 19 540.0 -600.0 380.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 40.0 -584.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 120.0 -584.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 200.0 -584.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 280.0 -584.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 360.0 -584.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 440.0 -584.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 520.0 -584.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // ground_floor > residential_floor_stacked > residential_floor > balcony_support_left_1 row_0
 1 15 70.0 -624.0 -50.0 1 0 0 0 1 0 0 0 1 3005.dat
@@ -3642,12 +3642,12 @@
 1 19 400.0 -800.0 20.0 -1 0 0 0 1 0 0 0 -1 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_south row_7
 1 19 480.0 -800.0 20.0 -1 0 0 0 1 0 0 0 -1 3001.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
-1 378 520.0 -784.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_south row_7
 1 19 540.0 -800.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east row_7
 1 19 540.0 -800.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
+1 378 560.0 -784.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_west row_7
 1 19 20.0 -800.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_party > party_wall row_7
@@ -3659,7 +3659,7 @@
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_party > party_wall row_7
 1 15 280.0 -800.0 120.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
-1 378 520.0 -784.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 560.0 -784.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_west row_7
 1 19 20.0 -800.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east row_7
@@ -3669,7 +3669,7 @@
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_party > party_wall row_7
 1 15 280.0 -800.0 200.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
-1 378 520.0 -784.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 560.0 -784.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_west_divider > room_split row_7
 1 15 60.0 -800.0 200.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_west_divider > room_split row_7
@@ -3695,7 +3695,7 @@
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_party > party_wall row_7
 1 15 280.0 -800.0 280.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
-1 378 520.0 -784.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 378 560.0 -784.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_west row_7
 1 19 20.0 -800.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east row_7
@@ -3705,21 +3705,7 @@
 0 // ground_floor > residential_floor_stacked > residential_floor > upper_apartments > upper_apartments_party > party_wall row_7
 1 15 280.0 -800.0 340.0 0 0 1 0 1 0 -1 0 0 3003.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east ledge
-1 378 520.0 -784.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 40.0 -784.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 120.0 -784.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 200.0 -784.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 280.0 -784.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 360.0 -784.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 440.0 -784.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
-1 378 520.0 -784.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
+1 378 560.0 -784.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_west row_7
 1 19 20.0 -800.0 380.0 0 0 1 0 1 0 -1 0 0 3003.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north row_7
@@ -3740,6 +3726,20 @@
 1 19 540.0 -800.0 380.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_east row_7
 1 19 540.0 -800.0 380.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 40.0 -784.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 120.0 -784.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 200.0 -784.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 280.0 -784.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 360.0 -784.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 440.0 -784.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > residential_floor_stacked > residential_floor > residential_shell_layout > residential_shell_north ledge
+1 378 520.0 -784.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // ground_floor > roof > roof_plate
 1 72 40.0 -808.0 20.0 1 0 0 0 1 0 0 0 1 3020.dat
@@ -3981,12 +3981,12 @@
 1 72 400.0 -856.0 20.0 -1 0 0 0 1 0 0 0 -1 3001.dat
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_south row_1
 1 72 480.0 -856.0 20.0 -1 0 0 0 1 0 0 0 -1 3001.dat
-0 // ground_floor > roof > roof_parapet_layout > roof_parapet_east ledge
-1 15 520.0 -840.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_south row_1
 1 72 540.0 -856.0 20.0 -1 0 0 0 1 0 0 0 -1 3003.dat
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_east row_1
 1 72 540.0 -856.0 20.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // ground_floor > roof > roof_parapet_layout > roof_parapet_east ledge
+1 15 560.0 -840.0 40.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_west row_1
 1 72 20.0 -856.0 80.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_east row_1
@@ -3994,7 +3994,7 @@
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_west ledge
 1 15 0.0 -840.0 120.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_east ledge
-1 15 520.0 -840.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 15 560.0 -840.0 120.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_west row_1
 1 72 20.0 -856.0 160.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_east row_1
@@ -4012,7 +4012,7 @@
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_west ledge
 1 15 0.0 -840.0 200.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_east ledge
-1 15 520.0 -840.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 15 560.0 -840.0 200.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > roof > roof_bulkhead_layout > roof_bulkhead_west row_1
 1 71 220.0 -856.0 220.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_west row_1
@@ -4030,7 +4030,7 @@
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_west ledge
 1 15 0.0 -840.0 280.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_east ledge
-1 15 520.0 -840.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
+1 15 560.0 -840.0 280.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_west row_1
 1 72 20.0 -856.0 320.0 0 0 1 0 1 0 -1 0 0 3001.dat
 0 // ground_floor > roof > roof_vent row_1
@@ -4040,21 +4040,7 @@
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_west ledge
 1 15 0.0 -840.0 360.0 0 0 1 0 1 0 -1 0 0 3020.dat
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_east ledge
-1 15 520.0 -840.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
-0 // ground_floor > roof > roof_parapet_layout > roof_parapet_north ledge
-1 15 40.0 -840.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > roof > roof_parapet_layout > roof_parapet_north ledge
-1 15 120.0 -840.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > roof > roof_parapet_layout > roof_parapet_north ledge
-1 15 200.0 -840.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > roof > roof_parapet_layout > roof_parapet_north ledge
-1 15 280.0 -840.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > roof > roof_parapet_layout > roof_parapet_north ledge
-1 15 360.0 -840.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > roof > roof_parapet_layout > roof_parapet_north ledge
-1 15 440.0 -840.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
-0 // ground_floor > roof > roof_parapet_layout > roof_parapet_north ledge
-1 15 520.0 -840.0 360.0 1 0 0 0 1 0 0 0 1 3020.dat
+1 15 560.0 -840.0 360.0 0 0 -1 0 1 0 1 0 0 3020.dat
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_west row_1
 1 72 20.0 -856.0 380.0 0 0 1 0 1 0 -1 0 0 3003.dat
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_north row_1
@@ -4075,6 +4061,20 @@
 1 72 540.0 -856.0 380.0 1 0 0 0 1 0 0 0 1 3003.dat
 0 // ground_floor > roof > roof_parapet_layout > roof_parapet_east row_1
 1 72 540.0 -856.0 380.0 0 0 -1 0 1 0 1 0 0 3003.dat
+0 // ground_floor > roof > roof_parapet_layout > roof_parapet_north ledge
+1 15 40.0 -840.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > roof > roof_parapet_layout > roof_parapet_north ledge
+1 15 120.0 -840.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > roof > roof_parapet_layout > roof_parapet_north ledge
+1 15 200.0 -840.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > roof > roof_parapet_layout > roof_parapet_north ledge
+1 15 280.0 -840.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > roof > roof_parapet_layout > roof_parapet_north ledge
+1 15 360.0 -840.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > roof > roof_parapet_layout > roof_parapet_north ledge
+1 15 440.0 -840.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
+0 // ground_floor > roof > roof_parapet_layout > roof_parapet_north ledge
+1 15 520.0 -840.0 400.0 1 0 0 0 1 0 0 0 1 3020.dat
 
 0 // ground_floor > roof > roof_bulkhead_layout > roof_bulkhead_south row_2
 1 71 240.0 -880.0 160.0 -1 0 0 0 1 0 0 0 -1 3001.dat

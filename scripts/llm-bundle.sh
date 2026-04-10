@@ -6,6 +6,7 @@ root_dir=$(realpath "$root_dir")
 
 py2bricks_dir="$root_dir/src/py2bricks"
 examples_dir="$root_dir/examples"
+prompts_dir="$root_dir/prompt"
 dist_dir="$root_dir/dist"
 
 mkdir -p "$dist_dir"
@@ -14,7 +15,7 @@ tmp_dir="$(mktemp -d)"
 # trap "rm -rf $tmp_dir" EXIT
 echo "Created temporary directory: $tmp_dir"
 
-cp "$root_dir/instructions.md" "$tmp_dir/"
+cp "$prompts_dir/instructions.md" "$tmp_dir/"
 cp -r "$py2bricks_dir" "$tmp_dir/"
 cp -r "$examples_dir" "$tmp_dir/"
 

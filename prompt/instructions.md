@@ -80,14 +80,16 @@ WALL_DEPTH_STUDS = 2 # every Wall is exactly 2 studs deep (1 brick)
 
 | Module | Owns |
 |--------|------|
-| `core.py` | `BuilderError` |
+| `core.py` | `BuilderError` class |
 | `coords.py` | Unit constants, `LDU_PER_STUD`, `LDU_PER_PLATE`, `PLATES_PER_BRICK`, `ROTATION_MATRICES`, `FACING_TO_ROTATION` |
 | `parts.py` | `PartType` enum, `Part` dataclass, `PARTS` catalog, `FILL_BRICKS`, `Color` constants |
-| `wall.py` | `Wall` class, `WALL_DEPTH_STUDS` |
-| `structures.py` | `Box`, `WallLayout`, `FloorSlab`, `Column`, `Stairs`, `StaircaseShaft` |
-| `roof.py` | `GableRoof` |
+| `wall.py` | `Wall`, `Box`, `WallLayout` classes, `WALL_DEPTH_STUDS` |
+| `floor.py` | `FloorSlab` class |
+| `stairs.py` | `Stairs`, `StaircaseShaft` classes |
+| `roof.py` | `GableRoof` class |
+| `structures.py` | `Column` class,  |
 | `assembly.py` | `Group`, `place()`, `attach()`, `Element` type |
-| `scene.py` | `Scene` (**only entry point** for model building) |
+| `scene.py` | `Scene` class (**only entry point** for model building) |
 
 **GOLDEN RULE: Combine elements and smaller structures into larger ones by using place() and attach() as much as possible**
 
@@ -107,7 +109,7 @@ WALL_DEPTH_STUDS = 2 # every Wall is exactly 2 studs deep (1 brick)
 - Box `width` = east-west stud dimension; `depth` = north-south stud dimension.
 - Corner overlaps are already handled — do not add extra studs to wall lengths.
 
-### WallLayout (L-shapes, U-shapes, arbitrary outlines)
+### WallLayout (L-shapes, U-shapes, arbitrary outlines, inner wall layouts)
 
 - Build walls along a turtle-like path: `turn(direction)` then `build_wall(name, length)`.
 - `direction` options: `"north", "south", "east", "west"`

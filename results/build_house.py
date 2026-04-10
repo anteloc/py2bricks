@@ -130,7 +130,7 @@ divider_north.opening(x=2, y=0, width=DOOR_W, height=DOOR_H)
 scene.add(divider_north, x=18, y=0, z=16)
 
 # ── Export ────────────────────────────────────────────────────────────────────
-output_path = "/home/claude/lego_house.mpd"
+output_path = __file__.replace('.py', '.mpd')  # same name, .mpd extension
 scene.export(output_path)
 
 stats = scene.stats()
