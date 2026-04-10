@@ -8,7 +8,7 @@ from __future__ import annotations
 from typing import Literal
 
 from .coords import PLATES_PER_BRICK, FACING_TO_ROTATION
-from .parts import PartType, Part, PARTS, FILL_BRICKS, find_part, Color
+from .parts import PartType, Part, PARTS, FILL_BRICKS, FILL_BRICKS_1X, find_part, Color
 from .core import BuilderError, BrickPlacement
 
 # TODO reevaluate this, maybe allow variable wall depth depending on the fill_part used?
@@ -37,7 +37,7 @@ class Wall:
     The wall lives in its own local coordinate space:
       - X axis: along the wall face, 0 = left end, length = right end (studs)
       - Y axis: up from the wall base, 0 = bottom (plates)
-      - The wall is WALL_DEPTH_STUDS (2) deep in the Z direction.
+      - Z axis: into the wall, 0 to depth_studs (derived from fill_part).
 
     Global positioning (where the wall sits in the scene) is handled by
     its parent Box or Group, not by the wall itself.
@@ -50,6 +50,7 @@ class Wall:
         facing: Cardinal direction string.
         color: Default LDraw color code for bricks.
         fill_part: Default part key for filling solid regions.
+        depth_studs: Wall depth in studs, derived from fill_part.depth_studs.
         grid: 2D boolean array [x_stud][y_plate]. True = solid.
         inserts: List of (part, x_stud, y_plate, color) for windows/doors.
         ledges: List of (y_plate, overhang, color, part_key) tuples.
@@ -91,6 +92,7 @@ class Wall:
         self.facing = facing
         self.color = color
         self.fill_part = fill_part.value
+        self.depth_studs: int = PARTS[self.fill_part].depth_studs
 
         # Boolean grid: grid[x][y] where x=stud position along face,
         # y=plate position from base. True = solid, False = opening.
@@ -277,7 +279,7 @@ class Wall:
         # so only the sign of z_offset determines the direction.
         #
         # south/west: outer face at stud-edge z=0 → outward is negative z
-        # north/east: outer face at stud-edge z=WALL_DEPTH_STUDS → outward is positive z
+        # north/east: outer face at stud-edge z=depth_studs → outward is positive z
         outer_at_z0 = self.facing in ("south", "west")
         if side == "outward":
             z_offset = -overhang if outer_at_z0 else overhang
@@ -311,8 +313,9 @@ class Wall:
         """
         placements: list[BrickPlacement] = []
 
-        primary    = PARTS[self.fill_part]
-        candidates = [primary] + [b for b in FILL_BRICKS if b != primary]
+        primary   = PARTS[self.fill_part]
+        fill_list = FILL_BRICKS_1X if self.depth_studs == 1 else FILL_BRICKS
+        candidates = [primary] + [b for b in fill_list if b != primary]
 
         for brick_row in range(self.height_bricks):
             y_plate     = brick_row * PLATES_PER_BRICK
@@ -511,9 +514,17 @@ class WallLayout:
             )
         self._facing = direction
 
-    def build_wall(self, wall_name: str, length: int):
+    def build_wall(self, wall_name: str, length: int,
+                   fill_part: PartType | None = None):
         """Build a wall with the given name, extending in the current facing direction,
-        with a given length in studs."""
+        with a given length in studs.
+
+        Args:
+            wall_name: Unique name for the wall within this layout.
+            length:    Wall length in studs.
+            fill_part: Override the layout's default fill_part for this wall.
+                       Use e.g. PartType.BRICK_1X4 for a 1-stud-deep thin wall.
+        """
         if wall_name in self._wall_map:
             raise BuilderError(f"Duplicate wall name '{wall_name}' in layout '{self.name}'")
         if length < 1:
@@ -524,7 +535,7 @@ class WallLayout:
             height=self.height_bricks,
             facing=self._TRAVEL_TO_FACING[self._facing],
             color=self.color,
-            fill_part=self.fill_part,
+            fill_part=fill_part if fill_part is not None else self.fill_part,
             name=wall_name,
         )
 
@@ -547,6 +558,7 @@ class WallLayout:
         cx: int,
         cz: int,
         travel_dir: Literal["north", "south", "east", "west"],
+        fill_part: PartType | None = None,
     ):
         """Place a wall at an explicit corner position, bypassing the turtle.
 
@@ -560,6 +572,8 @@ class WallLayout:
             cx, cz:   Outer-corner position in layout-local coordinates.
             travel_dir: Direction the turtle would have been travelling to place
                         this wall; determines facing and coordinate transforms.
+            fill_part: Override the layout's default fill_part for this wall.
+                       Use e.g. PartType.BRICK_1X4 for a 1-stud-deep thin wall.
         """
         if wall_name in self._wall_map:
             raise BuilderError(f"Duplicate wall name '{wall_name}' in layout '{self.name}'")
@@ -568,7 +582,7 @@ class WallLayout:
             height=self.height_bricks,
             facing=self._TRAVEL_TO_FACING[travel_dir],
             color=self.color,
-            fill_part=self.fill_part,
+            fill_part=fill_part if fill_part is not None else self.fill_part,
             name=wall_name,
         )
         self._register_wall(wall, cx, cz, travel_dir)
@@ -616,12 +630,12 @@ class WallLayout:
                     z = cz + p.z
                 elif travel_dir == "west":
                     x = cx - p.x - p.part.width_studs
-                    z = cz - WALL_DEPTH_STUDS + p.z
+                    z = cz - wall.depth_studs + p.z
                 elif travel_dir == "north":
                     x = cx + p.z
                     z = cz + p.x
                 else:  # south
-                    x = cx - WALL_DEPTH_STUDS + p.z
+                    x = cx - wall.depth_studs + p.z
                     z = cz - p.x - p.part.width_studs
 
                 result.append(BrickPlacement(

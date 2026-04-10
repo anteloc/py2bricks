@@ -134,6 +134,15 @@ FILL_BRICKS: list[Part] = [
     PARTS["brick_1x1"],  # last resort
 ]
 
+# Greedy fill order for 1-stud-deep (thin) walls: widest first.
+# Used by Wall._tile_solid_regions when fill_part.depth_studs == 1.
+FILL_BRICKS_1X: list[Part] = [
+    PARTS["brick_1x4"],  # 4 studs wide along face
+    PARTS["brick_1x3"],  # 3 studs
+    PARTS["brick_1x2"],  # 2 studs
+    PARTS["brick_1x1"],  # last resort
+]
+
 # Greedy fill order for slope tiling: widest first.
 # Used by GableRoof slope builders (each part is 2 studs deep in the slope direction).
 FILL_SLOPES: list[Part] = [

@@ -39,6 +39,7 @@ from .parts import (
     Part,
     PARTS,
     FILL_BRICKS,
+    FILL_BRICKS_1X,
     find_part,
     Color,
 )
