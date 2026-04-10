@@ -11,7 +11,6 @@ from .coords import PLATES_PER_BRICK, FACING_TO_ROTATION
 from .parts import PartType, Part, PARTS, FILL_BRICKS, FILL_BRICKS_1X, find_part, Color
 from .core import BuilderError, BrickPlacement
 
-# TODO reevaluate this, maybe allow variable wall depth depending on the fill_part used?
 WALL_DEPTH_STUDS = 2  # all walls are 1 brick (2 studs) deep
 
 # ---------------------------------------------------------------------------
@@ -337,6 +336,12 @@ class Wall:
                             x=0, y=y_plate, z=0,
                             rotation=0, color=self.color, comment=comment,
                         ))
+                        if brick.depth_studs < self.depth_studs:
+                            placements.append(BrickPlacement(
+                                part=brick,
+                                x=0, y=y_plate, z=self.depth_studs - brick.depth_studs,
+                                rotation=0, color=self.color, comment=comment,
+                            ))
                         x = bond_offset
                         break
 
@@ -367,6 +372,12 @@ class Wall:
                             x=x, y=y_plate, z=0,
                             rotation=0, color=self.color, comment=comment,
                         ))
+                        if brick.depth_studs < self.depth_studs:
+                            placements.append(BrickPlacement(
+                                part=brick,
+                                x=x, y=y_plate, z=self.depth_studs - brick.depth_studs,
+                                rotation=0, color=self.color, comment=comment,
+                            ))
                         x += bw
                         break
                 else:
