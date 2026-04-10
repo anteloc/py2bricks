@@ -53,10 +53,9 @@ class BrickPlacement:
                               self.rotation, self.color, self.comment)
 
     def to_ldraw_line(self) -> str:
-        """Convert this placement to an LDraw type-1 line with optional comment.
+        """Convert this placement to an LDraw type-1 line.
 
         Returns a string like:
-            0 // wall_north row_3
             1 15 0 -24 0 1 0 0 0 1 0 0 0 1 3001.dat
         """
         part = self.part
@@ -75,8 +74,4 @@ class BrickPlacement:
         )
         matrix = ROTATION_MATRICES.get(rotation, ROTATION_MATRICES[0])
 
-        lines = []
-        if self.comment:
-            lines.append(f"0 // {self.comment}")
-        lines.append(f"1 {self.color} {lx:.1f} {ly:.1f} {lz:.1f} {matrix} {part.filename}")
-        return "\n".join(lines)
+        return f"1 {self.color} {lx:.1f} {ly:.1f} {lz:.1f} {matrix} {part.filename}"

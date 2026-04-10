@@ -71,9 +71,11 @@ def build_spiral(output_path="square_spiral.mpd"):
     print(f"Width       : ~{stats['width_studs']} studs")
     print(f"Depth       : ~{stats['depth_studs']} studs")
 
+    scene.add(wl)
+
     scene.export(output_path)
     print(f"Exported → {output_path}")
 
 if __name__ == "__main__":
-    out = sys.argv[1] if len(sys.argv) > 1 else "square_spiral.mpd"
+    out = sys.argv[1] if len(sys.argv) > 1 else "spiral_wall.mpd"
     build_spiral(out)
